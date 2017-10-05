@@ -123,6 +123,56 @@ namespace EmployeeManagerment_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap header_conpanyname_1_011 {
+            get {
+                object obj = ResourceManager.GetObject("header conpanyname 1-011", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_exit_small_01 {
+            get {
+                object obj = ResourceManager.GetObject("icon exit small-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_login_01 {
+            get {
+                object obj = ResourceManager.GetObject("icon login-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconexit_01 {
+            get {
+                object obj = ResourceManager.GetObject("iconexit-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconsubmit_01 {
+            get {
+                object obj = ResourceManager.GetObject("iconsubmit-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lgf_01 {
             get {
                 object obj = ResourceManager.GetObject("lgf-01", resourceCulture);
@@ -146,6 +196,16 @@ namespace EmployeeManagerment_UI.Properties {
         internal static System.Drawing.Bitmap logoteam03_01 {
             get {
                 object obj = ResourceManager.GetObject("logoteam03-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap star_01 {
+            get {
+                object obj = ResourceManager.GetObject("star-01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
