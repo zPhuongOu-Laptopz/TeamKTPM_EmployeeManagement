@@ -16,7 +16,7 @@ namespace EmployeeManagerment_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminLogin.Login());
+            Application.Run(new User.MainForm());
         }
     }
 }
