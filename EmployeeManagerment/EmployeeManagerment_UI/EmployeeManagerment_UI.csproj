@@ -106,6 +106,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="User\AddEmployeeForm.resx">
       <DependentUpon>AddEmployeeForm.cs</DependentUpon>
@@ -129,6 +130,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header conpanyname 1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73287-ODYKTA-216-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73287-ODYKTA-216-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asd-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbb-01-01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
