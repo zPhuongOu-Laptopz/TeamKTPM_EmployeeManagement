@@ -30,19 +30,19 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txt_monthcalendar = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txt_yearcalendar = new System.Windows.Forms.TextBox();
-            this.btn_calendar = new System.Windows.Forms.Button();
             this.btn_reload = new System.Windows.Forms.Button();
             this.btn_addeditevent = new System.Windows.Forms.Button();
             this.btn_accountmanagement = new System.Windows.Forms.Button();
             this.btn_addeditsalary = new System.Windows.Forms.Button();
             this.btn_addeditemployee = new System.Windows.Forms.Button();
+            this.btn_calendar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_yearcalendar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_monthcalendar = new System.Windows.Forms.TextBox();
+            this.grid_listemployee = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_listemployee)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -72,34 +72,77 @@
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
-            // dataGridView1
+            // btn_reload
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(285, 142);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1043, 802);
-            this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.btn_reload.Enabled = false;
+            this.btn_reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_reload.Location = new System.Drawing.Point(12, 475);
+            this.btn_reload.Name = "btn_reload";
+            this.btn_reload.Size = new System.Drawing.Size(250, 50);
+            this.btn_reload.TabIndex = 17;
+            this.btn_reload.Text = "Tải lại";
+            this.btn_reload.UseVisualStyleBackColor = true;
             // 
-            // txt_monthcalendar
+            // btn_addeditevent
             // 
-            this.txt_monthcalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_monthcalendar.Location = new System.Drawing.Point(12, 30);
-            this.txt_monthcalendar.Name = "txt_monthcalendar";
-            this.txt_monthcalendar.Size = new System.Drawing.Size(100, 35);
-            this.txt_monthcalendar.TabIndex = 8;
+            this.btn_addeditevent.Enabled = false;
+            this.btn_addeditevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addeditevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_addeditevent.Location = new System.Drawing.Point(12, 395);
+            this.btn_addeditevent.Name = "btn_addeditevent";
+            this.btn_addeditevent.Size = new System.Drawing.Size(250, 50);
+            this.btn_addeditevent.TabIndex = 16;
+            this.btn_addeditevent.Text = "Sự kiện";
+            this.btn_addeditevent.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // btn_accountmanagement
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(12, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Tháng";
+            this.btn_accountmanagement.Enabled = false;
+            this.btn_accountmanagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_accountmanagement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_accountmanagement.Location = new System.Drawing.Point(12, 315);
+            this.btn_accountmanagement.Name = "btn_accountmanagement";
+            this.btn_accountmanagement.Size = new System.Drawing.Size(250, 50);
+            this.btn_accountmanagement.TabIndex = 15;
+            this.btn_accountmanagement.Text = "Tài khoản";
+            this.btn_accountmanagement.UseVisualStyleBackColor = true;
+            // 
+            // btn_addeditsalary
+            // 
+            this.btn_addeditsalary.Enabled = false;
+            this.btn_addeditsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addeditsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_addeditsalary.Location = new System.Drawing.Point(12, 235);
+            this.btn_addeditsalary.Name = "btn_addeditsalary";
+            this.btn_addeditsalary.Size = new System.Drawing.Size(250, 50);
+            this.btn_addeditsalary.TabIndex = 14;
+            this.btn_addeditsalary.Text = "Lương";
+            this.btn_addeditsalary.UseVisualStyleBackColor = true;
+            // 
+            // btn_addeditemployee
+            // 
+            this.btn_addeditemployee.Enabled = false;
+            this.btn_addeditemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addeditemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_addeditemployee.Location = new System.Drawing.Point(12, 155);
+            this.btn_addeditemployee.Name = "btn_addeditemployee";
+            this.btn_addeditemployee.Size = new System.Drawing.Size(250, 50);
+            this.btn_addeditemployee.TabIndex = 13;
+            this.btn_addeditemployee.Text = "Nhân viên";
+            this.btn_addeditemployee.UseVisualStyleBackColor = true;
+            // 
+            // btn_calendar
+            // 
+            this.btn_calendar.Enabled = false;
+            this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_calendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_calendar.Location = new System.Drawing.Point(12, 75);
+            this.btn_calendar.Name = "btn_calendar";
+            this.btn_calendar.Size = new System.Drawing.Size(250, 50);
+            this.btn_calendar.TabIndex = 12;
+            this.btn_calendar.Text = "Lịch công tác";
+            this.btn_calendar.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -119,78 +162,41 @@
             this.txt_yearcalendar.Size = new System.Drawing.Size(100, 35);
             this.txt_yearcalendar.TabIndex = 10;
             // 
-            // btn_calendar
+            // label1
             // 
-            this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_calendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_calendar.Location = new System.Drawing.Point(12, 75);
-            this.btn_calendar.Name = "btn_calendar";
-            this.btn_calendar.Size = new System.Drawing.Size(250, 50);
-            this.btn_calendar.TabIndex = 12;
-            this.btn_calendar.Text = "Lịch công tác";
-            this.btn_calendar.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(12, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Tháng";
             // 
-            // btn_reload
+            // txt_monthcalendar
             // 
-            this.btn_reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_reload.Location = new System.Drawing.Point(12, 475);
-            this.btn_reload.Name = "btn_reload";
-            this.btn_reload.Size = new System.Drawing.Size(250, 50);
-            this.btn_reload.TabIndex = 17;
-            this.btn_reload.Text = "Tải lại";
-            this.btn_reload.UseVisualStyleBackColor = true;
+            this.txt_monthcalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_monthcalendar.Location = new System.Drawing.Point(12, 30);
+            this.txt_monthcalendar.Name = "txt_monthcalendar";
+            this.txt_monthcalendar.Size = new System.Drawing.Size(100, 35);
+            this.txt_monthcalendar.TabIndex = 8;
             // 
-            // btn_addeditevent
+            // grid_listemployee
             // 
-            this.btn_addeditevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addeditevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addeditevent.Location = new System.Drawing.Point(12, 395);
-            this.btn_addeditevent.Name = "btn_addeditevent";
-            this.btn_addeditevent.Size = new System.Drawing.Size(250, 50);
-            this.btn_addeditevent.TabIndex = 16;
-            this.btn_addeditevent.Text = "Sự kiện";
-            this.btn_addeditevent.UseVisualStyleBackColor = true;
-            // 
-            // btn_accountmanagement
-            // 
-            this.btn_accountmanagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_accountmanagement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_accountmanagement.Location = new System.Drawing.Point(12, 315);
-            this.btn_accountmanagement.Name = "btn_accountmanagement";
-            this.btn_accountmanagement.Size = new System.Drawing.Size(250, 50);
-            this.btn_accountmanagement.TabIndex = 15;
-            this.btn_accountmanagement.Text = "Tài khoản";
-            this.btn_accountmanagement.UseVisualStyleBackColor = true;
-            // 
-            // btn_addeditsalary
-            // 
-            this.btn_addeditsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addeditsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addeditsalary.Location = new System.Drawing.Point(12, 235);
-            this.btn_addeditsalary.Name = "btn_addeditsalary";
-            this.btn_addeditsalary.Size = new System.Drawing.Size(250, 50);
-            this.btn_addeditsalary.TabIndex = 14;
-            this.btn_addeditsalary.Text = "Lương";
-            this.btn_addeditsalary.UseVisualStyleBackColor = true;
-            // 
-            // btn_addeditemployee
-            // 
-            this.btn_addeditemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addeditemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addeditemployee.Location = new System.Drawing.Point(12, 155);
-            this.btn_addeditemployee.Name = "btn_addeditemployee";
-            this.btn_addeditemployee.Size = new System.Drawing.Size(250, 50);
-            this.btn_addeditemployee.TabIndex = 13;
-            this.btn_addeditemployee.Text = "Nhân viên";
-            this.btn_addeditemployee.UseVisualStyleBackColor = true;
+            this.grid_listemployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_listemployee.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grid_listemployee.Location = new System.Drawing.Point(285, 142);
+            this.grid_listemployee.Name = "grid_listemployee";
+            this.grid_listemployee.RowTemplate.Height = 28;
+            this.grid_listemployee.Size = new System.Drawing.Size(1043, 802);
+            this.grid_listemployee.TabIndex = 2;
+            this.grid_listemployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1328, 944);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grid_listemployee);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -201,7 +207,7 @@
             this.Text = "MainForm";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_listemployee)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -210,7 +216,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView grid_listemployee;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_monthcalendar;
         private System.Windows.Forms.Label label2;
