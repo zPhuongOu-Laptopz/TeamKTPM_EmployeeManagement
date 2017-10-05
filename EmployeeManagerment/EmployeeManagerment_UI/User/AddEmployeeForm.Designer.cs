@@ -210,6 +210,70 @@
             this.cbb_placecreateic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_placecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_placecreateic.FormattingEnabled = true;
+            this.cbb_placecreateic.Items.AddRange(new object[] {
+            "An Giang",
+            "Bà Rịa - Vũng Tàu",
+            "Bắc Giang",
+            "Bắc Kạn",
+            "Bạc Liêu",
+            "Bắc Ninh",
+            "Bến Tre",
+            "Bình Định",
+            "Bình Dương",
+            "Bình Phước",
+            "Bình Thuận",
+            "Cà Mau",
+            "Cao Bằng",
+            "Đắk Lắk",
+            "Đắk Nông",
+            "Điện Biên",
+            "Đồng Nai",
+            "Đồng Tháp",
+            "Gia Lai",
+            "Hà Giang",
+            "Hà Nam",
+            "Hà Tĩnh",
+            "Hải Dương",
+            "Hậu Giang",
+            "Hòa Bình",
+            "Hưng Yên",
+            "Khánh Hòa",
+            "Kiên Giang",
+            "Kon Tum",
+            "Lai Châu",
+            "Lâm Đồng",
+            "Lạng Sơn",
+            "Lào Cai",
+            "Long An",
+            "Nam Định",
+            "Nghệ An",
+            "Ninh Bình",
+            "Ninh Thuận",
+            "Phú Thọ",
+            "Quảng Bình",
+            "Quảng Nam",
+            "Quảng Ngãi",
+            "Quảng Ninh",
+            "Quảng Trị",
+            "Sóc Trăng",
+            "Sơn La",
+            "Tây Ninh",
+            "Thái Bình",
+            "Thái Nguyên",
+            "Thanh Hóa",
+            "Thừa Thiên Huế",
+            "Tiền Giang",
+            "Trà Vinh",
+            "Tuyên Quang",
+            "Vĩnh Long",
+            "Vĩnh Phúc",
+            "Yên Bái",
+            "Phú Yên",
+            "Cần Thơ",
+            "Đà Nẵng",
+            "Hải Phòng",
+            "Hà Nội",
+            "TP HCM"});
             this.cbb_placecreateic.Location = new System.Drawing.Point(722, 125);
             this.cbb_placecreateic.Name = "cbb_placecreateic";
             this.cbb_placecreateic.Size = new System.Drawing.Size(199, 40);
@@ -444,6 +508,9 @@
             this.cbb_sex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_sex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_sex.FormattingEnabled = true;
+            this.cbb_sex.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
             this.cbb_sex.Location = new System.Drawing.Point(243, 235);
             this.cbb_sex.Name = "cbb_sex";
             this.cbb_sex.Size = new System.Drawing.Size(199, 40);
@@ -567,6 +634,70 @@
             this.cbb_city.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_city.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_city.FormattingEnabled = true;
+            this.cbb_city.Items.AddRange(new object[] {
+            "An Giang",
+            "Bà Rịa - Vũng Tàu",
+            "Bắc Giang",
+            "Bắc Kạn",
+            "Bạc Liêu",
+            "Bắc Ninh",
+            "Bến Tre",
+            "Bình Định",
+            "Bình Dương",
+            "Bình Phước",
+            "Bình Thuận",
+            "Cà Mau",
+            "Cao Bằng",
+            "Đắk Lắk",
+            "Đắk Nông",
+            "Điện Biên",
+            "Đồng Nai",
+            "Đồng Tháp",
+            "Gia Lai",
+            "Hà Giang",
+            "Hà Nam",
+            "Hà Tĩnh",
+            "Hải Dương",
+            "Hậu Giang",
+            "Hòa Bình",
+            "Hưng Yên",
+            "Khánh Hòa",
+            "Kiên Giang",
+            "Kon Tum",
+            "Lai Châu",
+            "Lâm Đồng",
+            "Lạng Sơn",
+            "Lào Cai",
+            "Long An",
+            "Nam Định",
+            "Nghệ An",
+            "Ninh Bình",
+            "Ninh Thuận",
+            "Phú Thọ",
+            "Quảng Bình",
+            "Quảng Nam",
+            "Quảng Ngãi",
+            "Quảng Ninh",
+            "Quảng Trị",
+            "Sóc Trăng",
+            "Sơn La",
+            "Tây Ninh",
+            "Thái Bình",
+            "Thái Nguyên",
+            "Thanh Hóa",
+            "Thừa Thiên Huế",
+            "Tiền Giang",
+            "Trà Vinh",
+            "Tuyên Quang",
+            "Vĩnh Long",
+            "Vĩnh Phúc",
+            "Yên Bái",
+            "Phú Yên",
+            "Cần Thơ",
+            "Đà Nẵng",
+            "Hải Phòng",
+            "Hà Nội",
+            "TP HCM"});
             this.cbb_city.Location = new System.Drawing.Point(339, 235);
             this.cbb_city.Name = "cbb_city";
             this.cbb_city.Size = new System.Drawing.Size(199, 40);
@@ -577,6 +708,9 @@
             this.cbb_relationship.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_relationship.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_relationship.FormattingEnabled = true;
+            this.cbb_relationship.Items.AddRange(new object[] {
+            "Kết hôn",
+            "Độc thân"});
             this.cbb_relationship.Location = new System.Drawing.Point(339, 345);
             this.cbb_relationship.Name = "cbb_relationship";
             this.cbb_relationship.Size = new System.Drawing.Size(199, 40);
