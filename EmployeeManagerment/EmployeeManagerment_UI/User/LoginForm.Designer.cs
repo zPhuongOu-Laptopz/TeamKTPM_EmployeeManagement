@@ -130,7 +130,7 @@
             // 
             this.btnexit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_exit_small_01;
             this.btnexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btnexit.Location = new System.Drawing.Point(335, 385);
@@ -154,7 +154,7 @@
             // 
             this.button1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_login_01;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button1.Location = new System.Drawing.Point(208, 385);
