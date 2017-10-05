@@ -16,7 +16,11 @@ namespace EmployeeManagerment_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Admin.Home());
+=======
+            Application.Run(new User.MainForm());
+>>>>>>> origin/Phuc
         }
     }
 }
