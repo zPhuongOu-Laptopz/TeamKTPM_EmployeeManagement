@@ -86,7 +86,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.tab_note = new System.Windows.Forms.TabPage();
             this.rtxt_note = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ptb_image = new System.Windows.Forms.PictureBox();
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
             this.btn_addimage = new System.Windows.Forms.Button();
@@ -94,7 +94,7 @@
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
             this.tab_note.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -281,6 +281,7 @@
             // 
             // txt_shownumericalorder
             // 
+            this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_shownumericalorder.Location = new System.Drawing.Point(243, 15);
             this.txt_shownumericalorder.Name = "txt_shownumericalorder";
@@ -853,14 +854,14 @@
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
-            // pictureBox1
+            // ptb_image
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 130);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(235, 235);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 39;
-            this.pictureBox1.TabStop = false;
+            this.ptb_image.Location = new System.Drawing.Point(0, 130);
+            this.ptb_image.Name = "ptb_image";
+            this.ptb_image.Size = new System.Drawing.Size(235, 235);
+            this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptb_image.TabIndex = 39;
+            this.ptb_image.TabStop = false;
             // 
             // btn_reset
             // 
@@ -906,7 +907,7 @@
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_addimage);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.ptb_image);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "AddEmployeeForm";
@@ -917,7 +918,7 @@
             this.tab_address.ResumeLayout(false);
             this.tab_address.PerformLayout();
             this.tab_note.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -981,7 +982,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TabPage tab_note;
         private System.Windows.Forms.RichTextBox rtxt_note;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox ptb_image;
         private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_ok;
         private System.Windows.Forms.Button btn_addimage;
