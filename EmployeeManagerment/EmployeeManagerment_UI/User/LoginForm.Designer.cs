@@ -47,6 +47,10 @@
             this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Kế toán",
+            "Trưởng Nhân Sự",
+            "Nhân Sự"});
             this.comboBox1.Location = new System.Drawing.Point(326, 341);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(142, 21);
@@ -55,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(199, 288);
@@ -68,7 +72,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(199, 230);
@@ -81,7 +85,7 @@
             // cbremember
             // 
             this.cbremember.AutoSize = true;
-            this.cbremember.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cbremember.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.cbremember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbremember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbremember.Location = new System.Drawing.Point(198, 342);
@@ -96,12 +100,12 @@
             this.tbpassword.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.tbpassword.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.tbpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbpassword.Font = new System.Drawing.Font("Myriad Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.tbpassword.Location = new System.Drawing.Point(198, 303);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.PasswordChar = '*';
-            this.tbpassword.Size = new System.Drawing.Size(270, 27);
+            this.tbpassword.Size = new System.Drawing.Size(270, 26);
             this.tbpassword.TabIndex = 15;
             // 
             // tbusername
@@ -109,11 +113,11 @@
             this.tbusername.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.tbusername.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.tbusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbusername.Font = new System.Drawing.Font("Myriad Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.tbusername.Location = new System.Drawing.Point(198, 245);
             this.tbusername.Name = "tbusername";
-            this.tbusername.Size = new System.Drawing.Size(270, 27);
+            this.tbusername.Size = new System.Drawing.Size(270, 26);
             this.tbusername.TabIndex = 14;
             // 
             // pictureBox2
