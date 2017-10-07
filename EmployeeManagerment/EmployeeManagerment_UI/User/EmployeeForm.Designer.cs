@@ -2,15 +2,15 @@
 {
     partial class EmployeeForm
     {
-        /// <summary>
+        /// summary>
         /// Required designer variable.
-        /// </summary>
+        /// /summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// summary>
         /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// /summary>
+        /// param name="disposing">true if managed resources should be disposed; otherwise, false./param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +22,10 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
+        /// summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
-        /// </summary>
+        /// /summary>
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -64,7 +64,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_showfirstname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txt_showlastname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_numerical = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -93,6 +92,7 @@
             this.btn_deleteemployee = new System.Windows.Forms.Button();
             this.btn_editemployee = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txt_showlastname = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
@@ -173,11 +173,7 @@
             // 
             // txt_showdateendwork
             // 
-<<<<<<< HEAD
-            this.txt_showdateendwork.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showdateendwork.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showdateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdateendwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdateendwork.Location = new System.Drawing.Point(481, 296);
@@ -189,11 +185,7 @@
             // 
             // txt_showdatestartwork
             // 
-<<<<<<< HEAD
-            this.txt_showdatestartwork.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showdatestartwork.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showdatestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatestartwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdatestartwork.Location = new System.Drawing.Point(481, 260);
@@ -205,11 +197,7 @@
             // 
             // txt_showplacecreateic
             // 
-<<<<<<< HEAD
-            this.txt_showplacecreateic.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showplacecreateic.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showplacecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showplacecreateic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showplacecreateic.Location = new System.Drawing.Point(481, 81);
@@ -221,11 +209,7 @@
             // 
             // txt_showdatecreateic
             // 
-<<<<<<< HEAD
-            this.txt_showdatecreateic.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showdatecreateic.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showdatecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatecreateic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdatecreateic.Location = new System.Drawing.Point(481, 45);
@@ -237,11 +221,7 @@
             // 
             // txt_showbirthday
             // 
-<<<<<<< HEAD
-            this.txt_showbirthday.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showbirthday.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showbirthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbirthday.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showbirthday.Location = new System.Drawing.Point(162, 117);
@@ -253,11 +233,7 @@
             // 
             // txt_showsex
             // 
-<<<<<<< HEAD
-            this.txt_showsex.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showsex.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showsex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showsex.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showsex.Location = new System.Drawing.Point(162, 153);
@@ -283,11 +259,7 @@
             // 
             // txt_showhousehold
             // 
-<<<<<<< HEAD
-            this.txt_showhousehold.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showhousehold.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showhousehold.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhousehold.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showhousehold.Location = new System.Drawing.Point(162, 296);
@@ -312,11 +284,7 @@
             // 
             // txt_shownumericalorder
             // 
-<<<<<<< HEAD
-            this.txt_shownumericalorder.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_shownumericalorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_shownumericalorder.Location = new System.Drawing.Point(162, 10);
@@ -355,11 +323,7 @@
             // 
             // txt_showbasicsalary
             // 
-<<<<<<< HEAD
-            this.txt_showbasicsalary.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showbasicsalary.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showbasicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbasicsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showbasicsalary.Location = new System.Drawing.Point(481, 224);
@@ -384,11 +348,7 @@
             // 
             // txt_showdepartment
             // 
-<<<<<<< HEAD
-            this.txt_showdepartment.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showdepartment.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showdepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdepartment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdepartment.Location = new System.Drawing.Point(481, 188);
@@ -413,11 +373,7 @@
             // 
             // txt_showposition
             // 
-<<<<<<< HEAD
-            this.txt_showposition.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showposition.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showposition.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showposition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showposition.Location = new System.Drawing.Point(481, 153);
@@ -442,11 +398,7 @@
             // 
             // txt_showeducationlvl
             // 
-<<<<<<< HEAD
-            this.txt_showeducationlvl.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showeducationlvl.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showeducationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showeducationlvl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showeducationlvl.Location = new System.Drawing.Point(481, 117);
@@ -497,11 +449,7 @@
             // 
             // txt_showic
             // 
-<<<<<<< HEAD
-            this.txt_showic.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showic.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showic.Location = new System.Drawing.Point(481, 10);
@@ -526,11 +474,7 @@
             // 
             // txt_showhometown
             // 
-<<<<<<< HEAD
-            this.txt_showhometown.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showhometown.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showhometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhometown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showhometown.Location = new System.Drawing.Point(162, 260);
@@ -555,11 +499,7 @@
             // 
             // txt_showemail
             // 
-<<<<<<< HEAD
-            this.txt_showemail.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showemail.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showemail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showemail.Location = new System.Drawing.Point(162, 224);
@@ -585,11 +525,7 @@
             // 
             // txt_showphonenumber
             // 
-<<<<<<< HEAD
-            this.txt_showphonenumber.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showphonenumber.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showphonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showphonenumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showphonenumber.Location = new System.Drawing.Point(162, 188);
@@ -642,11 +578,7 @@
             // 
             // txt_showfirstname
             // 
-<<<<<<< HEAD
-            this.txt_showfirstname.BackColor = System.Drawing.Color.SeaShell;
-=======
             this.txt_showfirstname.BackColor = System.Drawing.Color.White;
->>>>>>> master
             this.txt_showfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showfirstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showfirstname.Location = new System.Drawing.Point(162, 81);
@@ -668,22 +600,6 @@
             this.label3.Size = new System.Drawing.Size(53, 24);
             this.label3.TabIndex = 25;
             this.label3.Text = "Tên:";
-            // 
-            // txt_showlastname
-            // 
-<<<<<<< HEAD
-            this.txt_showlastname.BackColor = System.Drawing.Color.SeaShell;
-=======
-            this.txt_showlastname.BackColor = System.Drawing.Color.White;
->>>>>>> master
-            this.txt_showlastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_showlastname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.txt_showlastname.Location = new System.Drawing.Point(162, 45);
-            this.txt_showlastname.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_showlastname.Name = "txt_showlastname";
-            this.txt_showlastname.ReadOnly = true;
-            this.txt_showlastname.Size = new System.Drawing.Size(134, 29);
-            this.txt_showlastname.TabIndex = 6;
             // 
             // label2
             // 
@@ -1017,6 +933,18 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
+            // txt_showlastname
+            // 
+            this.txt_showlastname.BackColor = System.Drawing.Color.White;
+            this.txt_showlastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_showlastname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.txt_showlastname.Location = new System.Drawing.Point(162, 45);
+            this.txt_showlastname.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_showlastname.Name = "txt_showlastname";
+            this.txt_showlastname.ReadOnly = true;
+            this.txt_showlastname.Size = new System.Drawing.Size(134, 29);
+            this.txt_showlastname.TabIndex = 6;
+            // 
             // EmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1078,7 +1006,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_showfirstname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_showlastname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_numerical;
         private System.Windows.Forms.Label label1;
@@ -1118,5 +1045,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.TextBox txt_showlastname;
     }
 }

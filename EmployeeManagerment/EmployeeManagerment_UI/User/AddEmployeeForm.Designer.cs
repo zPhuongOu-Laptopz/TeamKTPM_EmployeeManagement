@@ -89,14 +89,10 @@
             this.label25 = new System.Windows.Forms.Label();
             this.tab_note = new System.Windows.Forms.TabPage();
             this.rtxt_note = new System.Windows.Forms.RichTextBox();
-<<<<<<< HEAD
-=======
             this.ptb_image = new System.Windows.Forms.PictureBox();
->>>>>>> master
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
             this.btn_addimage = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -106,12 +102,8 @@
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
             this.tab_note.SuspendLayout();
-<<<<<<< HEAD
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-=======
             ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).BeginInit();
->>>>>>> master
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -340,26 +332,14 @@
             // 
             // txt_shownumericalorder
             // 
-<<<<<<< HEAD
-            this.txt_numericalorder.BackColor = System.Drawing.Color.PowderBlue;
-            this.txt_numericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_numericalorder.Location = new System.Drawing.Point(162, 10);
-            this.txt_numericalorder.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_numericalorder.Name = "txt_numericalorder";
-            this.txt_numericalorder.ReadOnly = true;
-            this.txt_numericalorder.Size = new System.Drawing.Size(52, 29);
-            this.txt_numericalorder.TabIndex = 54;
-            this.txt_numericalorder.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-=======
             this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_shownumericalorder.Location = new System.Drawing.Point(243, 15);
             this.txt_shownumericalorder.Name = "txt_shownumericalorder";
             this.txt_shownumericalorder.ReadOnly = true;
-            this.txt_shownumericalorder.Size = new System.Drawing.Size(76, 39);
+            this.txt_shownumericalorder.Size = new System.Drawing.Size(76, 29);
             this.txt_shownumericalorder.TabIndex = 54;
             this.txt_shownumericalorder.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> master
             // 
             // label17
             // 
@@ -991,8 +971,6 @@
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
-<<<<<<< HEAD
-=======
             // ptb_image
             // 
             this.ptb_image.Location = new System.Drawing.Point(0, 130);
@@ -1002,7 +980,6 @@
             this.ptb_image.TabIndex = 39;
             this.ptb_image.TabStop = false;
             // 
->>>>>>> master
             // btn_reset
             // 
             this.btn_reset.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.h_01;
@@ -1048,17 +1025,6 @@
             this.btn_addimage.TabIndex = 18;
             this.btn_addimage.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 147);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(158, 153);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 39;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Tomato;
@@ -1080,12 +1046,8 @@
             this.ClientSize = new System.Drawing.Size(843, 515);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_addimage);
-<<<<<<< HEAD
             this.Controls.Add(this.btn_reset);
-            this.Controls.Add(this.pictureBox1);
-=======
             this.Controls.Add(this.ptb_image);
->>>>>>> master
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox5);
@@ -1093,6 +1055,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddEmployeeForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddEmployeeForm";
             this.Load += new System.EventHandler(this.AddEmployeeForm_Load);
             this.panel1.ResumeLayout(false);
@@ -1105,12 +1068,8 @@
             this.tab_address.ResumeLayout(false);
             this.tab_address.PerformLayout();
             this.tab_note.ResumeLayout(false);
-<<<<<<< HEAD
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-=======
             ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).EndInit();
->>>>>>> master
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }

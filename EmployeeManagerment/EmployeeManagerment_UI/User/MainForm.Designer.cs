@@ -44,6 +44,7 @@
             this.grid_listemployee = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_listemployee)).BeginInit();
             this.panel1.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DimGray;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btn_reload);
             this.panel2.Controls.Add(this.btn_addeditevent);
@@ -76,11 +78,7 @@
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-<<<<<<< HEAD
-            this.button1.Enabled = false;
-=======
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
@@ -95,11 +93,7 @@
             // btn_reload
             // 
             this.btn_reload.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_reload.BackgroundImage")));
-<<<<<<< HEAD
-            this.btn_reload.Enabled = false;
-=======
             this.btn_reload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reload.Image = ((System.Drawing.Image)(resources.GetObject("btn_reload.Image")));
@@ -114,11 +108,7 @@
             // btn_addeditevent
             // 
             this.btn_addeditevent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditevent.BackgroundImage")));
-<<<<<<< HEAD
-            this.btn_addeditevent.Enabled = false;
-=======
             this.btn_addeditevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_addeditevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditevent.Image = ((System.Drawing.Image)(resources.GetObject("btn_addeditevent.Image")));
@@ -133,11 +123,7 @@
             // btn_accountmanagement
             // 
             this.btn_accountmanagement.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_accountmanagement.BackgroundImage")));
-<<<<<<< HEAD
-            this.btn_accountmanagement.Enabled = false;
-=======
             this.btn_accountmanagement.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_accountmanagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_accountmanagement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_accountmanagement.Image = ((System.Drawing.Image)(resources.GetObject("btn_accountmanagement.Image")));
@@ -152,11 +138,7 @@
             // btn_addeditsalary
             // 
             this.btn_addeditsalary.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditsalary.BackgroundImage")));
-<<<<<<< HEAD
-            this.btn_addeditsalary.Enabled = false;
-=======
             this.btn_addeditsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_addeditsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditsalary.Image = ((System.Drawing.Image)(resources.GetObject("btn_addeditsalary.Image")));
@@ -170,13 +152,8 @@
             // 
             // btn_addeditemployee
             // 
-<<<<<<< HEAD
             this.btn_addeditemployee.BackColor = System.Drawing.Color.White;
-            this.btn_addeditemployee.Enabled = false;
-=======
-            this.btn_addeditemployee.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditemployee.BackgroundImage")));
             this.btn_addeditemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_addeditemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditemployee.Location = new System.Drawing.Point(2, 251);
@@ -190,12 +167,7 @@
             // btn_calendar
             // 
             this.btn_calendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-<<<<<<< HEAD
-            this.btn_calendar.Enabled = false;
-            this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-=======
             this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
->>>>>>> master
             this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_calendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_calendar.Location = new System.Drawing.Point(2, 199);
@@ -251,11 +223,7 @@
             // 
             // grid_listemployee
             // 
-<<<<<<< HEAD
-            this.grid_listemployee.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-=======
             this.grid_listemployee.BackgroundColor = System.Drawing.Color.Bisque;
->>>>>>> master
             this.grid_listemployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listemployee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_listemployee.Location = new System.Drawing.Point(210, 136);
@@ -285,6 +253,18 @@
             this.pictureBox1.Size = new System.Drawing.Size(906, 159);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabel1.Location = new System.Drawing.Point(17, 579);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(171, 16);
+            this.linkLabel1.TabIndex = 19;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Design by : KTPMTeam";
             // 
             // MainForm
             // 
@@ -329,5 +309,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
