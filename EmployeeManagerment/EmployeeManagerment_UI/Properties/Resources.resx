@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="header conpanynamezz-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header conpanynamezz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="asd-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asd-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,17 +130,14 @@
   <data name="xoabtn-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xoabtn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="h-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logoteam03-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoteam03-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon exit small-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon exit small-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bbb-01-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bbb-01-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon login-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon login-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bbb-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bbb-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +148,17 @@
   <data name="header conpanyname 1-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\header conpanyname 1-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="header conpanynamezzz-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header conpanynamezzz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="suabtn-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\suabtn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconexit-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconexit-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="header conpanynamezzz-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\header conpanynamezzz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon login-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon login-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="themanhbtn-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\themanhbtn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +166,8 @@
   <data name="73287-ODYKTA-216-011" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\73287-ODYKTA-216-011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="header conpanynamezz-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\header conpanynamezz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bbb-01-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbb-01-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoteam login-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoteam login-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +190,7 @@
   <data name="73287-ODYKTA-216-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\73287-ODYKTA-216-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="h-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\h-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="header conpanynamezxc-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header conpanynamezxc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

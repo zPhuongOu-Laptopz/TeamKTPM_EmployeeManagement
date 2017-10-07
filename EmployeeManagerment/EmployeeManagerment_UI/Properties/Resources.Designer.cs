@@ -153,6 +153,16 @@ namespace EmployeeManagerment_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap header_conpanynamezxc_01 {
+            get {
+                object obj = ResourceManager.GetObject("header conpanynamezxc-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap header_conpanynamezz_01 {
             get {
                 object obj = ResourceManager.GetObject("header conpanynamezz-01", resourceCulture);
