@@ -16,5 +16,10 @@ namespace EmployeeManagerment_UI.User
         {
             InitializeComponent();
         }
+
+        private void AddEmployeeForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
