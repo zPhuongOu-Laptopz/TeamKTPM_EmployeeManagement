@@ -1,6 +1,6 @@
 ﻿namespace EmployeeManagerment_UI.User
 {
-    partial class AddEmployeeForm
+    partial class EditEmployeeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab_infomation = new System.Windows.Forms.TabPage();
             this.dtp_dateendwork = new System.Windows.Forms.DateTimePicker();
@@ -89,62 +88,48 @@
             this.label25 = new System.Windows.Forms.Label();
             this.tab_note = new System.Windows.Forms.TabPage();
             this.rtxt_note = new System.Windows.Forms.RichTextBox();
-            this.ptb_image = new System.Windows.Forms.PictureBox();
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
-            this.btn_addimage = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.ptb_showimage = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
             this.tab_note.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_showimage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 123);
+            this.panel1.Size = new System.Drawing.Size(861, 131);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(0, 123);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(191, 392);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezzz_01;
+            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezxcvx_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(843, 130);
-            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.Size = new System.Drawing.Size(860, 130);
+            this.pictureBox3.TabIndex = 37;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox2
+            // flowLayoutPanel1
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(843, 68);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(553, 162);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(5, 5);
+            this.flowLayoutPanel1.TabIndex = 1;
             // 
             // tabControl1
             // 
@@ -153,12 +138,12 @@
             this.tabControl1.Controls.Add(this.tab_note);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Right;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(182, 123);
+            this.tabControl1.Location = new System.Drawing.Point(191, 131);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(679, 484);
-            this.tabControl1.TabIndex = 38;
+            this.tabControl1.Size = new System.Drawing.Size(670, 476);
+            this.tabControl1.TabIndex = 39;
             // 
             // tab_infomation
             // 
@@ -205,19 +190,19 @@
             this.tab_infomation.Location = new System.Drawing.Point(4, 33);
             this.tab_infomation.Margin = new System.Windows.Forms.Padding(2);
             this.tab_infomation.Name = "tab_infomation";
-            this.tab_infomation.Size = new System.Drawing.Size(671, 447);
+            this.tab_infomation.Size = new System.Drawing.Size(662, 439);
             this.tab_infomation.TabIndex = 0;
             this.tab_infomation.Text = "Thông tin";
             this.tab_infomation.UseVisualStyleBackColor = true;
             // 
             // dtp_dateendwork
             // 
-            this.dtp_dateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_dateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateendwork.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_dateendwork.Location = new System.Drawing.Point(481, 296);
             this.dtp_dateendwork.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateendwork.Name = "dtp_dateendwork";
-            this.dtp_dateendwork.Size = new System.Drawing.Size(134, 29);
+            this.dtp_dateendwork.Size = new System.Drawing.Size(134, 26);
             this.dtp_dateendwork.TabIndex = 17;
             // 
             // label22
@@ -234,7 +219,6 @@
             // 
             // txt_household
             // 
-            this.txt_household.BackColor = System.Drawing.Color.White;
             this.txt_household.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_household.Location = new System.Drawing.Point(162, 296);
             this.txt_household.Margin = new System.Windows.Forms.Padding(2);
@@ -256,7 +240,6 @@
             // 
             // cbb_placecreateic
             // 
-            this.cbb_placecreateic.BackColor = System.Drawing.Color.PowderBlue;
             this.cbb_placecreateic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_placecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_placecreateic.FormattingEnabled = true;
@@ -324,7 +307,7 @@
             "Hải Phòng",
             "Hà Nội",
             "TP HCM"});
-            this.cbb_placecreateic.Location = new System.Drawing.Point(481, 81);
+            this.cbb_placecreateic.Location = new System.Drawing.Point(481, 79);
             this.cbb_placecreateic.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_placecreateic.Name = "cbb_placecreateic";
             this.cbb_placecreateic.Size = new System.Drawing.Size(134, 32);
@@ -334,10 +317,11 @@
             // 
             this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_shownumericalorder.Location = new System.Drawing.Point(162, 13);
+            this.txt_shownumericalorder.Location = new System.Drawing.Point(162, 10);
+            this.txt_shownumericalorder.Margin = new System.Windows.Forms.Padding(2);
             this.txt_shownumericalorder.Name = "txt_shownumericalorder";
             this.txt_shownumericalorder.ReadOnly = true;
-            this.txt_shownumericalorder.Size = new System.Drawing.Size(76, 29);
+            this.txt_shownumericalorder.Size = new System.Drawing.Size(52, 29);
             this.txt_shownumericalorder.TabIndex = 54;
             this.txt_shownumericalorder.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -355,12 +339,12 @@
             // 
             // dtp_datestartwork
             // 
-            this.dtp_datestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_datestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_datestartwork.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_datestartwork.Location = new System.Drawing.Point(481, 260);
             this.dtp_datestartwork.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_datestartwork.Name = "dtp_datestartwork";
-            this.dtp_datestartwork.Size = new System.Drawing.Size(134, 29);
+            this.dtp_datestartwork.Size = new System.Drawing.Size(134, 26);
             this.dtp_datestartwork.TabIndex = 16;
             // 
             // label16
@@ -377,7 +361,6 @@
             // 
             // txt_basicsalary
             // 
-            this.txt_basicsalary.BackColor = System.Drawing.Color.White;
             this.txt_basicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_basicsalary.Location = new System.Drawing.Point(481, 224);
             this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2);
@@ -399,7 +382,6 @@
             // 
             // txt_department
             // 
-            this.txt_department.BackColor = System.Drawing.Color.White;
             this.txt_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_department.Location = new System.Drawing.Point(481, 188);
             this.txt_department.Margin = new System.Windows.Forms.Padding(2);
@@ -421,7 +403,6 @@
             // 
             // txt_position
             // 
-            this.txt_position.BackColor = System.Drawing.Color.White;
             this.txt_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_position.Location = new System.Drawing.Point(481, 153);
             this.txt_position.Margin = new System.Windows.Forms.Padding(2);
@@ -443,17 +424,16 @@
             // 
             // dtp_datecreateic
             // 
-            this.dtp_datecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_datecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_datecreateic.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_datecreateic.Location = new System.Drawing.Point(481, 45);
             this.dtp_datecreateic.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_datecreateic.Name = "dtp_datecreateic";
-            this.dtp_datecreateic.Size = new System.Drawing.Size(134, 29);
+            this.dtp_datecreateic.Size = new System.Drawing.Size(134, 26);
             this.dtp_datecreateic.TabIndex = 10;
             // 
             // txt_educationlvl
             // 
-            this.txt_educationlvl.BackColor = System.Drawing.Color.White;
             this.txt_educationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_educationlvl.Location = new System.Drawing.Point(481, 117);
             this.txt_educationlvl.Margin = new System.Windows.Forms.Padding(2);
@@ -499,7 +479,6 @@
             // 
             // txt_ic
             // 
-            this.txt_ic.BackColor = System.Drawing.Color.White;
             this.txt_ic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ic.Location = new System.Drawing.Point(481, 10);
             this.txt_ic.Margin = new System.Windows.Forms.Padding(2);
@@ -521,7 +500,6 @@
             // 
             // txt_hometown
             // 
-            this.txt_hometown.BackColor = System.Drawing.Color.White;
             this.txt_hometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_hometown.Location = new System.Drawing.Point(162, 260);
             this.txt_hometown.Margin = new System.Windows.Forms.Padding(2);
@@ -543,7 +521,6 @@
             // 
             // txt_email
             // 
-            this.txt_email.BackColor = System.Drawing.Color.White;
             this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_email.Location = new System.Drawing.Point(162, 224);
             this.txt_email.Margin = new System.Windows.Forms.Padding(2);
@@ -565,7 +542,6 @@
             // 
             // txt_phonenumber
             // 
-            this.txt_phonenumber.BackColor = System.Drawing.Color.White;
             this.txt_phonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_phonenumber.Location = new System.Drawing.Point(162, 188);
             this.txt_phonenumber.Margin = new System.Windows.Forms.Padding(2);
@@ -587,14 +563,13 @@
             // 
             // cbb_sex
             // 
-            this.cbb_sex.BackColor = System.Drawing.Color.PowderBlue;
             this.cbb_sex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_sex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_sex.FormattingEnabled = true;
             this.cbb_sex.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cbb_sex.Location = new System.Drawing.Point(162, 153);
+            this.cbb_sex.Location = new System.Drawing.Point(162, 151);
             this.cbb_sex.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_sex.Name = "cbb_sex";
             this.cbb_sex.Size = new System.Drawing.Size(134, 32);
@@ -614,14 +589,12 @@
             // 
             // dtp_birthday
             // 
-            this.dtp_birthday.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.dtp_birthday.CalendarMonthBackground = System.Drawing.Color.PowderBlue;
-            this.dtp_birthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_birthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_birthday.Location = new System.Drawing.Point(162, 117);
             this.dtp_birthday.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_birthday.Name = "dtp_birthday";
-            this.dtp_birthday.Size = new System.Drawing.Size(134, 29);
+            this.dtp_birthday.Size = new System.Drawing.Size(134, 26);
             this.dtp_birthday.TabIndex = 3;
             // 
             // label4
@@ -638,7 +611,6 @@
             // 
             // txt_firstname
             // 
-            this.txt_firstname.BackColor = System.Drawing.Color.White;
             this.txt_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_firstname.Location = new System.Drawing.Point(162, 81);
             this.txt_firstname.Margin = new System.Windows.Forms.Padding(2);
@@ -660,7 +632,6 @@
             // 
             // txt_lastname
             // 
-            this.txt_lastname.BackColor = System.Drawing.Color.White;
             this.txt_lastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_lastname.Location = new System.Drawing.Point(162, 45);
             this.txt_lastname.Margin = new System.Windows.Forms.Padding(2);
@@ -725,7 +696,7 @@
             this.tab_address.Location = new System.Drawing.Point(4, 33);
             this.tab_address.Margin = new System.Windows.Forms.Padding(2);
             this.tab_address.Name = "tab_address";
-            this.tab_address.Size = new System.Drawing.Size(649, 355);
+            this.tab_address.Size = new System.Drawing.Size(646, 347);
             this.tab_address.TabIndex = 1;
             this.tab_address.Text = "Địa chỉ thường trú";
             this.tab_address.UseVisualStyleBackColor = true;
@@ -955,7 +926,7 @@
             this.tab_note.Location = new System.Drawing.Point(4, 33);
             this.tab_note.Margin = new System.Windows.Forms.Padding(2);
             this.tab_note.Name = "tab_note";
-            this.tab_note.Size = new System.Drawing.Size(649, 355);
+            this.tab_note.Size = new System.Drawing.Size(646, 347);
             this.tab_note.TabIndex = 2;
             this.tab_note.Text = "Ghi chú";
             this.tab_note.UseVisualStyleBackColor = true;
@@ -967,32 +938,22 @@
             this.rtxt_note.Location = new System.Drawing.Point(0, 0);
             this.rtxt_note.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_note.Name = "rtxt_note";
-            this.rtxt_note.Size = new System.Drawing.Size(649, 355);
+            this.rtxt_note.Size = new System.Drawing.Size(646, 347);
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
-            // ptb_image
-            // 
-            this.ptb_image.Location = new System.Drawing.Point(21, 140);
-            this.ptb_image.Name = "ptb_image";
-            this.ptb_image.Size = new System.Drawing.Size(145, 153);
-            this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptb_image.TabIndex = 39;
-            this.ptb_image.TabStop = false;
-            // 
             // btn_reset
             // 
-            this.btn_reset.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.h_01;
-            this.btn_reset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_reset.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.h_011;
             this.btn_reset.Enabled = false;
             this.btn_reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_reset.Location = new System.Drawing.Point(0, 403);
+            this.btn_reset.Location = new System.Drawing.Point(1, 381);
             this.btn_reset.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reset.Name = "btn_reset";
-            this.btn_reset.Size = new System.Drawing.Size(186, 48);
-            this.btn_reset.TabIndex = 20;
+            this.btn_reset.Size = new System.Drawing.Size(191, 50);
+            this.btn_reset.TabIndex = 42;
             this.btn_reset.UseVisualStyleBackColor = true;
             // 
             // btn_ok
@@ -1003,41 +964,36 @@
             this.btn_ok.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ok.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_ok.Location = new System.Drawing.Point(0, 357);
+            this.btn_ok.Location = new System.Drawing.Point(0, 332);
             this.btn_ok.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(186, 48);
-            this.btn_ok.TabIndex = 19;
+            this.btn_ok.Size = new System.Drawing.Size(191, 50);
+            this.btn_ok.TabIndex = 41;
             this.btn_ok.UseVisualStyleBackColor = true;
             // 
-            // btn_addimage
+            // ptb_showimage
             // 
-            this.btn_addimage.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.themanhbtn_01;
-            this.btn_addimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_addimage.Enabled = false;
-            this.btn_addimage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_addimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addimage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addimage.Location = new System.Drawing.Point(0, 309);
-            this.btn_addimage.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_addimage.Name = "btn_addimage";
-            this.btn_addimage.Size = new System.Drawing.Size(186, 48);
-            this.btn_addimage.TabIndex = 18;
-            this.btn_addimage.UseVisualStyleBackColor = true;
+            this.ptb_showimage.Location = new System.Drawing.Point(23, 155);
+            this.ptb_showimage.Margin = new System.Windows.Forms.Padding(2);
+            this.ptb_showimage.Name = "ptb_showimage";
+            this.ptb_showimage.Size = new System.Drawing.Size(145, 153);
+            this.ptb_showimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptb_showimage.TabIndex = 40;
+            this.ptb_showimage.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBox2
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Tomato;
-            this.pictureBox5.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(-13, 32);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(204, 575);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 40;
-            this.pictureBox5.TabStop = false;
+            this.pictureBox2.BackColor = System.Drawing.Color.Tomato;
+            this.pictureBox2.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(-4, -10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(206, 617);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 38;
+            this.pictureBox2.TabStop = false;
             // 
-            // AddEmployeeForm
+            // EditEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1045,31 +1001,28 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.btn_ok);
-            this.Controls.Add(this.btn_addimage);
             this.Controls.Add(this.btn_reset);
-            this.Controls.Add(this.ptb_image);
+            this.Controls.Add(this.btn_ok);
+            this.Controls.Add(this.ptb_showimage);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox2);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "AddEmployeeForm";
+            this.Name = "EditEmployeeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddEmployeeForm";
-            this.Load += new System.EventHandler(this.AddEmployeeForm_Load);
+            this.Text = "EditEmployeeForm";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tab_infomation.ResumeLayout(false);
             this.tab_infomation.PerformLayout();
             this.tab_address.ResumeLayout(false);
             this.tab_address.PerformLayout();
             this.tab_note.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_showimage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1077,6 +1030,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tab_infomation;
         private System.Windows.Forms.DateTimePicker dtp_dateendwork;
@@ -1118,6 +1072,7 @@
         private System.Windows.Forms.TextBox txt_numerical;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tab_address;
+        private System.Windows.Forms.ComboBox cbb_city;
         private System.Windows.Forms.ComboBox cbb_relationship;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox txt_homephonenumber;
@@ -1133,14 +1088,10 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TabPage tab_note;
         private System.Windows.Forms.RichTextBox rtxt_note;
-        private System.Windows.Forms.PictureBox ptb_image;
+        private System.Windows.Forms.PictureBox ptb_showimage;
         private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_ok;
-        private System.Windows.Forms.Button btn_addimage;
-        private System.Windows.Forms.ComboBox cbb_city;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -2,15 +2,15 @@
 {
     partial class EmployeeForm
     {
-        /// <summary>
+        /// summary>
         /// Required designer variable.
-        /// </summary>
+        /// /summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// summary>
         /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// /summary>
+        /// param name="disposing">true if managed resources should be disposed; otherwise, false./param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +22,10 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
+        /// summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
-        /// </summary>
+        /// /summary>
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -112,12 +112,12 @@
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Right;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tabControl1.Location = new System.Drawing.Point(189, 130);
+            this.tabControl1.Location = new System.Drawing.Point(191, 130);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(654, 385);
+            this.tabControl1.Size = new System.Drawing.Size(670, 477);
             this.tabControl1.TabIndex = 4;
             // 
             // tab_infomation
@@ -166,14 +166,14 @@
             this.tab_infomation.Location = new System.Drawing.Point(4, 33);
             this.tab_infomation.Margin = new System.Windows.Forms.Padding(2);
             this.tab_infomation.Name = "tab_infomation";
-            this.tab_infomation.Size = new System.Drawing.Size(646, 348);
+            this.tab_infomation.Size = new System.Drawing.Size(662, 440);
             this.tab_infomation.TabIndex = 0;
             this.tab_infomation.Text = "Thông tin";
             this.tab_infomation.Click += new System.EventHandler(this.tab_infomation_Click);
             // 
             // txt_showdateendwork
             // 
-            this.txt_showdateendwork.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showdateendwork.BackColor = System.Drawing.Color.White;
             this.txt_showdateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdateendwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdateendwork.Location = new System.Drawing.Point(481, 296);
@@ -185,7 +185,7 @@
             // 
             // txt_showdatestartwork
             // 
-            this.txt_showdatestartwork.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showdatestartwork.BackColor = System.Drawing.Color.White;
             this.txt_showdatestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatestartwork.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdatestartwork.Location = new System.Drawing.Point(481, 260);
@@ -197,7 +197,7 @@
             // 
             // txt_showplacecreateic
             // 
-            this.txt_showplacecreateic.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showplacecreateic.BackColor = System.Drawing.Color.White;
             this.txt_showplacecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showplacecreateic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showplacecreateic.Location = new System.Drawing.Point(481, 81);
@@ -209,7 +209,7 @@
             // 
             // txt_showdatecreateic
             // 
-            this.txt_showdatecreateic.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showdatecreateic.BackColor = System.Drawing.Color.White;
             this.txt_showdatecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatecreateic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdatecreateic.Location = new System.Drawing.Point(481, 45);
@@ -221,7 +221,7 @@
             // 
             // txt_showbirthday
             // 
-            this.txt_showbirthday.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showbirthday.BackColor = System.Drawing.Color.White;
             this.txt_showbirthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbirthday.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showbirthday.Location = new System.Drawing.Point(162, 117);
@@ -233,7 +233,7 @@
             // 
             // txt_showsex
             // 
-            this.txt_showsex.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showsex.BackColor = System.Drawing.Color.White;
             this.txt_showsex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showsex.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showsex.Location = new System.Drawing.Point(162, 153);
@@ -259,7 +259,7 @@
             // 
             // txt_showhousehold
             // 
-            this.txt_showhousehold.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showhousehold.BackColor = System.Drawing.Color.White;
             this.txt_showhousehold.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhousehold.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showhousehold.Location = new System.Drawing.Point(162, 296);
@@ -284,7 +284,7 @@
             // 
             // txt_shownumericalorder
             // 
-            this.txt_shownumericalorder.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_shownumericalorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_shownumericalorder.Location = new System.Drawing.Point(162, 10);
@@ -323,7 +323,7 @@
             // 
             // txt_showbasicsalary
             // 
-            this.txt_showbasicsalary.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showbasicsalary.BackColor = System.Drawing.Color.White;
             this.txt_showbasicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbasicsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showbasicsalary.Location = new System.Drawing.Point(481, 224);
@@ -348,7 +348,7 @@
             // 
             // txt_showdepartment
             // 
-            this.txt_showdepartment.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showdepartment.BackColor = System.Drawing.Color.White;
             this.txt_showdepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdepartment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showdepartment.Location = new System.Drawing.Point(481, 188);
@@ -373,7 +373,7 @@
             // 
             // txt_showposition
             // 
-            this.txt_showposition.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showposition.BackColor = System.Drawing.Color.White;
             this.txt_showposition.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showposition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showposition.Location = new System.Drawing.Point(481, 153);
@@ -398,7 +398,7 @@
             // 
             // txt_showeducationlvl
             // 
-            this.txt_showeducationlvl.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showeducationlvl.BackColor = System.Drawing.Color.White;
             this.txt_showeducationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showeducationlvl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showeducationlvl.Location = new System.Drawing.Point(481, 117);
@@ -449,7 +449,7 @@
             // 
             // txt_showic
             // 
-            this.txt_showic.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showic.BackColor = System.Drawing.Color.White;
             this.txt_showic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showic.Location = new System.Drawing.Point(481, 10);
@@ -474,7 +474,7 @@
             // 
             // txt_showhometown
             // 
-            this.txt_showhometown.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showhometown.BackColor = System.Drawing.Color.White;
             this.txt_showhometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhometown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showhometown.Location = new System.Drawing.Point(162, 260);
@@ -499,7 +499,7 @@
             // 
             // txt_showemail
             // 
-            this.txt_showemail.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showemail.BackColor = System.Drawing.Color.White;
             this.txt_showemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showemail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showemail.Location = new System.Drawing.Point(162, 224);
@@ -525,7 +525,7 @@
             // 
             // txt_showphonenumber
             // 
-            this.txt_showphonenumber.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showphonenumber.BackColor = System.Drawing.Color.White;
             this.txt_showphonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showphonenumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showphonenumber.Location = new System.Drawing.Point(162, 188);
@@ -578,7 +578,7 @@
             // 
             // txt_showfirstname
             // 
-            this.txt_showfirstname.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showfirstname.BackColor = System.Drawing.Color.White;
             this.txt_showfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showfirstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showfirstname.Location = new System.Drawing.Point(162, 81);
@@ -603,7 +603,7 @@
             // 
             // txt_showlastname
             // 
-            this.txt_showlastname.BackColor = System.Drawing.Color.SeaShell;
+            this.txt_showlastname.BackColor = System.Drawing.Color.White;
             this.txt_showlastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showlastname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.txt_showlastname.Location = new System.Drawing.Point(162, 45);
@@ -870,7 +870,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(843, 130);
+            this.panel1.Size = new System.Drawing.Size(861, 130);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox3
@@ -900,7 +900,7 @@
             this.btn_addemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addemployee.Image = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
-            this.btn_addemployee.Location = new System.Drawing.Point(0, 130);
+            this.btn_addemployee.Location = new System.Drawing.Point(-1, 130);
             this.btn_addemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addemployee.Name = "btn_addemployee";
             this.btn_addemployee.Size = new System.Drawing.Size(191, 50);
@@ -916,7 +916,7 @@
             this.btn_deleteemployee.Location = new System.Drawing.Point(-1, 180);
             this.btn_deleteemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_deleteemployee.Name = "btn_deleteemployee";
-            this.btn_deleteemployee.Size = new System.Drawing.Size(191, 52);
+            this.btn_deleteemployee.Size = new System.Drawing.Size(191, 50);
             this.btn_deleteemployee.TabIndex = 2;
             this.btn_deleteemployee.UseVisualStyleBackColor = true;
             // 
@@ -929,7 +929,7 @@
             this.btn_editemployee.Location = new System.Drawing.Point(-1, 231);
             this.btn_editemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_editemployee.Name = "btn_editemployee";
-            this.btn_editemployee.Size = new System.Drawing.Size(191, 52);
+            this.btn_editemployee.Size = new System.Drawing.Size(191, 50);
             this.btn_editemployee.TabIndex = 3;
             this.btn_editemployee.UseVisualStyleBackColor = true;
             // 
@@ -940,7 +940,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(-3, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(191, 525);
+            this.pictureBox2.Size = new System.Drawing.Size(203, 607);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -950,10 +950,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
-            this.ClientSize = new System.Drawing.Size(843, 515);
+            this.ClientSize = new System.Drawing.Size(861, 607);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_addemployee);
             this.Controls.Add(this.btn_deleteemployee);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_editemployee);
             this.Controls.Add(this.pictureBox2);
@@ -1006,7 +1006,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_showfirstname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_showlastname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_numerical;
         private System.Windows.Forms.Label label1;
@@ -1046,5 +1045,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.TextBox txt_showlastname;
     }
 }
