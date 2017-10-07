@@ -1,6 +1,6 @@
 ﻿namespace EmployeeManagerment_UI.User
 {
-    partial class AddEmployeeForm
+    partial class EditEmployeeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab_infomation = new System.Windows.Forms.TabPage();
             this.dtp_dateendwork = new System.Windows.Forms.DateTimePicker();
@@ -86,25 +87,30 @@
             this.label25 = new System.Windows.Forms.Label();
             this.tab_note = new System.Windows.Forms.TabPage();
             this.rtxt_note = new System.Windows.Forms.RichTextBox();
-            this.ptb_image = new System.Windows.Forms.PictureBox();
+            this.ptb_showimage = new System.Windows.Forms.PictureBox();
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
-            this.btn_addimage = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
             this.tab_note.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_showimage)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1178, 129);
             this.panel1.TabIndex = 0;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(830, 249);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel1.TabIndex = 1;
             // 
             // tabControl1
             // 
@@ -117,7 +123,7 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(947, 635);
-            this.tabControl1.TabIndex = 38;
+            this.tabControl1.TabIndex = 39;
             // 
             // tab_infomation
             // 
@@ -854,24 +860,24 @@
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
-            // ptb_image
+            // ptb_showimage
             // 
-            this.ptb_image.Location = new System.Drawing.Point(0, 130);
-            this.ptb_image.Name = "ptb_image";
-            this.ptb_image.Size = new System.Drawing.Size(235, 235);
-            this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptb_image.TabIndex = 39;
-            this.ptb_image.TabStop = false;
+            this.ptb_showimage.Location = new System.Drawing.Point(-6, 129);
+            this.ptb_showimage.Name = "ptb_showimage";
+            this.ptb_showimage.Size = new System.Drawing.Size(235, 235);
+            this.ptb_showimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptb_showimage.TabIndex = 40;
+            this.ptb_showimage.TabStop = false;
             // 
             // btn_reset
             // 
             this.btn_reset.Enabled = false;
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_reset.Location = new System.Drawing.Point(12, 538);
+            this.btn_reset.Location = new System.Drawing.Point(12, 466);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(200, 50);
-            this.btn_reset.TabIndex = 20;
+            this.btn_reset.TabIndex = 42;
             this.btn_reset.Text = "Hủy";
             this.btn_reset.UseVisualStyleBackColor = true;
             // 
@@ -880,45 +886,33 @@
             this.btn_ok.Enabled = false;
             this.btn_ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ok.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_ok.Location = new System.Drawing.Point(12, 466);
+            this.btn_ok.Location = new System.Drawing.Point(12, 394);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(200, 50);
-            this.btn_ok.TabIndex = 19;
+            this.btn_ok.TabIndex = 41;
             this.btn_ok.Text = "Chấp nhận";
             this.btn_ok.UseVisualStyleBackColor = true;
             // 
-            // btn_addimage
-            // 
-            this.btn_addimage.Enabled = false;
-            this.btn_addimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_addimage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addimage.Location = new System.Drawing.Point(12, 394);
-            this.btn_addimage.Name = "btn_addimage";
-            this.btn_addimage.Size = new System.Drawing.Size(200, 50);
-            this.btn_addimage.TabIndex = 18;
-            this.btn_addimage.Text = "Thêm ảnh";
-            this.btn_addimage.UseVisualStyleBackColor = true;
-            // 
-            // AddEmployeeForm
+            // EditEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 764);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_ok);
-            this.Controls.Add(this.btn_addimage);
-            this.Controls.Add(this.ptb_image);
+            this.Controls.Add(this.ptb_showimage);
             this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
-            this.Name = "AddEmployeeForm";
-            this.Text = "AddEmployeeForm";
+            this.Name = "EditEmployeeForm";
+            this.Text = "EditEmployeeForm";
             this.tabControl1.ResumeLayout(false);
             this.tab_infomation.ResumeLayout(false);
             this.tab_infomation.PerformLayout();
             this.tab_address.ResumeLayout(false);
             this.tab_address.PerformLayout();
             this.tab_note.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_showimage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -926,6 +920,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tab_infomation;
         private System.Windows.Forms.DateTimePicker dtp_dateendwork;
@@ -967,6 +962,7 @@
         private System.Windows.Forms.TextBox txt_numerical;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tab_address;
+        private System.Windows.Forms.ComboBox cbb_city;
         private System.Windows.Forms.ComboBox cbb_relationship;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox txt_homephonenumber;
@@ -982,10 +978,8 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TabPage tab_note;
         private System.Windows.Forms.RichTextBox rtxt_note;
-        private System.Windows.Forms.PictureBox ptb_image;
+        private System.Windows.Forms.PictureBox ptb_showimage;
         private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_ok;
-        private System.Windows.Forms.Button btn_addimage;
-        private System.Windows.Forms.ComboBox cbb_city;
     }
 }

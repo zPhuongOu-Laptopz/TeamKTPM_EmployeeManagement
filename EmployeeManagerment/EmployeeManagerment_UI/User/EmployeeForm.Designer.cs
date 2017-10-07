@@ -177,6 +177,7 @@
             // 
             // txt_showdateendwork
             // 
+            this.txt_showdateendwork.BackColor = System.Drawing.Color.White;
             this.txt_showdateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdateendwork.Location = new System.Drawing.Point(722, 455);
             this.txt_showdateendwork.Name = "txt_showdateendwork";
@@ -186,6 +187,7 @@
             // 
             // txt_showdatestartwork
             // 
+            this.txt_showdatestartwork.BackColor = System.Drawing.Color.White;
             this.txt_showdatestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatestartwork.Location = new System.Drawing.Point(722, 400);
             this.txt_showdatestartwork.Name = "txt_showdatestartwork";
@@ -195,6 +197,7 @@
             // 
             // txt_showplacecreateic
             // 
+            this.txt_showplacecreateic.BackColor = System.Drawing.Color.White;
             this.txt_showplacecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showplacecreateic.Location = new System.Drawing.Point(722, 125);
             this.txt_showplacecreateic.Name = "txt_showplacecreateic";
@@ -204,6 +207,7 @@
             // 
             // txt_showdatecreateic
             // 
+            this.txt_showdatecreateic.BackColor = System.Drawing.Color.White;
             this.txt_showdatecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdatecreateic.Location = new System.Drawing.Point(722, 70);
             this.txt_showdatecreateic.Name = "txt_showdatecreateic";
@@ -213,6 +217,7 @@
             // 
             // txt_showbirthday
             // 
+            this.txt_showbirthday.BackColor = System.Drawing.Color.White;
             this.txt_showbirthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbirthday.Location = new System.Drawing.Point(243, 180);
             this.txt_showbirthday.Name = "txt_showbirthday";
@@ -222,6 +227,7 @@
             // 
             // txt_showsex
             // 
+            this.txt_showsex.BackColor = System.Drawing.Color.White;
             this.txt_showsex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showsex.Location = new System.Drawing.Point(243, 235);
             this.txt_showsex.Name = "txt_showsex";
@@ -243,6 +249,7 @@
             // 
             // txt_showhousehold
             // 
+            this.txt_showhousehold.BackColor = System.Drawing.Color.White;
             this.txt_showhousehold.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhousehold.Location = new System.Drawing.Point(243, 455);
             this.txt_showhousehold.Name = "txt_showhousehold";
@@ -263,6 +270,7 @@
             // 
             // txt_shownumericalorder
             // 
+            this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_shownumericalorder.Location = new System.Drawing.Point(243, 15);
             this.txt_shownumericalorder.Name = "txt_shownumericalorder";
@@ -295,6 +303,7 @@
             // 
             // txt_showbasicsalary
             // 
+            this.txt_showbasicsalary.BackColor = System.Drawing.Color.White;
             this.txt_showbasicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showbasicsalary.Location = new System.Drawing.Point(722, 345);
             this.txt_showbasicsalary.Name = "txt_showbasicsalary";
@@ -315,6 +324,7 @@
             // 
             // txt_showdepartment
             // 
+            this.txt_showdepartment.BackColor = System.Drawing.Color.White;
             this.txt_showdepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showdepartment.Location = new System.Drawing.Point(722, 290);
             this.txt_showdepartment.Name = "txt_showdepartment";
@@ -335,6 +345,7 @@
             // 
             // txt_showposition
             // 
+            this.txt_showposition.BackColor = System.Drawing.Color.White;
             this.txt_showposition.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showposition.Location = new System.Drawing.Point(722, 235);
             this.txt_showposition.Name = "txt_showposition";
@@ -355,6 +366,7 @@
             // 
             // txt_showeducationlvl
             // 
+            this.txt_showeducationlvl.BackColor = System.Drawing.Color.White;
             this.txt_showeducationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showeducationlvl.Location = new System.Drawing.Point(722, 180);
             this.txt_showeducationlvl.Name = "txt_showeducationlvl";
@@ -397,6 +409,7 @@
             // 
             // txt_showic
             // 
+            this.txt_showic.BackColor = System.Drawing.Color.White;
             this.txt_showic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showic.Location = new System.Drawing.Point(722, 15);
             this.txt_showic.Name = "txt_showic";
@@ -417,6 +430,7 @@
             // 
             // txt_showhometown
             // 
+            this.txt_showhometown.BackColor = System.Drawing.Color.White;
             this.txt_showhometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showhometown.Location = new System.Drawing.Point(243, 400);
             this.txt_showhometown.Name = "txt_showhometown";
@@ -437,6 +451,7 @@
             // 
             // txt_showemail
             // 
+            this.txt_showemail.BackColor = System.Drawing.Color.White;
             this.txt_showemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showemail.Location = new System.Drawing.Point(243, 345);
             this.txt_showemail.Name = "txt_showemail";
@@ -458,6 +473,7 @@
             // 
             // txt_showphonenumber
             // 
+            this.txt_showphonenumber.BackColor = System.Drawing.Color.White;
             this.txt_showphonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showphonenumber.Location = new System.Drawing.Point(243, 290);
             this.txt_showphonenumber.Name = "txt_showphonenumber";
@@ -502,6 +518,7 @@
             // 
             // txt_showfirstname
             // 
+            this.txt_showfirstname.BackColor = System.Drawing.Color.White;
             this.txt_showfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showfirstname.Location = new System.Drawing.Point(243, 125);
             this.txt_showfirstname.Name = "txt_showfirstname";
@@ -522,6 +539,7 @@
             // 
             // txt_showlastname
             // 
+            this.txt_showlastname.BackColor = System.Drawing.Color.White;
             this.txt_showlastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_showlastname.Location = new System.Drawing.Point(243, 70);
             this.txt_showlastname.Name = "txt_showlastname";
