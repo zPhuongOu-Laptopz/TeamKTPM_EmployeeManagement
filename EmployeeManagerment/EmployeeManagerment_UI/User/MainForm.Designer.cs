@@ -76,7 +76,11 @@
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+<<<<<<< HEAD
             this.button1.Enabled = false;
+=======
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
@@ -86,12 +90,16 @@
             this.button1.Size = new System.Drawing.Size(210, 54);
             this.button1.TabIndex = 18;
             this.button1.Text = "Vật tư";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // btn_reload
             // 
             this.btn_reload.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_reload.BackgroundImage")));
+<<<<<<< HEAD
             this.btn_reload.Enabled = false;
+=======
+            this.btn_reload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reload.Image = ((System.Drawing.Image)(resources.GetObject("btn_reload.Image")));
@@ -101,12 +109,16 @@
             this.btn_reload.Size = new System.Drawing.Size(210, 48);
             this.btn_reload.TabIndex = 17;
             this.btn_reload.Text = "Tải lại";
-            this.btn_reload.UseVisualStyleBackColor = true;
+            this.btn_reload.UseVisualStyleBackColor = false;
             // 
             // btn_addeditevent
             // 
             this.btn_addeditevent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditevent.BackgroundImage")));
+<<<<<<< HEAD
             this.btn_addeditevent.Enabled = false;
+=======
+            this.btn_addeditevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_addeditevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditevent.Image = ((System.Drawing.Image)(resources.GetObject("btn_addeditevent.Image")));
@@ -116,12 +128,16 @@
             this.btn_addeditevent.Size = new System.Drawing.Size(210, 58);
             this.btn_addeditevent.TabIndex = 16;
             this.btn_addeditevent.Text = "Sự kiện";
-            this.btn_addeditevent.UseVisualStyleBackColor = true;
+            this.btn_addeditevent.UseVisualStyleBackColor = false;
             // 
             // btn_accountmanagement
             // 
             this.btn_accountmanagement.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_accountmanagement.BackgroundImage")));
+<<<<<<< HEAD
             this.btn_accountmanagement.Enabled = false;
+=======
+            this.btn_accountmanagement.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_accountmanagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_accountmanagement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_accountmanagement.Image = ((System.Drawing.Image)(resources.GetObject("btn_accountmanagement.Image")));
@@ -131,12 +147,16 @@
             this.btn_accountmanagement.Size = new System.Drawing.Size(210, 57);
             this.btn_accountmanagement.TabIndex = 15;
             this.btn_accountmanagement.Text = "Tài khoản";
-            this.btn_accountmanagement.UseVisualStyleBackColor = true;
+            this.btn_accountmanagement.UseVisualStyleBackColor = false;
             // 
             // btn_addeditsalary
             // 
             this.btn_addeditsalary.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditsalary.BackgroundImage")));
+<<<<<<< HEAD
             this.btn_addeditsalary.Enabled = false;
+=======
+            this.btn_addeditsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_addeditsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditsalary.Image = ((System.Drawing.Image)(resources.GetObject("btn_addeditsalary.Image")));
@@ -146,12 +166,17 @@
             this.btn_addeditsalary.Size = new System.Drawing.Size(210, 58);
             this.btn_addeditsalary.TabIndex = 14;
             this.btn_addeditsalary.Text = "Lương";
-            this.btn_addeditsalary.UseVisualStyleBackColor = true;
+            this.btn_addeditsalary.UseVisualStyleBackColor = false;
             // 
             // btn_addeditemployee
             // 
+<<<<<<< HEAD
             this.btn_addeditemployee.BackColor = System.Drawing.Color.White;
             this.btn_addeditemployee.Enabled = false;
+=======
+            this.btn_addeditemployee.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addeditemployee.BackgroundImage")));
+            this.btn_addeditemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_addeditemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeditemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeditemployee.Location = new System.Drawing.Point(2, 251);
@@ -165,8 +190,12 @@
             // btn_calendar
             // 
             this.btn_calendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
             this.btn_calendar.Enabled = false;
             this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+=======
+            this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+>>>>>>> master
             this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_calendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_calendar.Location = new System.Drawing.Point(2, 199);
@@ -175,7 +204,7 @@
             this.btn_calendar.Size = new System.Drawing.Size(210, 57);
             this.btn_calendar.TabIndex = 12;
             this.btn_calendar.Text = "Lịch công tác";
-            this.btn_calendar.UseVisualStyleBackColor = true;
+            this.btn_calendar.UseVisualStyleBackColor = false;
             this.btn_calendar.Click += new System.EventHandler(this.btn_calendar_Click);
             // 
             // label2
@@ -222,7 +251,11 @@
             // 
             // grid_listemployee
             // 
+<<<<<<< HEAD
             this.grid_listemployee.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+=======
+            this.grid_listemployee.BackgroundColor = System.Drawing.Color.Bisque;
+>>>>>>> master
             this.grid_listemployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listemployee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_listemployee.Location = new System.Drawing.Point(210, 136);
