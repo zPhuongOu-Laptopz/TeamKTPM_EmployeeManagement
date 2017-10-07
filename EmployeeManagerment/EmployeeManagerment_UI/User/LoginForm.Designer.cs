@@ -30,7 +30,6 @@
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.cbremember = new System.Windows.Forms.CheckBox();
             this.tbpassword = new System.Windows.Forms.TextBox();
             this.tbusername = new System.Windows.Forms.TextBox();
@@ -38,55 +37,44 @@
             this.btnexit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.comboBox1.BackColor = System.Drawing.Color.SkyBlue;
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(326, 341);
+            this.comboBox1.Location = new System.Drawing.Point(332, 341);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(142, 21);
+            this.comboBox1.Size = new System.Drawing.Size(136, 21);
             this.comboBox1.TabIndex = 22;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(199, 288);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 16);
+            this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 19;
             this.label2.Text = "Password";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(199, 230);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 16);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Username";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // cbremember
             // 
             this.cbremember.AutoSize = true;
-            this.cbremember.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.cbremember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbremember.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbremember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbremember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbremember.Location = new System.Drawing.Point(198, 342);
             this.cbremember.Name = "cbremember";
-            this.cbremember.Size = new System.Drawing.Size(117, 20);
+            this.cbremember.Size = new System.Drawing.Size(128, 20);
             this.cbremember.TabIndex = 17;
             this.cbremember.Text = "Remember me";
             this.cbremember.UseVisualStyleBackColor = false;
@@ -94,10 +82,10 @@
             // tbpassword
             // 
             this.tbpassword.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.tbpassword.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tbpassword.BackColor = System.Drawing.Color.PowderBlue;
             this.tbpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbpassword.Font = new System.Drawing.Font("Myriad Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tbpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.tbpassword.Location = new System.Drawing.Point(198, 303);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.PasswordChar = '*';
@@ -107,10 +95,10 @@
             // tbusername
             // 
             this.tbusername.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.tbusername.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tbusername.BackColor = System.Drawing.Color.PowderBlue;
             this.tbusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbusername.Font = new System.Drawing.Font("Myriad Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tbusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.tbusername.Location = new System.Drawing.Point(198, 245);
             this.tbusername.Name = "tbusername";
             this.tbusername.Size = new System.Drawing.Size(270, 27);
@@ -129,13 +117,13 @@
             // btnexit
             // 
             this.btnexit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_exit_small_01;
-            this.btnexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnexit.Location = new System.Drawing.Point(335, 385);
+            this.btnexit.Location = new System.Drawing.Point(335, 388);
             this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(113, 42);
+            this.btnexit.Size = new System.Drawing.Size(107, 39);
             this.btnexit.TabIndex = 20;
             this.btnexit.UseVisualStyleBackColor = true;
             // 
@@ -153,15 +141,28 @@
             // button1
             // 
             this.button1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_login_01;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(208, 385);
+            this.button1.Location = new System.Drawing.Point(208, 388);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 42);
+            this.button1.Size = new System.Drawing.Size(107, 39);
             this.button1.TabIndex = 24;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(199, 230);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 16);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Username";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // LoginForm
             // 
@@ -197,11 +198,11 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox cbremember;
         private System.Windows.Forms.TextBox tbpassword;
         private System.Windows.Forms.TextBox tbusername;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
