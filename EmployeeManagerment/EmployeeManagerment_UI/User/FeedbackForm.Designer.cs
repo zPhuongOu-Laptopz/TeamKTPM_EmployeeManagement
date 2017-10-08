@@ -211,7 +211,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezxc_01;
+            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.fb_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(1, 0);
             this.pictureBox3.Name = "pictureBox3";

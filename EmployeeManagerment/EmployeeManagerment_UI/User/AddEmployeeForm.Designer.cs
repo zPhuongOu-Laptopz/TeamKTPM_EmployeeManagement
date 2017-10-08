@@ -116,25 +116,25 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 123);
+            this.panel1.Size = new System.Drawing.Size(861, 130);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(0, 123);
+            this.pictureBox4.Location = new System.Drawing.Point(0, 130);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(191, 392);
+            this.pictureBox4.Size = new System.Drawing.Size(191, 385);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezzz_01;
+            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.ae_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(843, 130);
+            this.pictureBox3.Size = new System.Drawing.Size(861, 130);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -153,11 +153,11 @@
             this.tabControl1.Controls.Add(this.tab_note);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Right;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(182, 123);
+            this.tabControl1.Location = new System.Drawing.Point(182, 130);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(679, 484);
+            this.tabControl1.Size = new System.Drawing.Size(679, 477);
             this.tabControl1.TabIndex = 38;
             // 
             // tab_infomation
@@ -205,7 +205,7 @@
             this.tab_infomation.Location = new System.Drawing.Point(4, 33);
             this.tab_infomation.Margin = new System.Windows.Forms.Padding(2);
             this.tab_infomation.Name = "tab_infomation";
-            this.tab_infomation.Size = new System.Drawing.Size(671, 447);
+            this.tab_infomation.Size = new System.Drawing.Size(671, 440);
             this.tab_infomation.TabIndex = 0;
             this.tab_infomation.Text = "Thông tin";
             this.tab_infomation.UseVisualStyleBackColor = true;
@@ -236,6 +236,7 @@
             // 
             this.txt_household.BackColor = System.Drawing.Color.White;
             this.txt_household.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_household.ForeColor = System.Drawing.Color.Black;
             this.txt_household.Location = new System.Drawing.Point(162, 296);
             this.txt_household.Margin = new System.Windows.Forms.Padding(2);
             this.txt_household.Name = "txt_household";
@@ -259,6 +260,7 @@
             this.cbb_placecreateic.BackColor = System.Drawing.Color.PowderBlue;
             this.cbb_placecreateic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_placecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_placecreateic.ForeColor = System.Drawing.Color.Black;
             this.cbb_placecreateic.FormattingEnabled = true;
             this.cbb_placecreateic.Items.AddRange(new object[] {
             "An Giang",
@@ -334,6 +336,7 @@
             // 
             this.txt_shownumericalorder.BackColor = System.Drawing.Color.White;
             this.txt_shownumericalorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_shownumericalorder.ForeColor = System.Drawing.Color.Black;
             this.txt_shownumericalorder.Location = new System.Drawing.Point(162, 13);
             this.txt_shownumericalorder.Name = "txt_shownumericalorder";
             this.txt_shownumericalorder.ReadOnly = true;
@@ -379,6 +382,7 @@
             // 
             this.txt_basicsalary.BackColor = System.Drawing.Color.White;
             this.txt_basicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_basicsalary.ForeColor = System.Drawing.Color.Black;
             this.txt_basicsalary.Location = new System.Drawing.Point(481, 224);
             this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2);
             this.txt_basicsalary.Name = "txt_basicsalary";
@@ -401,6 +405,7 @@
             // 
             this.txt_department.BackColor = System.Drawing.Color.White;
             this.txt_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_department.ForeColor = System.Drawing.Color.Black;
             this.txt_department.Location = new System.Drawing.Point(481, 188);
             this.txt_department.Margin = new System.Windows.Forms.Padding(2);
             this.txt_department.Name = "txt_department";
@@ -423,6 +428,7 @@
             // 
             this.txt_position.BackColor = System.Drawing.Color.White;
             this.txt_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_position.ForeColor = System.Drawing.Color.Black;
             this.txt_position.Location = new System.Drawing.Point(481, 153);
             this.txt_position.Margin = new System.Windows.Forms.Padding(2);
             this.txt_position.Name = "txt_position";
@@ -455,6 +461,7 @@
             // 
             this.txt_educationlvl.BackColor = System.Drawing.Color.White;
             this.txt_educationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_educationlvl.ForeColor = System.Drawing.Color.Black;
             this.txt_educationlvl.Location = new System.Drawing.Point(481, 117);
             this.txt_educationlvl.Margin = new System.Windows.Forms.Padding(2);
             this.txt_educationlvl.Name = "txt_educationlvl";
@@ -501,6 +508,7 @@
             // 
             this.txt_ic.BackColor = System.Drawing.Color.White;
             this.txt_ic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ic.ForeColor = System.Drawing.Color.Black;
             this.txt_ic.Location = new System.Drawing.Point(481, 10);
             this.txt_ic.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ic.Name = "txt_ic";
@@ -523,6 +531,7 @@
             // 
             this.txt_hometown.BackColor = System.Drawing.Color.White;
             this.txt_hometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_hometown.ForeColor = System.Drawing.Color.Black;
             this.txt_hometown.Location = new System.Drawing.Point(162, 260);
             this.txt_hometown.Margin = new System.Windows.Forms.Padding(2);
             this.txt_hometown.Name = "txt_hometown";
@@ -545,6 +554,7 @@
             // 
             this.txt_email.BackColor = System.Drawing.Color.White;
             this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_email.ForeColor = System.Drawing.Color.Black;
             this.txt_email.Location = new System.Drawing.Point(162, 224);
             this.txt_email.Margin = new System.Windows.Forms.Padding(2);
             this.txt_email.Name = "txt_email";
@@ -567,6 +577,7 @@
             // 
             this.txt_phonenumber.BackColor = System.Drawing.Color.White;
             this.txt_phonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_phonenumber.ForeColor = System.Drawing.Color.Black;
             this.txt_phonenumber.Location = new System.Drawing.Point(162, 188);
             this.txt_phonenumber.Margin = new System.Windows.Forms.Padding(2);
             this.txt_phonenumber.Name = "txt_phonenumber";
@@ -590,6 +601,7 @@
             this.cbb_sex.BackColor = System.Drawing.Color.PowderBlue;
             this.cbb_sex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_sex.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_sex.ForeColor = System.Drawing.Color.Black;
             this.cbb_sex.FormattingEnabled = true;
             this.cbb_sex.Items.AddRange(new object[] {
             "Nam",
@@ -640,6 +652,7 @@
             // 
             this.txt_firstname.BackColor = System.Drawing.Color.White;
             this.txt_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_firstname.ForeColor = System.Drawing.Color.Black;
             this.txt_firstname.Location = new System.Drawing.Point(162, 81);
             this.txt_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_firstname.Name = "txt_firstname";
@@ -662,6 +675,7 @@
             // 
             this.txt_lastname.BackColor = System.Drawing.Color.White;
             this.txt_lastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_lastname.ForeColor = System.Drawing.Color.Black;
             this.txt_lastname.Location = new System.Drawing.Point(162, 45);
             this.txt_lastname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_lastname.Name = "txt_lastname";
@@ -725,7 +739,7 @@
             this.tab_address.Location = new System.Drawing.Point(4, 33);
             this.tab_address.Margin = new System.Windows.Forms.Padding(2);
             this.tab_address.Name = "tab_address";
-            this.tab_address.Size = new System.Drawing.Size(649, 355);
+            this.tab_address.Size = new System.Drawing.Size(671, 440);
             this.tab_address.TabIndex = 1;
             this.tab_address.Text = "Địa chỉ thường trú";
             this.tab_address.UseVisualStyleBackColor = true;
@@ -955,7 +969,7 @@
             this.tab_note.Location = new System.Drawing.Point(4, 33);
             this.tab_note.Margin = new System.Windows.Forms.Padding(2);
             this.tab_note.Name = "tab_note";
-            this.tab_note.Size = new System.Drawing.Size(649, 355);
+            this.tab_note.Size = new System.Drawing.Size(671, 440);
             this.tab_note.TabIndex = 2;
             this.tab_note.Text = "Ghi chú";
             this.tab_note.UseVisualStyleBackColor = true;
@@ -967,7 +981,7 @@
             this.rtxt_note.Location = new System.Drawing.Point(0, 0);
             this.rtxt_note.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_note.Name = "rtxt_note";
-            this.rtxt_note.Size = new System.Drawing.Size(649, 355);
+            this.rtxt_note.Size = new System.Drawing.Size(671, 440);
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 

@@ -115,9 +115,9 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezxcvx_01;
+            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.ee_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(1, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(860, 130);
             this.pictureBox3.TabIndex = 37;
@@ -696,7 +696,7 @@
             this.tab_address.Location = new System.Drawing.Point(4, 33);
             this.tab_address.Margin = new System.Windows.Forms.Padding(2);
             this.tab_address.Name = "tab_address";
-            this.tab_address.Size = new System.Drawing.Size(646, 347);
+            this.tab_address.Size = new System.Drawing.Size(662, 439);
             this.tab_address.TabIndex = 1;
             this.tab_address.Text = "Địa chỉ thường trú";
             this.tab_address.UseVisualStyleBackColor = true;
@@ -926,7 +926,7 @@
             this.tab_note.Location = new System.Drawing.Point(4, 33);
             this.tab_note.Margin = new System.Windows.Forms.Padding(2);
             this.tab_note.Name = "tab_note";
-            this.tab_note.Size = new System.Drawing.Size(646, 347);
+            this.tab_note.Size = new System.Drawing.Size(662, 439);
             this.tab_note.TabIndex = 2;
             this.tab_note.Text = "Ghi chú";
             this.tab_note.UseVisualStyleBackColor = true;
@@ -938,7 +938,7 @@
             this.rtxt_note.Location = new System.Drawing.Point(0, 0);
             this.rtxt_note.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_note.Name = "rtxt_note";
-            this.rtxt_note.Size = new System.Drawing.Size(646, 347);
+            this.rtxt_note.Size = new System.Drawing.Size(662, 439);
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
@@ -986,9 +986,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Tomato;
             this.pictureBox2.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(-4, -10);
+            this.pictureBox2.Location = new System.Drawing.Point(-4, 131);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(206, 617);
+            this.pictureBox2.Size = new System.Drawing.Size(196, 476);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;

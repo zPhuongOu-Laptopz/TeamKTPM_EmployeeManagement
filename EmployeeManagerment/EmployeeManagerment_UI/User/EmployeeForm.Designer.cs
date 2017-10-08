@@ -671,7 +671,7 @@
             this.tab_address.Location = new System.Drawing.Point(4, 33);
             this.tab_address.Margin = new System.Windows.Forms.Padding(2);
             this.tab_address.Name = "tab_address";
-            this.tab_address.Size = new System.Drawing.Size(646, 348);
+            this.tab_address.Size = new System.Drawing.Size(662, 440);
             this.tab_address.TabIndex = 1;
             this.tab_address.Text = "Địa chỉ thường trú";
             this.tab_address.UseVisualStyleBackColor = true;
@@ -838,7 +838,7 @@
             this.tab_note.Location = new System.Drawing.Point(4, 33);
             this.tab_note.Margin = new System.Windows.Forms.Padding(2);
             this.tab_note.Name = "tab_note";
-            this.tab_note.Size = new System.Drawing.Size(646, 348);
+            this.tab_note.Size = new System.Drawing.Size(662, 440);
             this.tab_note.TabIndex = 2;
             this.tab_note.Text = "Ghi chú";
             this.tab_note.UseVisualStyleBackColor = true;
@@ -852,7 +852,7 @@
             this.rtxt_note.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_note.Name = "rtxt_note";
             this.rtxt_note.ReadOnly = true;
-            this.rtxt_note.Size = new System.Drawing.Size(646, 348);
+            this.rtxt_note.Size = new System.Drawing.Size(662, 440);
             this.rtxt_note.TabIndex = 0;
             this.rtxt_note.Text = "";
             // 
@@ -876,11 +876,11 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanynamezz_01;
+            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.e_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(843, 130);
+            this.pictureBox3.Size = new System.Drawing.Size(861, 130);
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 

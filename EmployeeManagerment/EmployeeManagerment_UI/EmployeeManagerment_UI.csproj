@@ -242,6 +242,66 @@
   <ItemGroup>
     <None Include="Resources\header conpanynamezxcvx-01.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header conpanyname121212-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca-012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vattu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tailai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desgn by -01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desgn by -01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design by -01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header conpanynamez-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header conpanynamezz-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\em-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ee-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e-01.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

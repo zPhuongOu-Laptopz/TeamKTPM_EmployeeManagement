@@ -50,5 +50,10 @@ namespace EmployeeManagerment_UI.User
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
