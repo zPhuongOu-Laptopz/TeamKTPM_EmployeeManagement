@@ -83,6 +83,12 @@
     <Compile Include="User\AddEmployeeForm.Designer.cs">
       <DependentUpon>AddEmployeeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="User\ContractForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\ContractForm.Designer.cs">
+      <DependentUpon>ContractForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\EditEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     </Compile>
     <Compile Include="User\EmployeeForm.Designer.cs">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\EventForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\EventForm.Designer.cs">
+      <DependentUpon>EventForm.cs</DependentUpon>
     </Compile>
     <Compile Include="User\FeedbackForm.cs">
       <SubType>Form</SubType>
@@ -113,6 +125,12 @@
     <Compile Include="User\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="User\SuppliesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\SuppliesForm.Designer.cs">
+      <DependentUpon>SuppliesForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,11 +147,17 @@
     <EmbeddedResource Include="User\AddEmployeeForm.resx">
       <DependentUpon>AddEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User\ContractForm.resx">
+      <DependentUpon>ContractForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User\EditEmployeeForm.resx">
       <DependentUpon>EditEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\EmployeeForm.resx">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\EventForm.resx">
+      <DependentUpon>EventForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\FeedbackForm.resx">
       <DependentUpon>FeedbackForm.cs</DependentUpon>
@@ -143,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\SuppliesForm.resx">
+      <DependentUpon>SuppliesForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
