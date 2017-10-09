@@ -16,12 +16,12 @@ namespace EmployeeManagerment_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new User.LoginForm());
-            Application.Run(new User.FeedbackForm());
-            Application.Run(new User.MainForm());
-            Application.Run(new User.AddEmployeeForm());            
+           // Application.Run(new User.LoginForm());
+           // Application.Run(new User.FeedbackForm());
+           // Application.Run(new User.MainForm());
+           // Application.Run(new User.AddEmployeeForm());            
             Application.Run(new User.EmployeeForm());    
-            Application.Run(new User.EditEmployeeForm());
+           // Application.Run(new User.EditEmployeeForm());
         }
     }
 }

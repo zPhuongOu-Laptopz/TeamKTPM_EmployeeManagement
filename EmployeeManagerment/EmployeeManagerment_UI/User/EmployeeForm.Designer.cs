@@ -93,6 +93,7 @@
             this.btn_deleteemployee = new System.Windows.Forms.Button();
             this.btn_editemployee = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ptb_image = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
@@ -102,6 +103,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -900,7 +902,7 @@
             this.btn_addemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addemployee.Image = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
-            this.btn_addemployee.Location = new System.Drawing.Point(-1, 130);
+            this.btn_addemployee.Location = new System.Drawing.Point(-1, 309);
             this.btn_addemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addemployee.Name = "btn_addemployee";
             this.btn_addemployee.Size = new System.Drawing.Size(191, 50);
@@ -913,7 +915,7 @@
             this.btn_deleteemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deleteemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_deleteemployee.Image = global::EmployeeManagerment_UI.Properties.Resources.xoabtn_01;
-            this.btn_deleteemployee.Location = new System.Drawing.Point(-1, 180);
+            this.btn_deleteemployee.Location = new System.Drawing.Point(-1, 359);
             this.btn_deleteemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_deleteemployee.Name = "btn_deleteemployee";
             this.btn_deleteemployee.Size = new System.Drawing.Size(191, 50);
@@ -926,7 +928,7 @@
             this.btn_editemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_editemployee.Image = global::EmployeeManagerment_UI.Properties.Resources.suabtn_01;
-            this.btn_editemployee.Location = new System.Drawing.Point(-1, 231);
+            this.btn_editemployee.Location = new System.Drawing.Point(-1, 410);
             this.btn_editemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_editemployee.Name = "btn_editemployee";
             this.btn_editemployee.Size = new System.Drawing.Size(191, 50);
@@ -945,12 +947,22 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
+            // ptb_image
+            // 
+            this.ptb_image.Location = new System.Drawing.Point(24, 140);
+            this.ptb_image.Name = "ptb_image";
+            this.ptb_image.Size = new System.Drawing.Size(145, 153);
+            this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptb_image.TabIndex = 40;
+            this.ptb_image.TabStop = false;
+            // 
             // EmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.ClientSize = new System.Drawing.Size(861, 607);
+            this.Controls.Add(this.ptb_image);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_addemployee);
             this.Controls.Add(this.btn_deleteemployee);
@@ -976,6 +988,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_image)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1046,5 +1059,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.TextBox txt_showlastname;
+        private System.Windows.Forms.PictureBox ptb_image;
     }
 }
