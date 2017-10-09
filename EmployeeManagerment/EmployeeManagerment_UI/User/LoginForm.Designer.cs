@@ -54,17 +54,10 @@
             "Kế toán",
             "Trưởng Nhân Sự",
             "Nhân Sự"});
-<<<<<<< HEAD
-            this.comboBox1.Location = new System.Drawing.Point(422, 348);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 21);
-            this.comboBox1.TabIndex = 22;
-=======
-            this.cbbdepartment.Location = new System.Drawing.Point(335, 341);
+            this.cbbdepartment.Location = new System.Drawing.Point(431, 346);
             this.cbbdepartment.Name = "cbbdepartment";
             this.cbbdepartment.Size = new System.Drawing.Size(133, 23);
             this.cbbdepartment.TabIndex = 22;
->>>>>>> master
             // 
             // label2
             // 
@@ -93,33 +86,6 @@
             this.cbremember.TabIndex = 17;
             this.cbremember.Text = "Show";
             this.cbremember.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
-            // 
-            // tbpassword
-            // 
-            this.tbpassword.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.tbpassword.BackColor = System.Drawing.Color.PowderBlue;
-            this.tbpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tbpassword.Location = new System.Drawing.Point(294, 310);
-            this.tbpassword.Name = "tbpassword";
-            this.tbpassword.PasswordChar = '*';
-            this.tbpassword.Size = new System.Drawing.Size(270, 26);
-            this.tbpassword.TabIndex = 15;
-            // 
-            // tbusername
-            // 
-            this.tbusername.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.tbusername.BackColor = System.Drawing.Color.PowderBlue;
-            this.tbusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tbusername.Location = new System.Drawing.Point(294, 252);
-            this.tbusername.Name = "tbusername";
-            this.tbusername.Size = new System.Drawing.Size(270, 26);
-            this.tbusername.TabIndex = 14;
-=======
             this.cbremember.CheckedChanged += new System.EventHandler(this.cbremember_CheckedChanged);
             // 
             // txtpassword
@@ -129,7 +95,7 @@
             this.txtpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtpassword.Location = new System.Drawing.Point(198, 303);
+            this.txtpassword.Location = new System.Drawing.Point(294, 309);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(270, 26);
             this.txtpassword.TabIndex = 15;
@@ -141,11 +107,10 @@
             this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtusername.Location = new System.Drawing.Point(198, 245);
+            this.txtusername.Location = new System.Drawing.Point(294, 256);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(270, 26);
             this.txtusername.TabIndex = 14;
->>>>>>> master
             // 
             // pictureBox2
             // 
@@ -164,7 +129,7 @@
             this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnexit.Location = new System.Drawing.Point(431, 395);
+            this.btnexit.Location = new System.Drawing.Point(447, 388);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(107, 39);
             this.btnexit.TabIndex = 20;
@@ -183,30 +148,17 @@
             // 
             // bntlogin
             // 
-<<<<<<< HEAD
-            this.button1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_login_01;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(304, 395);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 39);
-            this.button1.TabIndex = 24;
-            this.button1.UseVisualStyleBackColor = true;
-=======
             this.bntlogin.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.icon_login_01;
             this.bntlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bntlogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bntlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntlogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.bntlogin.Location = new System.Drawing.Point(208, 388);
+            this.bntlogin.Location = new System.Drawing.Point(304, 388);
             this.bntlogin.Name = "bntlogin";
             this.bntlogin.Size = new System.Drawing.Size(107, 39);
             this.bntlogin.TabIndex = 24;
             this.bntlogin.UseVisualStyleBackColor = true;
             this.bntlogin.Click += new System.EventHandler(this.bntlogin_Click);
->>>>>>> master
             // 
             // label1
             // 
@@ -214,7 +166,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(295, 237);
+            this.label1.Location = new System.Drawing.Point(295, 246);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 16);
             this.label1.TabIndex = 18;
@@ -227,15 +179,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources._73287_ODYKTA_216_011;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-=======
             this.ClientSize = new System.Drawing.Size(660, 515);
             this.Controls.Add(this.bntlogin);
             this.Controls.Add(this.cbbdepartment);
->>>>>>> master
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.label2);

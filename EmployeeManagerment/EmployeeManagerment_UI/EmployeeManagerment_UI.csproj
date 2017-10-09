@@ -258,7 +258,6 @@
     <None Include="Resources\h-01.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="Resources\header conpanynamezxc-01.png" />
   </ItemGroup>
   <ItemGroup>
@@ -329,12 +328,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\e-01.png" />
-=======
     <ProjectReference Include="..\EmployeeManagement_Service\EmployeeManagement_Service.csproj">
       <Project>{710c363c-ae13-459f-bb45-37b73f06980d}</Project>
       <Name>EmployeeManagement_Service</Name>
     </ProjectReference>
->>>>>>> master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
