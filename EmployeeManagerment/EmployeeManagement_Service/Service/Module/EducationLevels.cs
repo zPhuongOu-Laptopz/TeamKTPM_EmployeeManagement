@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement_Service.Service
+namespace EmployeeManagement_Service.Service.Module
 {
-    class Class1
+    class EducationLevels
     {
     }
 }

@@ -30,8 +30,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,12 +52,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basic\Class1.cs" />
-    <Compile Include="InterfaceEx\Class1.cs" />
-    <Compile Include="ModelDBContext\Class1.cs" />
+    <Compile Include="ModelDBContext\EmployeeManagementDBContext.cs" />
+    <Compile Include="ModelDBContext\PdbAccount.cs" />
+    <Compile Include="ModelDBContext\PdbContract.cs" />
+    <Compile Include="ModelDBContext\PdbEducationLevel.cs" />
+    <Compile Include="ModelDBContext\PdbEvent.cs" />
+    <Compile Include="ModelDBContext\PdbSalary.cs" />
+    <Compile Include="ModelDBContext\PdbStaff.cs" />
+    <Compile Include="ModelDBContext\PdbStaffEvent.cs" />
+    <Compile Include="ModelDBContext\PdbSupply.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\Class1.cs" />
+    <Compile Include="Service\Basic\Functions\UserLogins.cs" />
+    <Compile Include="Service\Basic\Notification\ErrorNotification.cs" />
+    <Compile Include="Service\Basic\Notification\SuccessfulNotification.cs" />
+    <Compile Include="Service\Module\Accounts.cs" />
+    <Compile Include="Service\Module\Contracts.cs" />
+    <Compile Include="Service\Module\EducationLevels.cs" />
+    <Compile Include="Service\Module\Events.cs" />
+    <Compile Include="Service\Module\Salary.cs" />
+    <Compile Include="Service\Module\Staffs.cs" />
+    <Compile Include="Service\Module\Supplies.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
