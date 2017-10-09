@@ -35,16 +35,17 @@ namespace EmployeeManagerment_UI.User
         //Button for login
         private void bntlogin_Click(object sender, EventArgs e)
         {
-            PdbAccount ac = new EmployeeManagement_Service.Service.Basic.Functions.UserLogins { }.CheckLogin(txtusername.ToString(),txtpassword.ToString(),cbbdepartment.ToString());
-            if (ac != null)
-            {
-                MainForm mainform = new MainForm();
-                this.Visible = true;
-                mainform.ShowDialog();
-                txtusername.Text = "";
-                txtpassword.Text = "";
-                this.Visible = false;
-            }
+            MessageBox.Show("Hello World!");
+            PdbAccount ac = new EmployeeManagement_Service.Service.Basic.Functions.UserLogins { }.CheckLogin(txtusername.Text,txtpassword.Text,cbbdepartment.Text);
+            //if (ac != null)
+            //{
+            //    MainForm mainform = new MainForm();
+            //    this.Visible = true;
+            //    mainform.ShowDialog();
+            //    txtusername.Text = "";
+            //    txtpassword.Text = "";
+            //    this.Visible = false;
+            //}
         }
     }
 }
