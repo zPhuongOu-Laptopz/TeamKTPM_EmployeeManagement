@@ -94,7 +94,7 @@
             this.btn_ok = new System.Windows.Forms.Button();
             this.btn_addimage = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bt_backaddemployee = new System.Windows.Forms.Button();
+            this.btn_backaddemployee = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1053,16 +1053,16 @@
             this.pictureBox5.TabIndex = 40;
             this.pictureBox5.TabStop = false;
             // 
-            // bt_backaddemployee
+            // btn_backaddemployee
             // 
-            this.bt_backaddemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
-            this.bt_backaddemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_backaddemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_backaddemployee.Location = new System.Drawing.Point(-4, 520);
-            this.bt_backaddemployee.Name = "bt_backaddemployee";
-            this.bt_backaddemployee.Size = new System.Drawing.Size(186, 48);
-            this.bt_backaddemployee.TabIndex = 41;
-            this.bt_backaddemployee.UseVisualStyleBackColor = true;
+            this.btn_backaddemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backaddemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backaddemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backaddemployee.Location = new System.Drawing.Point(-4, 520);
+            this.btn_backaddemployee.Name = "btn_backaddemployee";
+            this.btn_backaddemployee.Size = new System.Drawing.Size(186, 48);
+            this.btn_backaddemployee.TabIndex = 41;
+            this.btn_backaddemployee.UseVisualStyleBackColor = true;
             // 
             // AddEmployeeForm
             // 
@@ -1071,7 +1071,7 @@
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.bt_backaddemployee);
+            this.Controls.Add(this.btn_backaddemployee);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_addimage);
@@ -1170,6 +1170,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button bt_backaddemployee;
+        private System.Windows.Forms.Button btn_backaddemployee;
     }
 }

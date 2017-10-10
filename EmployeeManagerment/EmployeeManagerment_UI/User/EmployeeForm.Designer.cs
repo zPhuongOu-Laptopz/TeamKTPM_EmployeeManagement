@@ -94,7 +94,7 @@
             this.btn_editemployee = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ptb_image = new System.Windows.Forms.PictureBox();
-            this.bt_backemployee = new System.Windows.Forms.Button();
+            this.btn_backemployee = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tab_infomation.SuspendLayout();
             this.tab_address.SuspendLayout();
@@ -900,16 +900,16 @@
             this.ptb_image.TabIndex = 40;
             this.ptb_image.TabStop = false;
             // 
-            // bt_backemployee
+            // btn_backemployee
             // 
-            this.bt_backemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
-            this.bt_backemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_backemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_backemployee.Location = new System.Drawing.Point(-4, 520);
-            this.bt_backemployee.Name = "bt_backemployee";
-            this.bt_backemployee.Size = new System.Drawing.Size(195, 48);
-            this.bt_backemployee.TabIndex = 61;
-            this.bt_backemployee.UseVisualStyleBackColor = true;
+            this.btn_backemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backemployee.Location = new System.Drawing.Point(-4, 520);
+            this.btn_backemployee.Name = "btn_backemployee";
+            this.btn_backemployee.Size = new System.Drawing.Size(195, 48);
+            this.btn_backemployee.TabIndex = 61;
+            this.btn_backemployee.UseVisualStyleBackColor = true;
             // 
             // EmployeeForm
             // 
@@ -917,7 +917,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.bt_backemployee);
+            this.Controls.Add(this.btn_backemployee);
             this.Controls.Add(this.ptb_image);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_addemployee);
@@ -1016,6 +1016,6 @@
         private System.Windows.Forms.Label lb_placecreateic;
         private System.Windows.Forms.Label lb_datecreateic;
         private System.Windows.Forms.Label lb_ic;
-        private System.Windows.Forms.Button bt_backemployee;
+        private System.Windows.Forms.Button btn_backemployee;
     }
 }

@@ -92,7 +92,7 @@
             this.btn_ok = new System.Windows.Forms.Button();
             this.ptb_showimage = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bt_backeditemployee = new System.Windows.Forms.Button();
+            this.btn_backeditemployee = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -994,16 +994,16 @@
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 
-            // bt_backeditemployee
+            // btn_backeditemployee
             // 
-            this.bt_backeditemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
-            this.bt_backeditemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_backeditemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_backeditemployee.Location = new System.Drawing.Point(-4, 520);
-            this.bt_backeditemployee.Name = "bt_backeditemployee";
-            this.bt_backeditemployee.Size = new System.Drawing.Size(195, 48);
-            this.bt_backeditemployee.TabIndex = 43;
-            this.bt_backeditemployee.UseVisualStyleBackColor = true;
+            this.btn_backeditemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backeditemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backeditemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backeditemployee.Location = new System.Drawing.Point(-4, 520);
+            this.btn_backeditemployee.Name = "btn_backeditemployee";
+            this.btn_backeditemployee.Size = new System.Drawing.Size(195, 48);
+            this.btn_backeditemployee.TabIndex = 43;
+            this.btn_backeditemployee.UseVisualStyleBackColor = true;
             // 
             // EditEmployeeForm
             // 
@@ -1012,7 +1012,7 @@
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.bt_backeditemployee);
+            this.Controls.Add(this.btn_backeditemployee);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_ok);
@@ -1106,6 +1106,6 @@
         private System.Windows.Forms.Button btn_ok;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button bt_backeditemployee;
+        private System.Windows.Forms.Button btn_backeditemployee;
     }
 }

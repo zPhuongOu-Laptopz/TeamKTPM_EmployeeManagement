@@ -59,7 +59,7 @@
             this.btn_reloadevent = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bt_backevent = new System.Windows.Forms.Button();
+            this.btn_backevent = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tab_eventcontent.SuspendLayout();
@@ -461,16 +461,16 @@
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
             // 
-            // bt_backevent
+            // btn_backevent
             // 
-            this.bt_backevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
-            this.bt_backevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_backevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_backevent.Location = new System.Drawing.Point(1, 520);
-            this.bt_backevent.Name = "bt_backevent";
-            this.bt_backevent.Size = new System.Drawing.Size(195, 48);
-            this.bt_backevent.TabIndex = 43;
-            this.bt_backevent.UseVisualStyleBackColor = true;
+            this.btn_backevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backevent.Location = new System.Drawing.Point(1, 520);
+            this.btn_backevent.Name = "btn_backevent";
+            this.btn_backevent.Size = new System.Drawing.Size(195, 48);
+            this.btn_backevent.TabIndex = 43;
+            this.btn_backevent.UseVisualStyleBackColor = true;
             // 
             // EventForm
             // 
@@ -479,7 +479,7 @@
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.bt_backevent);
+            this.Controls.Add(this.btn_backevent);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_reloadevent);
             this.Controls.Add(this.panel1);
@@ -540,6 +540,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tab_eventcontent;
         private System.Windows.Forms.RichTextBox rtxt_eventcontent;
-        private System.Windows.Forms.Button bt_backevent;
+        private System.Windows.Forms.Button btn_backevent;
     }
 }

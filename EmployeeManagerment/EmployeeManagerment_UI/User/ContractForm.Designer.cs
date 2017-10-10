@@ -55,7 +55,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.dtp_signdate = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_backcontract = new System.Windows.Forms.Button();
+            this.btn_backcontract = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grid_listcontract)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -415,16 +415,16 @@
             this.panel1.Size = new System.Drawing.Size(666, 476);
             this.panel1.TabIndex = 1;
             // 
-            // bt_backcontract
+            // btn_backcontract
             // 
-            this.bt_backcontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
-            this.bt_backcontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_backcontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_backcontract.Location = new System.Drawing.Point(0, 520);
-            this.bt_backcontract.Name = "bt_backcontract";
-            this.bt_backcontract.Size = new System.Drawing.Size(195, 48);
-            this.bt_backcontract.TabIndex = 42;
-            this.bt_backcontract.UseVisualStyleBackColor = true;
+            this.btn_backcontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backcontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backcontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backcontract.Location = new System.Drawing.Point(0, 520);
+            this.btn_backcontract.Name = "btn_backcontract";
+            this.btn_backcontract.Size = new System.Drawing.Size(195, 48);
+            this.btn_backcontract.TabIndex = 42;
+            this.btn_backcontract.UseVisualStyleBackColor = true;
             // 
             // ContractForm
             // 
@@ -433,7 +433,7 @@
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.bt_backcontract);
+            this.Controls.Add(this.btn_backcontract);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_reloadcontract);
             this.Controls.Add(this.btn_editcontract);
@@ -489,6 +489,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dtp_signdate;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button bt_backcontract;
+        private System.Windows.Forms.Button btn_backcontract;
     }
 }
