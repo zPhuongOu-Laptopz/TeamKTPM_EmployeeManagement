@@ -21,5 +21,24 @@ namespace EmployeeManagerment_UI.User
         {
 
         }
+
+        private void btn_addimage_Click(object sender, EventArgs e)
+        {
+            //try
+            //{
+            //    openFileDialog1.ShowDialog();
+            //    string file = openFileDialog1.FileName;
+            //    if (string.IsNullOrEmpty(file))
+            //    {
+            //        return;
+            //    }
+            //    Image myI = Image.FromFile(file);
+            //    pic3_.Image = myI;
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Bạn chưa chọn hình !!!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+        }
     }
 }

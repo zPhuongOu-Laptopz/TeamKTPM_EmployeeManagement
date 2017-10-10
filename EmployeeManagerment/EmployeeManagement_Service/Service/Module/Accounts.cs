@@ -64,15 +64,6 @@ namespace EmployeeManagement_Service.Service.Module
     }
 }
 
-
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-//using LibraryDBContext.DBContext;
-//using LibraryDBContext.InterfaceEx;
-
 //namespace LibraryDBContext.Repositories
 //{
 //    public class Admins : IAdmins

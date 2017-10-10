@@ -1038,6 +1038,7 @@
             this.btn_addimage.Size = new System.Drawing.Size(186, 48);
             this.btn_addimage.TabIndex = 18;
             this.btn_addimage.UseVisualStyleBackColor = true;
+            this.btn_addimage.Click += new System.EventHandler(this.btn_addimage_Click);
             // 
             // pictureBox5
             // 
