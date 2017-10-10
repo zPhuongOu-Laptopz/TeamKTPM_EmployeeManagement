@@ -54,7 +54,7 @@
             "Kế toán",
             "Trưởng Nhân Sự",
             "Nhân Sự"});
-            this.cbbdepartment.Location = new System.Drawing.Point(431, 346);
+            this.cbbdepartment.Location = new System.Drawing.Point(335, 306);
             this.cbbdepartment.Name = "cbbdepartment";
             this.cbbdepartment.Size = new System.Drawing.Size(133, 23);
             this.cbbdepartment.TabIndex = 22;
@@ -65,7 +65,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(295, 295);
+            this.label2.Location = new System.Drawing.Point(199, 255);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 19;
@@ -80,7 +80,7 @@
             this.cbremember.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbremember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbremember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.cbremember.Location = new System.Drawing.Point(294, 349);
+            this.cbremember.Location = new System.Drawing.Point(198, 309);
             this.cbremember.Name = "cbremember";
             this.cbremember.Size = new System.Drawing.Size(64, 20);
             this.cbremember.TabIndex = 17;
@@ -95,7 +95,7 @@
             this.txtpassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtpassword.Location = new System.Drawing.Point(294, 309);
+            this.txtpassword.Location = new System.Drawing.Point(198, 269);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(270, 26);
             this.txtpassword.TabIndex = 15;
@@ -107,7 +107,7 @@
             this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtusername.Location = new System.Drawing.Point(294, 256);
+            this.txtusername.Location = new System.Drawing.Point(198, 216);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(270, 26);
             this.txtusername.TabIndex = 14;
@@ -116,7 +116,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::EmployeeManagerment_UI.Properties.Resources.logoteam_login_01;
-            this.pictureBox2.Location = new System.Drawing.Point(304, 88);
+            this.pictureBox2.Location = new System.Drawing.Point(208, 48);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(250, 111);
             this.pictureBox2.TabIndex = 21;
@@ -129,7 +129,7 @@
             this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnexit.Location = new System.Drawing.Point(447, 388);
+            this.btnexit.Location = new System.Drawing.Point(351, 348);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(107, 39);
             this.btnexit.TabIndex = 20;
@@ -139,7 +139,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::EmployeeManagerment_UI.Properties.Resources.lgf_01;
-            this.pictureBox1.Location = new System.Drawing.Point(251, 201);
+            this.pictureBox1.Location = new System.Drawing.Point(155, 161);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(357, 251);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +153,7 @@
             this.bntlogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bntlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntlogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.bntlogin.Location = new System.Drawing.Point(304, 388);
+            this.bntlogin.Location = new System.Drawing.Point(208, 348);
             this.bntlogin.Name = "bntlogin";
             this.bntlogin.Size = new System.Drawing.Size(107, 39);
             this.bntlogin.TabIndex = 24;
@@ -166,7 +166,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(295, 246);
+            this.label1.Location = new System.Drawing.Point(199, 206);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 16);
             this.label1.TabIndex = 18;
