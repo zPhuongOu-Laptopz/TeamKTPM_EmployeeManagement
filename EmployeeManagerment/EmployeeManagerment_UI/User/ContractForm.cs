@@ -31,5 +31,10 @@ namespace EmployeeManagerment_UI.User
         {
 
         }
+
+        private void cbb_firstname_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
