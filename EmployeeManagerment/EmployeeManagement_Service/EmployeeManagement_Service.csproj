@@ -54,14 +54,16 @@
   <ItemGroup>
     <Compile Include="ModelDBContext\EmployeeManagementDBContext.cs" />
     <Compile Include="ModelDBContext\PdbAccount.cs" />
+    <Compile Include="ModelDBContext\PdbBonusSalary.cs" />
     <Compile Include="ModelDBContext\PdbContract.cs" />
     <Compile Include="ModelDBContext\PdbEducationLevel.cs" />
     <Compile Include="ModelDBContext\PdbEvent.cs" />
-    <Compile Include="ModelDBContext\PdbSalary.cs" />
+    <Compile Include="ModelDBContext\PdbFeedBack.cs" />
     <Compile Include="ModelDBContext\PdbStaff.cs" />
     <Compile Include="ModelDBContext\PdbStaffEvent.cs" />
     <Compile Include="ModelDBContext\PdbSupply.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Basic\Functions\ServiceStaffs.cs" />
     <Compile Include="Service\Basic\Functions\UserLogins.cs" />
     <Compile Include="Service\Basic\Notification\ErrorNotification.cs" />
     <Compile Include="Service\Basic\Notification\SuccessfulNotification.cs" />
@@ -74,7 +76,9 @@
     <Compile Include="Service\Module\Supplies.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

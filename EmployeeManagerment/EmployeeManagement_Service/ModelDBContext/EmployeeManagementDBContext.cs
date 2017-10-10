@@ -13,10 +13,11 @@ namespace EmployeeManagement_Service.ModelDBContext
         }
 
         public virtual DbSet<PdbAccount> PdbAccounts { get; set; }
+        public virtual DbSet<PdbBonusSalary> PdbBonusSalaries { get; set; }
         public virtual DbSet<PdbContract> PdbContracts { get; set; }
         public virtual DbSet<PdbEducationLevel> PdbEducationLevels { get; set; }
         public virtual DbSet<PdbEvent> PdbEvents { get; set; }
-        public virtual DbSet<PdbSalary> PdbSalaries { get; set; }
+        public virtual DbSet<PdbFeedBack> PdbFeedBacks { get; set; }
         public virtual DbSet<PdbStaff> PdbStaffs { get; set; }
         public virtual DbSet<PdbStaffEvent> PdbStaffEvents { get; set; }
         public virtual DbSet<PdbSupply> PdbSupplies { get; set; }
@@ -29,6 +30,18 @@ namespace EmployeeManagement_Service.ModelDBContext
 
             modelBuilder.Entity<PdbAccount>()
                 .Property(e => e.AccountPassword)
+                .IsFixedLength();
+
+            modelBuilder.Entity<PdbBonusSalary>()
+                .Property(e => e.MoneyBonus)
+                .HasPrecision(19, 4);
+
+            modelBuilder.Entity<PdbBonusSalary>()
+                .Property(e => e.MonthBonus)
+                .IsFixedLength();
+
+            modelBuilder.Entity<PdbBonusSalary>()
+                .Property(e => e.YearBonus)
                 .IsFixedLength();
 
             modelBuilder.Entity<PdbEvent>()
@@ -52,6 +65,10 @@ namespace EmployeeManagement_Service.ModelDBContext
                 .WithRequired(e => e.PdbEvent)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<PdbFeedBack>()
+                .Property(e => e.Email)
+                .IsFixedLength();
+
             modelBuilder.Entity<PdbStaff>()
                 .Property(e => e.IndentityCard)
                 .IsFixedLength();
@@ -69,7 +86,21 @@ namespace EmployeeManagement_Service.ModelDBContext
                 .IsFixedLength();
 
             modelBuilder.Entity<PdbStaff>()
+                .Property(e => e.SalaryBasic)
+                .HasPrecision(19, 4);
+
+            modelBuilder.Entity<PdbStaff>()
+                .Property(e => e.Email)
+                .IsFixedLength();
+
+            modelBuilder.Entity<PdbStaff>()
                 .HasMany(e => e.PdbAccounts)
+                .WithRequired(e => e.PdbStaff)
+                .HasForeignKey(e => e.IDStaff)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<PdbStaff>()
+                .HasMany(e => e.PdbBonusSalaries)
                 .WithRequired(e => e.PdbStaff)
                 .HasForeignKey(e => e.IDStaff)
                 .WillCascadeOnDelete(false);
@@ -82,12 +113,6 @@ namespace EmployeeManagement_Service.ModelDBContext
 
             modelBuilder.Entity<PdbStaff>()
                 .HasMany(e => e.PdbEducationLevels)
-                .WithRequired(e => e.PdbStaff)
-                .HasForeignKey(e => e.IDStaff)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<PdbStaff>()
-                .HasMany(e => e.PdbSalaries)
                 .WithRequired(e => e.PdbStaff)
                 .HasForeignKey(e => e.IDStaff)
                 .WillCascadeOnDelete(false);

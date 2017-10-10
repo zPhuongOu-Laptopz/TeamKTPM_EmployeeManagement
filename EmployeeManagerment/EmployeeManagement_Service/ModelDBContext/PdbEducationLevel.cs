@@ -40,7 +40,6 @@ namespace EmployeeManagement_Service.ModelDBContext
         [Column(TypeName = "datetime2")]
         public DateTime DateProvide { get; set; }
 
-        [Required]
         [StringLength(100)]
         public string Note { get; set; }
 

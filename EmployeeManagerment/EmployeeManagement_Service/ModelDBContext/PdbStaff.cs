@@ -13,9 +13,9 @@ namespace EmployeeManagement_Service.ModelDBContext
         public PdbStaff()
         {
             PdbAccounts = new HashSet<PdbAccount>();
+            PdbBonusSalaries = new HashSet<PdbBonusSalary>();
             PdbContracts = new HashSet<PdbContract>();
             PdbEducationLevels = new HashSet<PdbEducationLevel>();
-            PdbSalaries = new HashSet<PdbSalary>();
             PdbStaffEvents = new HashSet<PdbStaffEvent>();
             PdbSupplies = new HashSet<PdbSupply>();
         }
@@ -84,6 +84,11 @@ namespace EmployeeManagement_Service.ModelDBContext
         [StringLength(30)]
         public string Position { get; set; }
 
+        [Column(TypeName = "money")]
+        public decimal SalaryBasic { get; set; }
+
+        public double CoefficientsSalary { get; set; }
+
         public bool isMarried { get; set; }
 
         [Column(TypeName = "datetime2")]
@@ -100,17 +105,21 @@ namespace EmployeeManagement_Service.ModelDBContext
         [StringLength(500)]
         public string Produce { get; set; }
 
+        [Required]
+        [StringLength(100)]
+        public string Email { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PdbAccount> PdbAccounts { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PdbBonusSalary> PdbBonusSalaries { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PdbContract> PdbContracts { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PdbEducationLevel> PdbEducationLevels { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PdbSalary> PdbSalaries { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PdbStaffEvent> PdbStaffEvents { get; set; }
