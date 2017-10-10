@@ -31,36 +31,36 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FeedbackForm));
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.btnSubmit = new System.Windows.Forms.Button();
+            this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_submit = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_five = new System.Windows.Forms.Button();
+            this.btn_four = new System.Windows.Forms.Button();
+            this.btn_three = new System.Windows.Forms.Button();
+            this.btn_two = new System.Windows.Forms.Button();
+            this.btn_one = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_firstname = new System.Windows.Forms.TextBox();
+            this.txt_lastname = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.cbb_favouritesoftwareinterface = new System.Windows.Forms.ComboBox();
+            this.lb_point = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbb_favouritemanagerialfunction = new System.Windows.Forms.ComboBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cbb_worstsoftwareinterface = new System.Windows.Forms.ComboBox();
+            this.cbb_worstmanagerialfunction = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtxt_usershare = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -77,11 +77,12 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(28, 252);
+            this.label3.Location = new System.Drawing.Point(42, 388);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(249, 24);
+            this.label3.Size = new System.Drawing.Size(479, 33);
             this.label3.TabIndex = 29;
-            this.label3.Text = "What do you think of this?";
+            this.label3.Text = "Bạn nghĩ gì về chương trình này ?";
             // 
             // label1
             // 
@@ -90,48 +91,52 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(458, 250);
+            this.label1.Location = new System.Drawing.Point(687, 385);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(360, 24);
+            this.label1.Size = new System.Drawing.Size(552, 33);
             this.label1.TabIndex = 20;
-            this.label1.Text = "What would you like to share with us?";
+            this.label1.Text = "Bạn có muốn chia sẽ gì với chúng tôi ?";
             // 
-            // button6
+            // btn_exit
             // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.iconexit_01;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(32, 541);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(162, 44);
-            this.button6.TabIndex = 35;
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn_exit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_exit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources._22407768_1001141770028985_1522062737_n;
+            this.btn_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_exit.Location = new System.Drawing.Point(48, 832);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(243, 68);
+            this.btn_exit.TabIndex = 35;
+            this.btn_exit.UseVisualStyleBackColor = false;
             // 
-            // btnSubmit
+            // btn_submit
             // 
-            this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.iconsubmit_01;
-            this.btnSubmit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.ForeColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.Location = new System.Drawing.Point(212, 541);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(162, 44);
-            this.btnSubmit.TabIndex = 33;
-            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btn_submit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_submit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources._22385022_1001140920029070_1646664535_n;
+            this.btn_submit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_submit.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_submit.Location = new System.Drawing.Point(318, 832);
+            this.btn_submit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_submit.Name = "btn_submit";
+            this.btn_submit.Size = new System.Drawing.Size(243, 68);
+            this.btn_submit.TabIndex = 33;
+            this.btn_submit.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(438, 254);
+            this.pictureBox2.Location = new System.Drawing.Point(657, 391);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox2.Size = new System.Drawing.Size(27, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
@@ -141,81 +146,88 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 257);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 395);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox1.Size = new System.Drawing.Size(27, 26);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
-            // button5
+            // btn_five
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(216, 280);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(40, 42);
-            this.button5.TabIndex = 28;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_five.BackColor = System.Drawing.Color.Transparent;
+            this.btn_five.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_five.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_five.Image = ((System.Drawing.Image)(resources.GetObject("btn_five.Image")));
+            this.btn_five.Location = new System.Drawing.Point(324, 431);
+            this.btn_five.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_five.Name = "btn_five";
+            this.btn_five.Size = new System.Drawing.Size(60, 65);
+            this.btn_five.TabIndex = 28;
+            this.btn_five.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_four
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(170, 280);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(40, 42);
-            this.button4.TabIndex = 27;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_four.BackColor = System.Drawing.Color.Transparent;
+            this.btn_four.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_four.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_four.Image = ((System.Drawing.Image)(resources.GetObject("btn_four.Image")));
+            this.btn_four.Location = new System.Drawing.Point(255, 431);
+            this.btn_four.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_four.Name = "btn_four";
+            this.btn_four.Size = new System.Drawing.Size(60, 65);
+            this.btn_four.TabIndex = 27;
+            this.btn_four.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn_three
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(124, 280);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(40, 42);
-            this.button3.TabIndex = 26;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_three.BackColor = System.Drawing.Color.Transparent;
+            this.btn_three.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_three.Image = ((System.Drawing.Image)(resources.GetObject("btn_three.Image")));
+            this.btn_three.Location = new System.Drawing.Point(186, 431);
+            this.btn_three.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_three.Name = "btn_three";
+            this.btn_three.Size = new System.Drawing.Size(60, 65);
+            this.btn_three.TabIndex = 26;
+            this.btn_three.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn_two
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(78, 280);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(40, 42);
-            this.button2.TabIndex = 25;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_two.BackColor = System.Drawing.Color.Transparent;
+            this.btn_two.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_two.Image = ((System.Drawing.Image)(resources.GetObject("btn_two.Image")));
+            this.btn_two.Location = new System.Drawing.Point(117, 431);
+            this.btn_two.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_two.Name = "btn_two";
+            this.btn_two.Size = new System.Drawing.Size(60, 65);
+            this.btn_two.TabIndex = 25;
+            this.btn_two.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn_one
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(32, 280);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 42);
-            this.button1.TabIndex = 24;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_one.BackColor = System.Drawing.Color.Transparent;
+            this.btn_one.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_one.Image = ((System.Drawing.Image)(resources.GetObject("btn_one.Image")));
+            this.btn_one.Location = new System.Drawing.Point(48, 431);
+            this.btn_one.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_one.Name = "btn_one";
+            this.btn_one.Size = new System.Drawing.Size(60, 65);
+            this.btn_one.TabIndex = 24;
+            this.btn_one.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.fb_01;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(860, 130);
+            this.pictureBox3.Size = new System.Drawing.Size(1290, 200);
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
             // 
@@ -226,11 +238,12 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(2, 144);
+            this.label4.Location = new System.Drawing.Point(3, 222);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 24);
+            this.label4.Size = new System.Drawing.Size(77, 33);
             this.label4.TabIndex = 38;
-            this.label4.Text = "First Name:";
+            this.label4.Text = "Tên:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -240,33 +253,36 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(233, 144);
+            this.label5.Location = new System.Drawing.Point(350, 222);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 24);
+            this.label5.Size = new System.Drawing.Size(63, 33);
             this.label5.TabIndex = 39;
-            this.label5.Text = "Last Name:";
+            this.label5.Text = "Họ:";
             // 
-            // textBox2
+            // txt_firstname
             // 
-            this.textBox2.BackColor = System.Drawing.Color.PowderBlue;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.textBox2.Location = new System.Drawing.Point(118, 135);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(109, 32);
-            this.textBox2.TabIndex = 40;
+            this.txt_firstname.BackColor = System.Drawing.Color.PowderBlue;
+            this.txt_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_firstname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.txt_firstname.Location = new System.Drawing.Point(177, 208);
+            this.txt_firstname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_firstname.Multiline = true;
+            this.txt_firstname.Name = "txt_firstname";
+            this.txt_firstname.Size = new System.Drawing.Size(162, 47);
+            this.txt_firstname.TabIndex = 40;
             // 
-            // textBox3
+            // txt_lastname
             // 
-            this.textBox3.BackColor = System.Drawing.Color.PowderBlue;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.textBox3.Location = new System.Drawing.Point(347, 136);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(109, 32);
-            this.textBox3.TabIndex = 41;
+            this.txt_lastname.BackColor = System.Drawing.Color.PowderBlue;
+            this.txt_lastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_lastname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.txt_lastname.Location = new System.Drawing.Point(520, 209);
+            this.txt_lastname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_lastname.Multiline = true;
+            this.txt_lastname.Name = "txt_lastname";
+            this.txt_lastname.Size = new System.Drawing.Size(162, 47);
+            this.txt_lastname.TabIndex = 41;
             // 
             // label6
             // 
@@ -275,44 +291,47 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(2, 183);
+            this.label6.Location = new System.Drawing.Point(3, 282);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 24);
+            this.label6.Size = new System.Drawing.Size(103, 33);
             this.label6.TabIndex = 42;
             this.label6.Text = "Email:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox4
+            // txt_email
             // 
-            this.textBox4.BackColor = System.Drawing.Color.PowderBlue;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.textBox4.Location = new System.Drawing.Point(118, 175);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(338, 32);
-            this.textBox4.TabIndex = 43;
+            this.txt_email.BackColor = System.Drawing.Color.PowderBlue;
+            this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.txt_email.Location = new System.Drawing.Point(177, 269);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_email.Multiline = true;
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(505, 47);
+            this.txt_email.TabIndex = 43;
             // 
-            // comboBox1
+            // cbb_favouritesoftwareinterface
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.PowderBlue;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(32, 380);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(338, 32);
-            this.comboBox1.TabIndex = 44;
+            this.cbb_favouritesoftwareinterface.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_favouritesoftwareinterface.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbb_favouritesoftwareinterface.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_favouritesoftwareinterface.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cbb_favouritesoftwareinterface.FormattingEnabled = true;
+            this.cbb_favouritesoftwareinterface.Location = new System.Drawing.Point(48, 585);
+            this.cbb_favouritesoftwareinterface.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbb_favouritesoftwareinterface.Name = "cbb_favouritesoftwareinterface";
+            this.cbb_favouritesoftwareinterface.Size = new System.Drawing.Size(505, 41);
+            this.cbb_favouritesoftwareinterface.TabIndex = 44;
             // 
-            // label7
+            // lb_point
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(277, 295);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 45;
-            this.label7.Text = "label7";
+            this.lb_point.BackColor = System.Drawing.Color.White;
+            this.lb_point.Location = new System.Drawing.Point(416, 454);
+            this.lb_point.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_point.Name = "lb_point";
+            this.lb_point.Size = new System.Drawing.Size(76, 31);
+            this.lb_point.TabIndex = 45;
             // 
             // label2
             // 
@@ -321,20 +340,22 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(28, 351);
+            this.label2.Location = new System.Drawing.Point(42, 540);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(383, 24);
+            this.label2.Size = new System.Drawing.Size(369, 33);
             this.label2.TabIndex = 46;
-            this.label2.Text = "Choose your favorite software  interface:";
+            this.label2.Text = "Chọn giao diện thích nhất";
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(8, 354);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 545);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox4.Size = new System.Drawing.Size(27, 26);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 47;
             this.pictureBox4.TabStop = false;
@@ -346,44 +367,48 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label8.Location = new System.Drawing.Point(28, 434);
+            this.label8.Location = new System.Drawing.Point(42, 668);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(397, 24);
+            this.label8.Size = new System.Drawing.Size(385, 33);
             this.label8.TabIndex = 48;
-            this.label8.Text = "Choose your favorite managerial function:";
+            this.label8.Text = "Chọn chức năng thích nhất";
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(8, 439);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 675);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox5.Size = new System.Drawing.Size(27, 26);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 49;
             this.pictureBox5.TabStop = false;
             // 
-            // comboBox2
+            // cbb_favouritemanagerialfunction
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.PowderBlue;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(32, 469);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(338, 32);
-            this.comboBox2.TabIndex = 50;
+            this.cbb_favouritemanagerialfunction.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_favouritemanagerialfunction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbb_favouritemanagerialfunction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_favouritemanagerialfunction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cbb_favouritemanagerialfunction.FormattingEnabled = true;
+            this.cbb_favouritemanagerialfunction.Location = new System.Drawing.Point(48, 722);
+            this.cbb_favouritemanagerialfunction.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbb_favouritemanagerialfunction.Name = "cbb_favouritemanagerialfunction";
+            this.cbb_favouritemanagerialfunction.Size = new System.Drawing.Size(505, 41);
+            this.cbb_favouritemanagerialfunction.TabIndex = 50;
             // 
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(438, 359);
+            this.pictureBox7.Location = new System.Drawing.Point(657, 552);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox7.Size = new System.Drawing.Size(27, 26);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 53;
             this.pictureBox7.TabStop = false;
@@ -395,11 +420,12 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(458, 356);
+            this.label9.Location = new System.Drawing.Point(687, 548);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(347, 24);
+            this.label9.Size = new System.Drawing.Size(436, 33);
             this.label9.TabIndex = 52;
-            this.label9.Text = "Choose the worst software interface:";
+            this.label9.Text = "Chọn giao diện không hài lòng";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox8
@@ -407,36 +433,39 @@
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(438, 439);
+            this.pictureBox8.Location = new System.Drawing.Point(657, 675);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(18, 17);
+            this.pictureBox8.Size = new System.Drawing.Size(27, 26);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 55;
             this.pictureBox8.TabStop = false;
             // 
-            // comboBox3
+            // cbb_worstsoftwareinterface
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.PowderBlue;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(462, 382);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(338, 32);
-            this.comboBox3.TabIndex = 56;
+            this.cbb_worstsoftwareinterface.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_worstsoftwareinterface.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbb_worstsoftwareinterface.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_worstsoftwareinterface.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cbb_worstsoftwareinterface.FormattingEnabled = true;
+            this.cbb_worstsoftwareinterface.Location = new System.Drawing.Point(693, 588);
+            this.cbb_worstsoftwareinterface.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbb_worstsoftwareinterface.Name = "cbb_worstsoftwareinterface";
+            this.cbb_worstsoftwareinterface.Size = new System.Drawing.Size(505, 41);
+            this.cbb_worstsoftwareinterface.TabIndex = 56;
             // 
-            // comboBox4
+            // cbb_worstmanagerialfunction
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.PowderBlue;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(462, 469);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(338, 32);
-            this.comboBox4.TabIndex = 57;
+            this.cbb_worstmanagerialfunction.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_worstmanagerialfunction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbb_worstmanagerialfunction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_worstmanagerialfunction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cbb_worstmanagerialfunction.FormattingEnabled = true;
+            this.cbb_worstmanagerialfunction.Location = new System.Drawing.Point(693, 722);
+            this.cbb_worstmanagerialfunction.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbb_worstmanagerialfunction.Name = "cbb_worstmanagerialfunction";
+            this.cbb_worstmanagerialfunction.Size = new System.Drawing.Size(505, 41);
+            this.cbb_worstmanagerialfunction.TabIndex = 57;
             // 
             // label10
             // 
@@ -445,64 +474,67 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label10.Location = new System.Drawing.Point(462, 434);
+            this.label10.Location = new System.Drawing.Point(693, 668);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(367, 24);
+            this.label10.Size = new System.Drawing.Size(452, 33);
             this.label10.TabIndex = 58;
-            this.label10.Text = "Choose the worst managerial function:";
+            this.label10.Text = "Chọn chức năng không hài lòng";
             // 
-            // richTextBox1
+            // rtxt_usershare
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.PowderBlue;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.richTextBox1.Location = new System.Drawing.Point(466, 280);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(334, 61);
-            this.richTextBox1.TabIndex = 59;
-            this.richTextBox1.Text = "";
+            this.rtxt_usershare.BackColor = System.Drawing.Color.PowderBlue;
+            this.rtxt_usershare.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxt_usershare.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.rtxt_usershare.Location = new System.Drawing.Point(699, 431);
+            this.rtxt_usershare.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rtxt_usershare.Name = "rtxt_usershare";
+            this.rtxt_usershare.Size = new System.Drawing.Size(499, 92);
+            this.rtxt_usershare.TabIndex = 59;
+            this.rtxt_usershare.Text = "";
             // 
             // FeedbackForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(861, 607);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(1292, 934);
+            this.Controls.Add(this.rtxt_usershare);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.cbb_worstmanagerialfunction);
+            this.Controls.Add(this.cbb_worstsoftwareinterface);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cbb_favouritemanagerialfunction);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.lb_point);
+            this.Controls.Add(this.cbb_favouritesoftwareinterface);
+            this.Controls.Add(this.txt_email);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_lastname);
+            this.Controls.Add(this.txt_firstname);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.btn_exit);
+            this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_five);
+            this.Controls.Add(this.btn_four);
+            this.Controls.Add(this.btn_three);
+            this.Controls.Add(this.btn_two);
+            this.Controls.Add(this.btn_one);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FeedbackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FeedbackForm";
@@ -520,37 +552,37 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.Button btn_submit;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_five;
+        private System.Windows.Forms.Button btn_four;
+        private System.Windows.Forms.Button btn_three;
+        private System.Windows.Forms.Button btn_two;
+        private System.Windows.Forms.Button btn_one;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_firstname;
+        private System.Windows.Forms.TextBox txt_lastname;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.ComboBox cbb_favouritesoftwareinterface;
+        private System.Windows.Forms.Label lb_point;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbb_favouritemanagerialfunction;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cbb_worstsoftwareinterface;
+        private System.Windows.Forms.ComboBox cbb_worstmanagerialfunction;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtxt_usershare;
     }
 }

@@ -342,6 +342,12 @@
   <ItemGroup>
     <None Include="Resources\header conpanyname ev-01.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22407768_1001141770028985_1522062737_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22385022_1001140920029070_1646664535_n.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

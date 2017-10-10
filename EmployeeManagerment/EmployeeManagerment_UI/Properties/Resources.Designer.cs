@@ -63,6 +63,26 @@ namespace EmployeeManagerment_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _22385022_1001140920029070_1646664535_n {
+            get {
+                object obj = ResourceManager.GetObject("22385022_1001140920029070_1646664535_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _22407768_1001141770028985_1522062737_n {
+            get {
+                object obj = ResourceManager.GetObject("22407768_1001141770028985_1522062737_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _73287_ODYKTA_216_01 {
             get {
                 object obj = ResourceManager.GetObject("73287-ODYKTA-216-01", resourceCulture);
