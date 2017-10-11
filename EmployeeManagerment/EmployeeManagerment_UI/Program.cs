@@ -16,20 +16,33 @@ namespace EmployeeManagerment_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
+=======
+
+>>>>>>> AnhPhuong
             Application.Run(new User.MainForm());
             //Application.Run(new User.ContractForm());
             //Application.Run(new User.LoginForm());
             //Application.Run(new User.SuppliesForm());
             //Application.Run(new User.ContractForm());
             //Application.Run(new User.EventForm());
+<<<<<<< HEAD
+=======
+
+>>>>>>> AnhPhuong
 
             Application.Run(new User.ContractForm());
 
-            //Application.Run(new User.LoginForm());
-            //Application.Run(new User.EmployeeForm());
+            Application.Run(new User.LoginForm());
+            Application.Run(new User.EmployeeForm());
             Application.Run(new User.SuppliesForm());
-            //Application.Run(new User.ContractForm());
+            Application.Run(new User.ContractForm());
             Application.Run(new User.EventForm());
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> AnhPhuong
         }
     }
 }
