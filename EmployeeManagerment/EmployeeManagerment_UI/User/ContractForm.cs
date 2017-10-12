@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using EmployeeManagement_Service.ModelDBContext;
+using EmployeeManagement_Service.Service.Basic;
+using EmployeeManagement_Service.Service.Module;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace EmployeeManagerment_UI.User
 {
@@ -17,24 +14,21 @@ namespace EmployeeManagerment_UI.User
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btn_backcontract_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
+        private void GetInformation()
         {
-
-        }
-
-        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbb_firstname_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            PdbContract con = new PdbContract();
+            con.IDContract = Guid.NewGuid();
+            con.PayForms = txt_payforms.Text;
+            con.SignDate = dtp_signdate.Value;
+            con.StartDate = dtp_startdate.Value;
+            con.EndDate = dtp_enddate.Value;
+            con.ContractType = txt_contracttype.Text;
+            con.ContractDescription = rtxt_contractdescription.Text;           
         }
     }
 }

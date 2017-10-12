@@ -6,45 +6,45 @@ using EmployeeManagement_Service.Service.Module;
 
 namespace EmployeeManagement_Service.Service.Module
 {
-    public class Events
+    public class FeedBacks
     {
         private readonly EmployeeManagementDBContext _context;
 
-        public Events(EmployeeManagementDBContext context)
+        public FeedBacks(EmployeeManagementDBContext context)
         {
             this._context = context;
         }
 
-        public List<PdbEvent> EventsAll()
+        public IEnumerable<PdbFeedBack> EventsAll()
         {
-            return _context.PdbEvents.ToList<PdbEvent>();
+            return _context.PdbFeedBacks;
         }
 
-        public bool Add(PdbEvent item)
+        public bool Add(PdbFeedBack item)
         {
-            _context.PdbEvents.Add(item);
+            _context.PdbFeedBacks.Add(item);
             _context.Entry(item).State = System.Data.Entity.EntityState.Added;
             return _context.SaveChanges() == 1;
         }
 
-        public bool Edit(PdbEvent item)
+        public bool Edit(PdbFeedBack item)
         {
-            _context.PdbEvents.Attach(item);
+            _context.PdbFeedBacks.Attach(item);
             _context.Entry(item).State = System.Data.Entity.EntityState.Modified;
             return _context.SaveChanges() == 1;
         }
 
         public bool Delete(Guid id)
         {
-            PdbEvent item = _context.PdbEvents.SingleOrDefault(itemc => itemc.ID_Event == id);
-            _context.PdbEvents.DefaultIfEmpty(item);
+            PdbFeedBack item = _context.PdbFeedBacks.SingleOrDefault(itemc => itemc.IDFeedBack == id);
+            _context.PdbFeedBacks.DefaultIfEmpty(item);
             _context.Entry(item).State = System.Data.Entity.EntityState.Deleted;
             return _context.SaveChanges() == 1;
         }
 
-        public PdbEvent GetEvent(Guid id)
+        public PdbFeedBack GetEvent(Guid id)
         {
-            return _context.PdbEvents.SingleOrDefault(item => item.ID_Event == id);
+            return _context.PdbFeedBacks.SingleOrDefault(item => item.IDFeedBack == id);
         }
     }
 }

@@ -36,9 +36,21 @@ namespace EmployeeManagement_Service.Service.Module
             return _context.SaveChanges() == 1;
         }
 
-        public PdbStaff GetAdmin(Guid id)
+        public List<PdbStaff> GetAllStaff()
+        {
+            return this._context.PdbStaffs.ToList<PdbStaff>();
+        }
+
+        public PdbStaff GetStaff(Guid id)
         {
             return _context.PdbStaffs.SingleOrDefault(ad => ad.ID_Staff == id);
+        }
+
+        public List<PdbStaff> GetStaffwithDepPos(string department, string position)
+        {
+            List<PdbStaff> listdepartment = this._context.PdbStaffs.Where(item => item.Department == department).ToList<PdbStaff>();
+            List<PdbStaff> listposition = listdepartment.Where(item => item.Position == position).ToList<PdbStaff>();
+            return listposition;
         }
     }
 }

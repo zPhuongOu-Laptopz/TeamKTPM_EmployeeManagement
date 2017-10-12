@@ -50,7 +50,7 @@
             this.txt_position = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.dtp_datecreateic = new System.Windows.Forms.DateTimePicker();
-            this.txt_educationlvl = new System.Windows.Forms.TextBox();
+            this.txt_coefficientssalary = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -94,6 +94,7 @@
             this.btn_ok = new System.Windows.Forms.Button();
             this.btn_addimage = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.btn_backaddemployee = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -180,7 +181,7 @@
             this.tab_infomation.Controls.Add(this.txt_position);
             this.tab_infomation.Controls.Add(this.label13);
             this.tab_infomation.Controls.Add(this.dtp_datecreateic);
-            this.tab_infomation.Controls.Add(this.txt_educationlvl);
+            this.tab_infomation.Controls.Add(this.txt_coefficientssalary);
             this.tab_infomation.Controls.Add(this.label12);
             this.tab_infomation.Controls.Add(this.label11);
             this.tab_infomation.Controls.Add(this.label10);
@@ -383,7 +384,7 @@
             this.txt_basicsalary.BackColor = System.Drawing.Color.White;
             this.txt_basicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_basicsalary.ForeColor = System.Drawing.Color.Black;
-            this.txt_basicsalary.Location = new System.Drawing.Point(481, 224);
+            this.txt_basicsalary.Location = new System.Drawing.Point(481, 188);
             this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2);
             this.txt_basicsalary.Name = "txt_basicsalary";
             this.txt_basicsalary.Size = new System.Drawing.Size(134, 29);
@@ -394,7 +395,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(333, 227);
+            this.label15.Location = new System.Drawing.Point(333, 191);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(145, 24);
@@ -406,7 +407,7 @@
             this.txt_department.BackColor = System.Drawing.Color.White;
             this.txt_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_department.ForeColor = System.Drawing.Color.Black;
-            this.txt_department.Location = new System.Drawing.Point(481, 188);
+            this.txt_department.Location = new System.Drawing.Point(481, 152);
             this.txt_department.Margin = new System.Windows.Forms.Padding(2);
             this.txt_department.Name = "txt_department";
             this.txt_department.Size = new System.Drawing.Size(134, 29);
@@ -417,7 +418,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(333, 192);
+            this.label14.Location = new System.Drawing.Point(333, 156);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(94, 24);
@@ -429,7 +430,7 @@
             this.txt_position.BackColor = System.Drawing.Color.White;
             this.txt_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_position.ForeColor = System.Drawing.Color.Black;
-            this.txt_position.Location = new System.Drawing.Point(481, 153);
+            this.txt_position.Location = new System.Drawing.Point(481, 117);
             this.txt_position.Margin = new System.Windows.Forms.Padding(2);
             this.txt_position.Name = "txt_position";
             this.txt_position.Size = new System.Drawing.Size(134, 29);
@@ -440,7 +441,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(333, 156);
+            this.label13.Location = new System.Drawing.Point(333, 120);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(93, 24);
@@ -457,28 +458,28 @@
             this.dtp_datecreateic.Size = new System.Drawing.Size(134, 29);
             this.dtp_datecreateic.TabIndex = 10;
             // 
-            // txt_educationlvl
+            // txt_coefficientssalary
             // 
-            this.txt_educationlvl.BackColor = System.Drawing.Color.White;
-            this.txt_educationlvl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_educationlvl.ForeColor = System.Drawing.Color.Black;
-            this.txt_educationlvl.Location = new System.Drawing.Point(481, 117);
-            this.txt_educationlvl.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_educationlvl.Name = "txt_educationlvl";
-            this.txt_educationlvl.Size = new System.Drawing.Size(134, 29);
-            this.txt_educationlvl.TabIndex = 12;
+            this.txt_coefficientssalary.BackColor = System.Drawing.Color.White;
+            this.txt_coefficientssalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_coefficientssalary.ForeColor = System.Drawing.Color.Black;
+            this.txt_coefficientssalary.Location = new System.Drawing.Point(481, 224);
+            this.txt_coefficientssalary.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_coefficientssalary.Name = "txt_coefficientssalary";
+            this.txt_coefficientssalary.Size = new System.Drawing.Size(134, 29);
+            this.txt_coefficientssalary.TabIndex = 12;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(333, 120);
+            this.label12.Location = new System.Drawing.Point(333, 227);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(104, 24);
+            this.label12.Size = new System.Drawing.Size(71, 24);
             this.label12.TabIndex = 42;
-            this.label12.Text = "Bằng cấp:";
+            this.label12.Text = "Hệ số:";
             // 
             // label11
             // 
@@ -1052,6 +1053,17 @@
             this.pictureBox5.TabIndex = 40;
             this.pictureBox5.TabStop = false;
             // 
+            // btn_backaddemployee
+            // 
+            this.btn_backaddemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backaddemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_backaddemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backaddemployee.Location = new System.Drawing.Point(-4, 520);
+            this.btn_backaddemployee.Name = "btn_backaddemployee";
+            this.btn_backaddemployee.Size = new System.Drawing.Size(186, 48);
+            this.btn_backaddemployee.TabIndex = 41;
+            this.btn_backaddemployee.UseVisualStyleBackColor = true;
+            // 
             // AddEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1059,6 +1071,7 @@
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
+            this.Controls.Add(this.btn_backaddemployee);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_addimage);
@@ -1110,7 +1123,7 @@
         private System.Windows.Forms.TextBox txt_position;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DateTimePicker dtp_datecreateic;
-        private System.Windows.Forms.TextBox txt_educationlvl;
+        private System.Windows.Forms.TextBox txt_coefficientssalary;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -1157,5 +1170,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button btn_backaddemployee;
     }
 }
