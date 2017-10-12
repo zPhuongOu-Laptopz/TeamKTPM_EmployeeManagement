@@ -48,5 +48,10 @@ namespace EmployeeManagement_Service.Service.Basic.Notification
         {
             MessageBox.Show("Lỗi trong quá trình xóa dữ liệu", "Lỗi thao tác", MessageBoxButtons.OK, MessageBoxIcon.Stop);
         }
+
+        public void ErrorWhileRefreshData()
+        {
+            MessageBox.Show("Lỗi trong quá trình cập nhập dữ liệu", "Lỗi thao tác", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        }
     }
 }

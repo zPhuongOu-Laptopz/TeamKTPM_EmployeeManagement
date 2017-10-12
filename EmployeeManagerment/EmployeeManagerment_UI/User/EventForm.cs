@@ -21,7 +21,14 @@ namespace EmployeeManagerment_UI.User
 
         private void GetAllData()
         {
-            grid_listevent.DataSource = new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.EventsAll();
+            try
+            {
+                grid_listevent.DataSource = new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.EventsAll();
+            }
+            catch
+            {            
+                    new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
+            }
         }
 
         private void btn_backevent_Click(object sender, EventArgs e)
