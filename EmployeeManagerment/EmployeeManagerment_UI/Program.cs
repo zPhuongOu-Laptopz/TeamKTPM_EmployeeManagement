@@ -17,6 +17,7 @@ namespace EmployeeManagerment_UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new User.EventForm());            
 =======
             //Application.Run(new User.MainForm());
@@ -33,6 +34,10 @@ namespace EmployeeManagerment_UI
             Application.Run(new User.SalaryForm());
 
 >>>>>>> Phuc
+=======
+            Application.Run(new User.SalaryForm());
+            Application.Run(new User.EventForm());
+>>>>>>> 64446e1bac8fbc125afca46cd0e764cde813fea0
         }
     }
 }
