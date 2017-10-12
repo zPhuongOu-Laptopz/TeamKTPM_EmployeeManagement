@@ -70,6 +70,7 @@
     <Compile Include="Service\Module\Contracts.cs" />
     <Compile Include="Service\Module\EducationLevels.cs" />
     <Compile Include="Service\Module\Events.cs" />
+    <Compile Include="Service\Module\FeedBacks.cs" />
     <Compile Include="Service\Module\Salary.cs" />
     <Compile Include="Service\Module\Staffs.cs" />
     <Compile Include="Service\Module\Supplies.cs" />

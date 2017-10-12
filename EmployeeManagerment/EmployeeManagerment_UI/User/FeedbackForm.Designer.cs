@@ -109,6 +109,7 @@
             this.btn_exit.Size = new System.Drawing.Size(162, 44);
             this.btn_exit.TabIndex = 35;
             this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_submit
             // 
@@ -123,6 +124,7 @@
             this.btn_submit.Size = new System.Drawing.Size(162, 44);
             this.btn_submit.TabIndex = 33;
             this.btn_submit.UseVisualStyleBackColor = false;
+            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
             // pictureBox2
             // 
@@ -159,6 +161,7 @@
             this.btn_five.Size = new System.Drawing.Size(40, 42);
             this.btn_five.TabIndex = 28;
             this.btn_five.UseVisualStyleBackColor = false;
+            this.btn_five.Click += new System.EventHandler(this.btn_five_Click);
             // 
             // btn_four
             // 
@@ -171,6 +174,7 @@
             this.btn_four.Size = new System.Drawing.Size(40, 42);
             this.btn_four.TabIndex = 27;
             this.btn_four.UseVisualStyleBackColor = false;
+            this.btn_four.Click += new System.EventHandler(this.btn_four_Click);
             // 
             // btn_three
             // 
@@ -183,6 +187,7 @@
             this.btn_three.Size = new System.Drawing.Size(40, 42);
             this.btn_three.TabIndex = 26;
             this.btn_three.UseVisualStyleBackColor = false;
+            this.btn_three.Click += new System.EventHandler(this.btn_three_Click);
             // 
             // btn_two
             // 
@@ -195,6 +200,7 @@
             this.btn_two.Size = new System.Drawing.Size(40, 42);
             this.btn_two.TabIndex = 25;
             this.btn_two.UseVisualStyleBackColor = false;
+            this.btn_two.Click += new System.EventHandler(this.btn_two_Click);
             // 
             // btn_one
             // 
@@ -207,6 +213,7 @@
             this.btn_one.Size = new System.Drawing.Size(40, 42);
             this.btn_one.TabIndex = 24;
             this.btn_one.UseVisualStyleBackColor = false;
+            this.btn_one.Click += new System.EventHandler(this.btn_one_Click);
             // 
             // pictureBox3
             // 
@@ -231,7 +238,6 @@
             this.label4.Size = new System.Drawing.Size(53, 24);
             this.label4.TabIndex = 38;
             this.label4.Text = "Tên:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -280,7 +286,6 @@
             this.label6.Size = new System.Drawing.Size(68, 24);
             this.label6.TabIndex = 42;
             this.label6.Text = "Email:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txt_email
             // 
@@ -296,10 +301,20 @@
             // cbb_favouritesoftwareinterface
             // 
             this.cbb_favouritesoftwareinterface.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_favouritesoftwareinterface.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_favouritesoftwareinterface.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cbb_favouritesoftwareinterface.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_favouritesoftwareinterface.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbb_favouritesoftwareinterface.FormattingEnabled = true;
+            this.cbb_favouritesoftwareinterface.Items.AddRange(new object[] {
+            "Thêm nhân viên",
+            "Sửa nhân viên",
+            "Nhân viên",
+            "Hợp đồng",
+            "Sự kiện",
+            "Đăng nhập",
+            "Giao diện chính",
+            "Vật tư"});
             this.cbb_favouritesoftwareinterface.Location = new System.Drawing.Point(32, 380);
             this.cbb_favouritesoftwareinterface.Name = "cbb_favouritesoftwareinterface";
             this.cbb_favouritesoftwareinterface.Size = new System.Drawing.Size(338, 32);
@@ -308,9 +323,10 @@
             // lb_point
             // 
             this.lb_point.BackColor = System.Drawing.Color.White;
-            this.lb_point.Location = new System.Drawing.Point(277, 295);
+            this.lb_point.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_point.Location = new System.Drawing.Point(262, 295);
             this.lb_point.Name = "lb_point";
-            this.lb_point.Size = new System.Drawing.Size(51, 20);
+            this.lb_point.Size = new System.Drawing.Size(90, 20);
             this.lb_point.TabIndex = 45;
             // 
             // label2
@@ -366,10 +382,18 @@
             // cbb_favouritemanagerialfunction
             // 
             this.cbb_favouritemanagerialfunction.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_favouritemanagerialfunction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_favouritemanagerialfunction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cbb_favouritemanagerialfunction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_favouritemanagerialfunction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbb_favouritemanagerialfunction.FormattingEnabled = true;
+            this.cbb_favouritemanagerialfunction.Items.AddRange(new object[] {
+            "Quản lý nhân viên",
+            "Quản lý vât tư",
+            "Quản lý sự kiện",
+            "Quản lý lương",
+            "Quản lý tài khoản",
+            "Quản lý hợp đồng"});
             this.cbb_favouritemanagerialfunction.Location = new System.Drawing.Point(32, 469);
             this.cbb_favouritemanagerialfunction.Name = "cbb_favouritemanagerialfunction";
             this.cbb_favouritemanagerialfunction.Size = new System.Drawing.Size(338, 32);
@@ -399,7 +423,6 @@
             this.label9.Size = new System.Drawing.Size(298, 24);
             this.label9.TabIndex = 52;
             this.label9.Text = "Chọn giao diện không hài lòng";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox8
             // 
@@ -416,10 +439,20 @@
             // cbb_worstsoftwareinterface
             // 
             this.cbb_worstsoftwareinterface.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_worstsoftwareinterface.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_worstsoftwareinterface.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cbb_worstsoftwareinterface.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_worstsoftwareinterface.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbb_worstsoftwareinterface.FormattingEnabled = true;
+            this.cbb_worstsoftwareinterface.Items.AddRange(new object[] {
+            "Thêm nhân viên",
+            "Sửa nhân viên",
+            "Nhân viên",
+            "Hợp đồng",
+            "Sự kiện",
+            "Đăng nhập",
+            "Giao diện chính",
+            "Vật tư"});
             this.cbb_worstsoftwareinterface.Location = new System.Drawing.Point(462, 382);
             this.cbb_worstsoftwareinterface.Name = "cbb_worstsoftwareinterface";
             this.cbb_worstsoftwareinterface.Size = new System.Drawing.Size(338, 32);
@@ -428,10 +461,18 @@
             // cbb_worstmanagerialfunction
             // 
             this.cbb_worstmanagerialfunction.BackColor = System.Drawing.Color.PowderBlue;
+            this.cbb_worstmanagerialfunction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_worstmanagerialfunction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cbb_worstmanagerialfunction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_worstmanagerialfunction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cbb_worstmanagerialfunction.FormattingEnabled = true;
+            this.cbb_worstmanagerialfunction.Items.AddRange(new object[] {
+            "Quản lý nhân viên",
+            "Quản lý vât tư",
+            "Quản lý sự kiện",
+            "Quản lý lương",
+            "Quản lý tài khoản",
+            "Quản lý hợp đồng"});
             this.cbb_worstmanagerialfunction.Location = new System.Drawing.Point(462, 469);
             this.cbb_worstmanagerialfunction.Name = "cbb_worstmanagerialfunction";
             this.cbb_worstmanagerialfunction.Size = new System.Drawing.Size(338, 32);

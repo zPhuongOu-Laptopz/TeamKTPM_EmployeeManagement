@@ -152,7 +152,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(861, 130);
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // tabControl1
             // 
@@ -200,7 +199,6 @@
             this.label1.Size = new System.Drawing.Size(94, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Bộ phận:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // cbb_department
             // 
@@ -269,7 +267,6 @@
             this.cbb_firstname.Name = "cbb_firstname";
             this.cbb_firstname.Size = new System.Drawing.Size(148, 32);
             this.cbb_firstname.TabIndex = 3;
-            this.cbb_firstname.SelectedIndexChanged += new System.EventHandler(this.cbb_firstname_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -360,7 +357,6 @@
             this.dtp_enddate.Name = "dtp_enddate";
             this.dtp_enddate.Size = new System.Drawing.Size(148, 29);
             this.dtp_enddate.TabIndex = 7;
-            this.dtp_enddate.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // label8
             // 
@@ -384,7 +380,6 @@
             this.dtp_signdate.Name = "dtp_signdate";
             this.dtp_signdate.Size = new System.Drawing.Size(148, 29);
             this.dtp_signdate.TabIndex = 8;
-            this.dtp_signdate.ValueChanged += new System.EventHandler(this.dateTimePicker3_ValueChanged);
             // 
             // panel1
             // 
@@ -425,6 +420,7 @@
             this.btn_backcontract.Size = new System.Drawing.Size(195, 48);
             this.btn_backcontract.TabIndex = 42;
             this.btn_backcontract.UseVisualStyleBackColor = true;
+            this.btn_backcontract.Click += new System.EventHandler(this.btn_backcontract_Click);
             // 
             // ContractForm
             // 

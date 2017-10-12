@@ -33,5 +33,20 @@ namespace EmployeeManagement_Service.Service.Basic.Notification
         {
             MessageBox.Show("Bạn chưa chọn Phòng Ban", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        public void ErrorWhileInsert()
+        {
+            MessageBox.Show("Lỗi trong quá trình thêm dữ liệu", "Lỗi thao tác", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        }
+
+        public void ErrorWhileEdit()
+        {
+            MessageBox.Show("Lỗi trong quá trình sửa dữ liệu", "Lỗi thao tác", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        }
+
+        public void ErrorWhileDelete()
+        {
+            MessageBox.Show("Lỗi trong quá trình xóa dữ liệu", "Lỗi thao tác", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        }
     }
 }

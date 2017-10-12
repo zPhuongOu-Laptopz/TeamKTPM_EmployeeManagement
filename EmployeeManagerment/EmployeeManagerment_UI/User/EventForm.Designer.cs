@@ -81,6 +81,7 @@
             this.btn_addevent.Size = new System.Drawing.Size(195, 50);
             this.btn_addevent.TabIndex = 12;
             this.btn_addevent.UseVisualStyleBackColor = true;
+            this.btn_addevent.Click += new System.EventHandler(this.btn_addevent_Click);
             // 
             // btn_deleteevent
             // 
@@ -109,7 +110,6 @@
             this.btn_editevent.Size = new System.Drawing.Size(195, 50);
             this.btn_editevent.TabIndex = 14;
             this.btn_editevent.UseVisualStyleBackColor = true;
-            this.btn_editevent.Click += new System.EventHandler(this.btn_editevent_Click);
             // 
             // panel1
             // 
@@ -143,7 +143,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(666, 477);
             this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // tabControl1
             // 
@@ -245,7 +244,6 @@
             this.txt_scale.Name = "txt_scale";
             this.txt_scale.Size = new System.Drawing.Size(122, 29);
             this.txt_scale.TabIndex = 5;
-            this.txt_scale.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_actualcost
             // 
@@ -255,7 +253,6 @@
             this.txt_actualcost.Name = "txt_actualcost";
             this.txt_actualcost.Size = new System.Drawing.Size(122, 29);
             this.txt_actualcost.TabIndex = 4;
-            this.txt_actualcost.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_costawarded
             // 
@@ -265,7 +262,6 @@
             this.txt_costawarded.Name = "txt_costawarded";
             this.txt_costawarded.Size = new System.Drawing.Size(122, 29);
             this.txt_costawarded.TabIndex = 3;
-            this.txt_costawarded.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_expectedcost
             // 
@@ -275,7 +271,6 @@
             this.txt_expectedcost.Name = "txt_expectedcost";
             this.txt_expectedcost.Size = new System.Drawing.Size(122, 29);
             this.txt_expectedcost.TabIndex = 2;
-            this.txt_expectedcost.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_eventname
             // 
@@ -285,7 +280,6 @@
             this.txt_eventname.Name = "txt_eventname";
             this.txt_eventname.Size = new System.Drawing.Size(122, 29);
             this.txt_eventname.TabIndex = 1;
-            this.txt_eventname.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label12
             // 
@@ -440,6 +434,7 @@
             this.btn_reloadevent.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadevent.TabIndex = 15;
             this.btn_reloadevent.UseVisualStyleBackColor = true;
+            this.btn_reloadevent.Click += new System.EventHandler(this.btn_reloadevent_Click);
             // 
             // pictureBox1
             // 
@@ -471,6 +466,7 @@
             this.btn_backevent.Size = new System.Drawing.Size(195, 48);
             this.btn_backevent.TabIndex = 43;
             this.btn_backevent.UseVisualStyleBackColor = true;
+            this.btn_backevent.Click += new System.EventHandler(this.btn_backevent_Click);
             // 
             // EventForm
             // 
