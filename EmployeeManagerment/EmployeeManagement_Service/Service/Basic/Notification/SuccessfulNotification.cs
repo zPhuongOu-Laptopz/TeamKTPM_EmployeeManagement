@@ -28,5 +28,14 @@ namespace EmployeeManagement_Service.Service.Basic.Notification
         {
             MessageBox.Show("Cảm ơn bạn đã gửi phản hồi về cho chúng tôi!", "Cảm ơn", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        public bool CloseandOpen()
+        {
+            if (MessageBox.Show("Bạn có chắc chắn muốn hủy", "Cảm ơn", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

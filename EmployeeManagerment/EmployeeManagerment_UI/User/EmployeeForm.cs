@@ -19,7 +19,7 @@ namespace EmployeeManagerment_UI.User
 
         private void EmployeeForm_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -65,6 +65,19 @@ namespace EmployeeManagerment_UI.User
         private void txt_showemail_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_addemployee_Click(object sender, EventArgs e)
+        {
+            EmployeeManagerment_UI.User.AddEmployeeForm addemform = new AddEmployeeForm();
+            this.Visible = true;
+            addemform.ShowDialog();
+            this.Visible = false;
+        }
+
+        private void btn_backemployee_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

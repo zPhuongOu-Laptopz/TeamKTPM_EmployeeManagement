@@ -852,6 +852,7 @@
             this.btn_addemployee.Size = new System.Drawing.Size(191, 50);
             this.btn_addemployee.TabIndex = 1;
             this.btn_addemployee.UseVisualStyleBackColor = true;
+            this.btn_addemployee.Click += new System.EventHandler(this.btn_addemployee_Click);
             // 
             // btn_deleteemployee
             // 
@@ -910,6 +911,7 @@
             this.btn_backemployee.Size = new System.Drawing.Size(195, 48);
             this.btn_backemployee.TabIndex = 61;
             this.btn_backemployee.UseVisualStyleBackColor = true;
+            this.btn_backemployee.Click += new System.EventHandler(this.btn_backemployee_Click);
             // 
             // EmployeeForm
             // 

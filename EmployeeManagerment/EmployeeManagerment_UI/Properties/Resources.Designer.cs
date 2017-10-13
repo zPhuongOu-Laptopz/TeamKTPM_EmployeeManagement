@@ -443,6 +443,16 @@ namespace EmployeeManagerment_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap if_Pokemon_Go_15_1320026 {
+            get {
+                object obj = ResourceManager.GetObject("if_Pokemon_Go-15_1320026", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap l_01 {
             get {
                 object obj = ResourceManager.GetObject("l-01", resourceCulture);

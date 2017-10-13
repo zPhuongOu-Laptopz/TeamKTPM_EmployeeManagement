@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeManagement_Service.ModelDBContext;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,43 +18,9 @@ namespace EmployeeManagerment_UI.User
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void grid_listemployee_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_calendar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
+            //GetAllData();
         }
 
         private void btn_addeditemployee_Click(object sender, EventArgs e)
@@ -66,7 +33,10 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_addeditsalary_Click(object sender, EventArgs e)
         {
-            // Chưa xong.
+            EmployeeManagerment_UI.User.SalaryForm salary = new SalaryForm();
+            this.Visible = true;
+            salary.ShowDialog();
+            this.Visible = false;
         }
 
         private void btn_accountmanagement_Click(object sender, EventArgs e)
@@ -84,7 +54,19 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_reload_Click(object sender, EventArgs e)
         {
-            // tải lại
+            GetAllData();
+        }
+
+        private void GetAllData()
+        {
+            try
+            {
+                grid_listemployee.DataSource = new EmployeeManagement_Service.Service.Module.Staffs(new EmployeeManagementDBContext()) { }.GetAllStaff();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
+            }
         }
 
         private void bnt_supplier_Click(object sender, EventArgs e)

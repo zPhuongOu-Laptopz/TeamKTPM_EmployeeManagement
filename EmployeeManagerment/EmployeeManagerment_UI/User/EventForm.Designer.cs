@@ -96,6 +96,7 @@
             this.btn_deleteevent.Size = new System.Drawing.Size(195, 50);
             this.btn_deleteevent.TabIndex = 13;
             this.btn_deleteevent.UseVisualStyleBackColor = true;
+            this.btn_deleteevent.Click += new System.EventHandler(this.btn_deleteevent_Click);
             // 
             // btn_editevent
             // 

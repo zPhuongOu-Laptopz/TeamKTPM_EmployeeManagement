@@ -14,7 +14,7 @@ namespace EmployeeManagement_Service.Service.Module
             this._context = context;
         }
 
-        public IEnumerable<PdbSupply> EventsAll()
+        public IEnumerable<PdbSupply> SupplyAll()
         {
             return _context.PdbSupplies;
         }

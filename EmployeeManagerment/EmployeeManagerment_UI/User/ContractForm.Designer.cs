@@ -89,6 +89,7 @@
             this.btn_addcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_addcontract.TabIndex = 10;
             this.btn_addcontract.UseVisualStyleBackColor = true;
+            this.btn_addcontract.Click += new System.EventHandler(this.btn_addcontract_Click);
             // 
             // btn_deletecontract
             // 
@@ -131,6 +132,7 @@
             this.btn_reloadcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadcontract.TabIndex = 13;
             this.btn_reloadcontract.UseVisualStyleBackColor = true;
+            this.btn_reloadcontract.Click += new System.EventHandler(this.btn_reloadcontract_Click);
             // 
             // pictureBox1
             // 
@@ -445,6 +447,7 @@
             this.Name = "ContractForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ContractForm";
+            this.Load += new System.EventHandler(this.ContractForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid_listcontract)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

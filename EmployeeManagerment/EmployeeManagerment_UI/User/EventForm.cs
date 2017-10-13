@@ -27,7 +27,7 @@ namespace EmployeeManagerment_UI.User
             }
             catch
             {            
-                    new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
             }
         }
 
@@ -62,7 +62,7 @@ namespace EmployeeManagerment_UI.User
             try
             {
                 eve = GetInfomation();
-                new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.Add(eve);
+                new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.Edit(eve);
                 new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
             }
             catch
@@ -92,6 +92,11 @@ namespace EmployeeManagerment_UI.User
         private void btn_reloadevent_Click(object sender, EventArgs e)
         {
             GetAllData();
+        }
+
+        private void btn_deleteevent_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

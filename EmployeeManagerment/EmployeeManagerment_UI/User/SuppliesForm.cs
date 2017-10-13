@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeManagement_Service.ModelDBContext;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,17 @@ namespace EmployeeManagerment_UI.User
             InitializeComponent();
         }
 
+        private void GetAllData()
+        {
+            try
+            {
+                grid_listsupplies.DataSource = new EmployeeManagement_Service.Service.Module.Supplies(new EmployeeManagementDBContext()) { }.SupplyAll();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
+            }
+        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
