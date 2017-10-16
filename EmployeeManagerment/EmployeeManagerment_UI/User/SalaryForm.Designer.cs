@@ -33,7 +33,6 @@
             this.btn_deletesalary = new System.Windows.Forms.Button();
             this.btn_addsalary = new System.Windows.Forms.Button();
             this.btn_reloadsalary = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txt_yearbonus = new System.Windows.Forms.TextBox();
             this.txt_monthbonus = new System.Windows.Forms.TextBox();
@@ -51,11 +50,12 @@
             this.tab_reasonbonus = new System.Windows.Forms.TabPage();
             this.rtxt_reasonbonus = new System.Windows.Forms.RichTextBox();
             this.grid_listsalary = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tab_reasonbonus.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_listsalary)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_backsalary
@@ -112,15 +112,6 @@
             this.btn_reloadsalary.TabIndex = 18;
             this.btn_reloadsalary.Text = "Tải lại";
             this.btn_reloadsalary.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1296, 200);
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -193,6 +184,12 @@
             this.cbb_department.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_department.FormattingEnabled = true;
+            this.cbb_department.Items.AddRange(new object[] {
+            "Kế toán",
+            "Bảo vệ",
+            "Công nghệ thông tin",
+            "Kinh doanh",
+            "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(290, 12);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(220, 40);
@@ -303,6 +300,15 @@
             this.grid_listsalary.Size = new System.Drawing.Size(999, 283);
             this.grid_listsalary.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1296, 200);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // SalaryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -321,12 +327,12 @@
             this.Name = "SalaryForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "SalaryForm";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tab_reasonbonus.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grid_listsalary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
