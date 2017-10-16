@@ -243,6 +243,12 @@
             this.cbb_department.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_department.FormattingEnabled = true;
+            this.cbb_department.Items.AddRange(new object[] {
+            "Kế toán",
+            "Bảo vệ",
+            "Công nghệ thông tin",
+            "Kinh doanh",
+            "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(290, 12);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(220, 40);
