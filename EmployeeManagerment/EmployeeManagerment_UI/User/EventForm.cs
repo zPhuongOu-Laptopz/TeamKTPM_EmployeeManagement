@@ -4,11 +4,16 @@ using EmployeeManagement_Service.Service.Basic;
 using EmployeeManagement_Service.Service.Module;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Data;
 
 namespace EmployeeManagerment_UI.User
 {
     public partial class EventForm : Form
     {
+        int index;
+        Guid _id;
+        Guid _id2;
+
         public EventForm()
         {
             InitializeComponent();
@@ -17,6 +22,10 @@ namespace EmployeeManagerment_UI.User
         private void EventForm_Load(object sender, EventArgs e)
         {
             GetAllData();
+            index = grid_listevent.CurrentCell.RowIndex;
+            _id2 =(Guid) grid_listevent.Rows[index].Cells[0].Value;
+            //Guid idGuid = (Guid)(grid_listevent.DataSource as DataTable).Rows[0][0];
+            //_id = (Guid)_id2;
         }
 
         private void GetAllData()

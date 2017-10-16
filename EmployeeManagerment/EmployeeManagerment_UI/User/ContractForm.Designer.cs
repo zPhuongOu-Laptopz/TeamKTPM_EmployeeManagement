@@ -75,6 +75,7 @@
             this.grid_listcontract.RowTemplate.Height = 28;
             this.grid_listcontract.Size = new System.Drawing.Size(666, 184);
             this.grid_listcontract.TabIndex = 0;
+            this.grid_listcontract.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_listcontract_CellClick);
             // 
             // btn_addcontract
             // 

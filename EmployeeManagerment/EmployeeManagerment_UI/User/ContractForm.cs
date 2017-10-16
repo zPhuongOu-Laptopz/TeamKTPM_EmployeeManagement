@@ -88,5 +88,13 @@ namespace EmployeeManagerment_UI.User
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
             }
         }
+
+        private void grid_listcontract_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = grid_listcontract.CurrentCell.RowIndex;
+            txt_contracttype.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
+            txt_payforms.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
+            
+        }
     }
 }

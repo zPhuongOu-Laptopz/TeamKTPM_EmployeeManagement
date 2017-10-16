@@ -55,7 +55,7 @@ namespace EmployeeManagerment_UI.User
             }
             catch
             {
-                MessageBox.Show("Bạn chưa chọn hình !!!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn chưa chọn hình !!!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
