@@ -382,7 +382,17 @@
     <None Include="Resources\Trolaibtn-01.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\if_Pokemon_Go-15_1320026.png" />
+=======
+    <None Include="Resources\salary-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\educa-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-01.png" />
+>>>>>>> AnhPhuong
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

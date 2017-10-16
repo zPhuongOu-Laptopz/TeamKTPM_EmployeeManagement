@@ -17,11 +17,16 @@ namespace EmployeeManagerment_UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new User.MainForm());
 =======
             //Application.Run(new User.SalaryForm());
             Application.Run(new User.AccountForm());
 >>>>>>> Phuc
+=======
+            Application.Run(new User.EducationLevelForm());
+            Application.Run(new User.SalaryForm());
+>>>>>>> AnhPhuong
         }
     }
 }
