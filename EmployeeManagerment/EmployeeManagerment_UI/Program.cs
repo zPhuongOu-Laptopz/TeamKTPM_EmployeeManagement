@@ -16,7 +16,26 @@ namespace EmployeeManagerment_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new User.MainForm());
+            //------NgocPhuong-----------------
+            Application.Run(new User.ContractForm());
+            //---------------------------------
+            
+            //------Phuc-----------------------
+            //Application.Run(new User.LoginForm());
+            //---------------------------------
+            
+            //------Khanh----------------------
+            //Application.Run(new User.LoginForm());
+            //---------------------------------
+            
+            //------QuangTerry-----------------
+            //Application.Run(new User.LoginForm());
+            //---------------------------------
+
+            //------AnhPhuong------------------
+            //Application.Run(new User.LoginForm());
+            //---------------------------------
+
         }
     }
 }

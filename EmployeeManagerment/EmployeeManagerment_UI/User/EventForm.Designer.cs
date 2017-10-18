@@ -111,6 +111,7 @@
             this.btn_editevent.Size = new System.Drawing.Size(195, 50);
             this.btn_editevent.TabIndex = 14;
             this.btn_editevent.UseVisualStyleBackColor = true;
+            this.btn_editevent.Click += new System.EventHandler(this.btn_editevent_Click);
             // 
             // panel1
             // 
@@ -209,6 +210,7 @@
             this.grid_listevent.RowTemplate.Height = 28;
             this.grid_listevent.Size = new System.Drawing.Size(666, 184);
             this.grid_listevent.TabIndex = 0;
+            this.grid_listevent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_listevent_CellClick);
             // 
             // txt_moneystaffpay
             // 

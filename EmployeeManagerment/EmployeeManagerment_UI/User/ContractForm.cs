@@ -9,9 +9,22 @@ namespace EmployeeManagerment_UI.User
 {
     public partial class ContractForm : Form
     {
+        string[] listBaoVe = { "Trưởng bảo vệ", "Bảo vệ" };
+        List<string> listKeToan = new List<string>();
+        List<string> listIT = new List<string>();
+        
         public ContractForm()
         {
             InitializeComponent();
+        }
+
+        private void InsertDataforCombobox()
+        {
+            listKeToan.Add("Kế toán trưởng");
+            listKeToan.Add("Kế toán");
+            listIT.Add("Trưởng phòng IT");
+            listIT.Add("Phó phòng IT");
+            listIT.Add("Nhân viên IT");
         }
 
         private void btn_backcontract_Click(object sender, EventArgs e)
@@ -52,6 +65,7 @@ namespace EmployeeManagerment_UI.User
         private void ContractForm_Load(object sender, EventArgs e)
         {
             GetAllData();
+            InsertDataforCombobox();
         }
 
         private void btn_addcontract_Click(object sender, EventArgs e)
@@ -95,6 +109,34 @@ namespace EmployeeManagerment_UI.User
             txt_contracttype.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
             txt_payforms.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
             
+        }
+
+        private void cbb_department_SelectedIndexChanged(object sender, EventArgs e)
+        {           
+            if (cbb_department.SelectedIndex == 0)
+            {
+                cbb_position.Items.Clear();
+                for (int i = 0; i < listKeToan.Count; i++)
+                {
+                    cbb_position.Items.Add(listKeToan[i]);
+                }
+            }
+            else if (cbb_department.SelectedIndex == 1)
+            {
+                cbb_position.Items.Clear();
+                for (int i = 0; i < listBaoVe.Length; i++)
+                {
+                    cbb_position.Items.Add(listBaoVe[i]);
+                }
+            }
+            else if (cbb_department.SelectedIndex == 2)
+            {
+                cbb_position.Items.Clear();
+                for (int i = 0; i < listIT.Count; i++)
+                {
+                    cbb_position.Items.Add(listIT[i]);
+                }
+            }
         }
     }
 }

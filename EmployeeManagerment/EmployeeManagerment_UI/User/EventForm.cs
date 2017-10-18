@@ -12,7 +12,6 @@ namespace EmployeeManagerment_UI.User
     {
         int index;
         Guid _id;
-        Guid _id2;
 
         public EventForm()
         {
@@ -21,11 +20,14 @@ namespace EmployeeManagerment_UI.User
 
         private void EventForm_Load(object sender, EventArgs e)
         {
-            GetAllData();
-            index = grid_listevent.CurrentCell.RowIndex;
-            _id2 =(Guid) grid_listevent.Rows[index].Cells[0].Value;
-            //Guid idGuid = (Guid)(grid_listevent.DataSource as DataTable).Rows[0][0];
-            //_id = (Guid)_id2;
+            try
+            {
+                GetAllData();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
+            }
         }
 
         private void GetAllData()
@@ -35,7 +37,7 @@ namespace EmployeeManagerment_UI.User
                 grid_listevent.DataSource = new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.EventsAll();
             }
             catch
-            {            
+            {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileRefreshData();
             }
         }
@@ -63,20 +65,29 @@ namespace EmployeeManagerment_UI.User
             {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
             }
+            finally
+            {
+                GetAllData();
+            }
         }
 
         private void EditEvent()
         {
             PdbEvent eve = new PdbEvent();
+            eve = new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.GetEvent(_id);
             try
             {
-                eve = GetInfomation();
                 new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.Edit(eve);
                 new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
             }
             catch
             {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
+                throw new Exception();
+            }
+            finally
+            {
+                GetAllData();
             }
         }
 
@@ -105,7 +116,46 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_deleteevent_Click(object sender, EventArgs e)
         {
+            DeleteEvent();
+        }
 
+        private void DeleteEvent()
+        {
+            try
+            {
+                new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.Delete(_id);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.DeleteSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileDelete();
+            }
+            finally
+            {
+                GetAllData();
+            }
+        }
+
+        private void grid_listevent_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            index = grid_listevent.CurrentCell.RowIndex;
+            _id = (Guid)grid_listevent.Rows[index].Cells[0].Value;
+            txt_eventname.Text = grid_listevent.Rows[index].Cells[1].Value.ToString().Trim();
+            txt_expectedcost.Text = grid_listevent.Rows[index].Cells[2].Value.ToString().Trim();
+            txt_costawarded.Text = grid_listevent.Rows[index].Cells[3].Value.ToString().Trim();
+            txt_actualcost.Text = grid_listevent.Rows[index].Cells[4].Value.ToString().Trim();
+            dtp_datestart.Value = (DateTime)grid_listevent.Rows[index].Cells[5].Value;
+            dtp_dateend.Value = (DateTime)grid_listevent.Rows[index].Cells[6].Value;
+            txt_location.Text = grid_listevent.Rows[index].Cells[7].Value.ToString().Trim();
+            txt_scale.Text = grid_listevent.Rows[index].Cells[8].Value.ToString().Trim();
+            rtxt_eventcontent.Text = grid_listevent.Rows[index].Cells[9].Value.ToString().Trim();
+            txt_travelby.Text = grid_listevent.Rows[index].Cells[10].Value.ToString().Trim();
+            txt_moneystaffpay.Text = grid_listevent.Rows[index].Cells[11].Value.ToString().Trim();
+        }
+
+        private void btn_editevent_Click(object sender, EventArgs e)
+        {
+            EditEvent();
         }
     }
 }
