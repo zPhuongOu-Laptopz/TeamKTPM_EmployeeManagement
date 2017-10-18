@@ -34,21 +34,21 @@
             this.btn_reloadaccount = new System.Windows.Forms.Button();
             this.btn_backaccount = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cb_isactiveaccount = new System.Windows.Forms.CheckBox();
+            this.txt_accountlevel = new System.Windows.Forms.TextBox();
+            this.txt_accountpassword = new System.Windows.Forms.TextBox();
+            this.txt_accountname = new System.Windows.Forms.TextBox();
+            this.cbb_firstname = new System.Windows.Forms.ComboBox();
+            this.cbb_position = new System.Windows.Forms.ComboBox();
+            this.cbb_department = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.grid_listaccount = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbb_department = new System.Windows.Forms.ComboBox();
-            this.cbb_position = new System.Windows.Forms.ComboBox();
-            this.cbb_firstname = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txt_accountname = new System.Windows.Forms.TextBox();
-            this.txt_accountpassword = new System.Windows.Forms.TextBox();
-            this.txt_accountlevel = new System.Windows.Forms.TextBox();
-            this.cb_isactiveaccount = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_listaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -131,6 +131,145 @@
             this.panel1.Size = new System.Drawing.Size(999, 742);
             this.panel1.TabIndex = 0;
             // 
+            // cb_isactiveaccount
+            // 
+            this.cb_isactiveaccount.AutoSize = true;
+            this.cb_isactiveaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_isactiveaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.cb_isactiveaccount.Location = new System.Drawing.Point(552, 235);
+            this.cb_isactiveaccount.Name = "cb_isactiveaccount";
+            this.cb_isactiveaccount.Size = new System.Drawing.Size(169, 36);
+            this.cb_isactiveaccount.TabIndex = 7;
+            this.cb_isactiveaccount.Text = "Kích hoạt";
+            this.cb_isactiveaccount.UseVisualStyleBackColor = true;
+            // 
+            // txt_accountlevel
+            // 
+            this.txt_accountlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_accountlevel.Location = new System.Drawing.Point(783, 166);
+            this.txt_accountlevel.Name = "txt_accountlevel";
+            this.txt_accountlevel.Size = new System.Drawing.Size(181, 39);
+            this.txt_accountlevel.TabIndex = 6;
+            // 
+            // txt_accountpassword
+            // 
+            this.txt_accountpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_accountpassword.Location = new System.Drawing.Point(783, 88);
+            this.txt_accountpassword.Name = "txt_accountpassword";
+            this.txt_accountpassword.Size = new System.Drawing.Size(181, 39);
+            this.txt_accountpassword.TabIndex = 5;
+            // 
+            // txt_accountname
+            // 
+            this.txt_accountname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_accountname.Location = new System.Drawing.Point(783, 12);
+            this.txt_accountname.Name = "txt_accountname";
+            this.txt_accountname.Size = new System.Drawing.Size(181, 39);
+            this.txt_accountname.TabIndex = 4;
+            // 
+            // cbb_firstname
+            // 
+            this.cbb_firstname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_firstname.FormattingEnabled = true;
+            this.cbb_firstname.Location = new System.Drawing.Point(290, 166);
+            this.cbb_firstname.Name = "cbb_firstname";
+            this.cbb_firstname.Size = new System.Drawing.Size(220, 40);
+            this.cbb_firstname.TabIndex = 3;
+            // 
+            // cbb_position
+            // 
+            this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_position.FormattingEnabled = true;
+            this.cbb_position.Location = new System.Drawing.Point(290, 88);
+            this.cbb_position.Name = "cbb_position";
+            this.cbb_position.Size = new System.Drawing.Size(220, 40);
+            this.cbb_position.TabIndex = 2;
+            // 
+            // cbb_department
+            // 
+            this.cbb_department.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_department.FormattingEnabled = true;
+            this.cbb_department.Items.AddRange(new object[] {
+            "Kế toán",
+            "Bảo vệ",
+            "Công nghệ thông tin",
+            "Kinh doanh",
+            "Nhân sự"});
+            this.cbb_department.Location = new System.Drawing.Point(290, 12);
+            this.cbb_department.Name = "cbb_department";
+            this.cbb_department.Size = new System.Drawing.Size(220, 40);
+            this.cbb_department.TabIndex = 1;
+            this.cbb_department.SelectedIndexChanged += new System.EventHandler(this.cbb_department_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(63, 165);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(161, 32);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Nhân viên:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(63, 95);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(134, 32);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Chức vụ:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(552, 165);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(121, 32);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Cấp độ:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(552, 95);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(156, 32);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Password:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(552, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(158, 32);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Tài khoản:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(63, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 32);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Bộ phận:";
+            // 
             // grid_listaccount
             // 
             this.grid_listaccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -150,144 +289,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(63, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 32);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Bộ phận:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(63, 95);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 32);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Chức vụ:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(63, 165);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 32);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Nhân viên:";
-            // 
-            // cbb_department
-            // 
-            this.cbb_department.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_department.FormattingEnabled = true;
-            this.cbb_department.Items.AddRange(new object[] {
-            "Kế toán",
-            "Bảo vệ",
-            "Công nghệ thông tin",
-            "Kinh doanh",
-            "Nhân sự"});
-            this.cbb_department.Location = new System.Drawing.Point(290, 12);
-            this.cbb_department.Name = "cbb_department";
-            this.cbb_department.Size = new System.Drawing.Size(220, 40);
-            this.cbb_department.TabIndex = 1;
-            // 
-            // cbb_position
-            // 
-            this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_position.FormattingEnabled = true;
-            this.cbb_position.Location = new System.Drawing.Point(290, 88);
-            this.cbb_position.Name = "cbb_position";
-            this.cbb_position.Size = new System.Drawing.Size(220, 40);
-            this.cbb_position.TabIndex = 2;
-            // 
-            // cbb_firstname
-            // 
-            this.cbb_firstname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_firstname.FormattingEnabled = true;
-            this.cbb_firstname.Location = new System.Drawing.Point(290, 166);
-            this.cbb_firstname.Name = "cbb_firstname";
-            this.cbb_firstname.Size = new System.Drawing.Size(220, 40);
-            this.cbb_firstname.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(552, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 32);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Tài khoản:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(552, 95);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 32);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Password:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(552, 165);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 32);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Cấp độ:";
-            // 
-            // txt_accountname
-            // 
-            this.txt_accountname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountname.Location = new System.Drawing.Point(783, 12);
-            this.txt_accountname.Name = "txt_accountname";
-            this.txt_accountname.Size = new System.Drawing.Size(181, 39);
-            this.txt_accountname.TabIndex = 4;
-            // 
-            // txt_accountpassword
-            // 
-            this.txt_accountpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountpassword.Location = new System.Drawing.Point(783, 88);
-            this.txt_accountpassword.Name = "txt_accountpassword";
-            this.txt_accountpassword.Size = new System.Drawing.Size(181, 39);
-            this.txt_accountpassword.TabIndex = 5;
-            // 
-            // txt_accountlevel
-            // 
-            this.txt_accountlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountlevel.Location = new System.Drawing.Point(783, 166);
-            this.txt_accountlevel.Name = "txt_accountlevel";
-            this.txt_accountlevel.Size = new System.Drawing.Size(181, 39);
-            this.txt_accountlevel.TabIndex = 6;
-            // 
-            // cb_isactiveaccount
-            // 
-            this.cb_isactiveaccount.AutoSize = true;
-            this.cb_isactiveaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_isactiveaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.cb_isactiveaccount.Location = new System.Drawing.Point(552, 235);
-            this.cb_isactiveaccount.Name = "cb_isactiveaccount";
-            this.cb_isactiveaccount.Size = new System.Drawing.Size(169, 36);
-            this.cb_isactiveaccount.TabIndex = 7;
-            this.cb_isactiveaccount.Text = "Kích hoạt";
-            this.cb_isactiveaccount.UseVisualStyleBackColor = true;
-            // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -306,6 +307,7 @@
             this.Name = "AccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AccountForm";
+            this.Load += new System.EventHandler(this.AccountForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_listaccount)).EndInit();

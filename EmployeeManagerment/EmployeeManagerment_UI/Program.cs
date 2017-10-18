@@ -17,17 +17,21 @@ namespace EmployeeManagerment_UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
+            Application.Run(new User.AccountForm());
+            Application.Run(new User.SalaryForm());
+            Application.Run(new User.EducationLevelForm());
             Application.Run(new User.ContractForm());
+            Application.Run(new User.SuppliesForm());
             //---------------------------------
-            
+
             //------Phuc-----------------------
             //Application.Run(new User.LoginForm());
             //---------------------------------
-            
+
             //------Khanh----------------------
             //Application.Run(new User.LoginForm());
             //---------------------------------
-            
+
             //------QuangTerry-----------------
             //Application.Run(new User.LoginForm());
             //---------------------------------

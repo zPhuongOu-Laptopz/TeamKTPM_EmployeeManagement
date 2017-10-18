@@ -9,9 +9,11 @@ namespace EmployeeManagerment_UI.User
 {
     public partial class ContractForm : Form
     {
-        string[] listBaoVe = { "Trưởng bảo vệ", "Bảo vệ" };
+        List<string> listBaoVe = new List<string>();
         List<string> listKeToan = new List<string>();
         List<string> listIT = new List<string>();
+        List<string> listKinhDoanh = new List<string>();
+        List<string> listNhanSu = new List<string>();
         
         public ContractForm()
         {
@@ -21,10 +23,16 @@ namespace EmployeeManagerment_UI.User
         private void InsertDataforCombobox()
         {
             listKeToan.Add("Kế toán trưởng");
-            listKeToan.Add("Kế toán");
-            listIT.Add("Trưởng phòng IT");
-            listIT.Add("Phó phòng IT");
-            listIT.Add("Nhân viên IT");
+            listKeToan.Add("Nhân viên");
+            listIT.Add("Giám đốc CNTT");
+            listIT.Add("Thiết kế viên");
+            listIT.Add("Lập trình viên");
+            listBaoVe.Add("Tổ trưởng");
+            listBaoVe.Add("Bảo vệ");
+            listKinhDoanh.Add("Trưởng phòng kinh doanh");
+            listKinhDoanh.Add("Nhân viên");
+            listNhanSu.Add("Trưởng phòng nhân sự");
+            listNhanSu.Add("Nhân viên");
         }
 
         private void btn_backcontract_Click(object sender, EventArgs e)
@@ -124,7 +132,7 @@ namespace EmployeeManagerment_UI.User
             else if (cbb_department.SelectedIndex == 1)
             {
                 cbb_position.Items.Clear();
-                for (int i = 0; i < listBaoVe.Length; i++)
+                for (int i = 0; i < listBaoVe.Count; i++)
                 {
                     cbb_position.Items.Add(listBaoVe[i]);
                 }
@@ -135,6 +143,22 @@ namespace EmployeeManagerment_UI.User
                 for (int i = 0; i < listIT.Count; i++)
                 {
                     cbb_position.Items.Add(listIT[i]);
+                }
+            }
+            else if (cbb_department.SelectedIndex == 3)
+            {
+                cbb_position.Items.Clear();
+                for (int i = 0; i < listKinhDoanh.Count; i++)
+                {
+                    cbb_position.Items.Add(listKinhDoanh[i]);
+                }
+            }
+            else if (cbb_department.SelectedIndex == 4)
+            {
+                cbb_position.Items.Clear();
+                for (int i = 0; i < listNhanSu.Count; i++)
+                {
+                    cbb_position.Items.Add(listNhanSu[i]);
                 }
             }
         }
