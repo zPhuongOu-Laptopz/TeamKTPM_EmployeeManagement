@@ -69,11 +69,11 @@
             this.grid_listcontract.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.grid_listcontract.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listcontract.Dock = System.Windows.Forms.DockStyle.Bottom;
-<<<<<<< HEAD
+
             this.grid_listcontract.Location = new System.Drawing.Point(0, 161);
-=======
+
             this.grid_listcontract.Location = new System.Drawing.Point(0, 292);
->>>>>>> AnhPhuong
+
             this.grid_listcontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grid_listcontract.Name = "grid_listcontract";
             this.grid_listcontract.RowTemplate.Height = 28;
@@ -243,12 +243,12 @@
             this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
-<<<<<<< HEAD
-=======
+
+
             this.cbb_position.Items.AddRange(new object[] {
             "Trưởng phòng",
             "Nhân viên"});
->>>>>>> AnhPhuong
+
             this.cbb_position.Location = new System.Drawing.Point(175, 57);
             this.cbb_position.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbb_position.Name = "cbb_position";
@@ -418,11 +418,11 @@
             this.panel1.Location = new System.Drawing.Point(195, 131);
             this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-<<<<<<< HEAD
+
             this.panel1.Size = new System.Drawing.Size(666, 345);
-=======
+
             this.panel1.Size = new System.Drawing.Size(666, 476);
->>>>>>> AnhPhuong
+
             this.panel1.TabIndex = 1;
             // 
             // btn_backcontract
@@ -443,11 +443,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(861, 476);
-=======
+
             this.ClientSize = new System.Drawing.Size(861, 607);
->>>>>>> AnhPhuong
+
             this.Controls.Add(this.btn_backcontract);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_reloadcontract);
