@@ -65,7 +65,12 @@
             this.btn_backsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_backsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_backsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+<<<<<<< HEAD
             this.btn_backsalary.Location = new System.Drawing.Point(-2, 800);
+=======
+            this.btn_backsalary.Location = new System.Drawing.Point(0, 520);
+            this.btn_backsalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.btn_backsalary.Name = "btn_backsalary";
             this.btn_backsalary.Size = new System.Drawing.Size(292, 77);
             this.btn_backsalary.TabIndex = 19;
@@ -78,7 +83,12 @@
             this.btn_editsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+<<<<<<< HEAD
             this.btn_editsalary.Location = new System.Drawing.Point(-4, 354);
+=======
+            this.btn_editsalary.Location = new System.Drawing.Point(1, 230);
+            this.btn_editsalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.btn_editsalary.Name = "btn_editsalary";
             this.btn_editsalary.Size = new System.Drawing.Size(292, 77);
             this.btn_editsalary.TabIndex = 17;
@@ -91,7 +101,12 @@
             this.btn_deletesalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_deletesalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deletesalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+<<<<<<< HEAD
             this.btn_deletesalary.Location = new System.Drawing.Point(-4, 277);
+=======
+            this.btn_deletesalary.Location = new System.Drawing.Point(1, 180);
+            this.btn_deletesalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.btn_deletesalary.Name = "btn_deletesalary";
             this.btn_deletesalary.Size = new System.Drawing.Size(292, 77);
             this.btn_deletesalary.TabIndex = 16;
@@ -104,7 +119,12 @@
             this.btn_addsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+<<<<<<< HEAD
             this.btn_addsalary.Location = new System.Drawing.Point(-4, 200);
+=======
+            this.btn_addsalary.Location = new System.Drawing.Point(1, 130);
+            this.btn_addsalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.btn_addsalary.Name = "btn_addsalary";
             this.btn_addsalary.Size = new System.Drawing.Size(292, 77);
             this.btn_addsalary.TabIndex = 15;
@@ -117,7 +137,12 @@
             this.btn_reloadsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+<<<<<<< HEAD
             this.btn_reloadsalary.Location = new System.Drawing.Point(-4, 431);
+=======
+            this.btn_reloadsalary.Location = new System.Drawing.Point(1, 280);
+            this.btn_reloadsalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.btn_reloadsalary.Name = "btn_reloadsalary";
             this.btn_reloadsalary.Size = new System.Drawing.Size(292, 77);
             this.btn_reloadsalary.TabIndex = 18;
@@ -142,9 +167,16 @@
             this.panel1.Controls.Add(this.tabControl1);
             this.panel1.Controls.Add(this.grid_listsalary);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+<<<<<<< HEAD
             this.panel1.Location = new System.Drawing.Point(287, 308);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(999, 620);
+=======
+            this.panel1.Location = new System.Drawing.Point(195, 130);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(666, 477);
+>>>>>>> AnhPhuong
             this.panel1.TabIndex = 0;
             // 
             // txt_yearbonus
@@ -202,7 +234,12 @@
             "Công nghệ thông tin",
             "Kinh doanh",
             "Nhân sự"});
+<<<<<<< HEAD
             this.cbb_department.Location = new System.Drawing.Point(290, 12);
+=======
+            this.cbb_department.Location = new System.Drawing.Point(193, 8);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(220, 41);
             this.cbb_department.TabIndex = 1;
@@ -316,7 +353,12 @@
             this.grid_listsalary.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.grid_listsalary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listsalary.Dock = System.Windows.Forms.DockStyle.Bottom;
+<<<<<<< HEAD
             this.grid_listsalary.Location = new System.Drawing.Point(0, 337);
+=======
+            this.grid_listsalary.Location = new System.Drawing.Point(0, 293);
+            this.grid_listsalary.Margin = new System.Windows.Forms.Padding(2);
+>>>>>>> AnhPhuong
             this.grid_listsalary.Name = "grid_listsalary";
             this.grid_listsalary.RowTemplate.Height = 28;
             this.grid_listsalary.Size = new System.Drawing.Size(999, 283);
@@ -328,8 +370,13 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
+<<<<<<< HEAD
             this.pictureBox1.Size = new System.Drawing.Size(1286, 308);
+=======
+            this.pictureBox1.Size = new System.Drawing.Size(861, 130);
+>>>>>>> AnhPhuong
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
@@ -339,7 +386,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1286, 928);
+=======
+            this.ClientSize = new System.Drawing.Size(861, 607);
+>>>>>>> AnhPhuong
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_backsalary);
             this.Controls.Add(this.btn_editsalary);
