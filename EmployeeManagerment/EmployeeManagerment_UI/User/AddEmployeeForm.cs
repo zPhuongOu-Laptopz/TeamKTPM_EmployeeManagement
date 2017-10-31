@@ -64,7 +64,7 @@ namespace EmployeeManagerment_UI.User
             this.Close();
         }
 
-        private void GetInformation()
+        private PdbStaff GetInformation()
         {
             PdbStaff staff = new PdbStaff();
             staff.ID_Staff = Guid.NewGuid();
@@ -98,6 +98,7 @@ namespace EmployeeManagerment_UI.User
                 staff.isMarried = false;
             }
             staff.Image = image;
+            return staff;
         }
 
         private void btn_reset_Click(object sender, EventArgs e)
@@ -125,7 +126,17 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_ok_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                PdbStaff staff = new PdbStaff();
+                staff = GetInformation();
+                new EmployeeManagement_Service.Service.Module.Staffs(new EmployeeManagementDBContext()) { }.Create(staff);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.InsertSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
+            }
         }
     }
 }
