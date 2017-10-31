@@ -18,7 +18,7 @@ namespace EmployeeManagement_Service.Service.Module
         {
             this._context.PdbStaffs.Add(staff);
             this._context.Entry(staff).State = System.Data.Entity.EntityState.Added;
-            return this._context.SaveChanges() == 1;
+            return _context.SaveChanges() == 1;
         }
 
         public bool Update(PdbStaff staff)
