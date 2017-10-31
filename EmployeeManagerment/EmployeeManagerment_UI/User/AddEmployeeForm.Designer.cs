@@ -36,11 +36,6 @@
             this.tab_infomation = new System.Windows.Forms.TabPage();
             this.dtp_dateendwork = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-=======
-            this.txt_household = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
->>>>>>> master
             this.cbb_position = new System.Windows.Forms.ComboBox();
             this.cbb_department = new System.Windows.Forms.ComboBox();
             this.cbb_placecreateic = new System.Windows.Forms.ComboBox();
