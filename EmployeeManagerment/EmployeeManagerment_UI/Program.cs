@@ -17,7 +17,10 @@ namespace EmployeeManagerment_UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
+<<<<<<< HEAD
             //Application.Run(new User.AddEmployeeForm());
+=======
+>>>>>>> dev-NgocPhuong
             //---------------------------------
 
             //------Phuc-----------------------
