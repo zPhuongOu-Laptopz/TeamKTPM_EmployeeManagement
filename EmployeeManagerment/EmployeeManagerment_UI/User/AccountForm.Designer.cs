@@ -324,6 +324,7 @@
             this.grid_listaccount.RowTemplate.Height = 28;
             this.grid_listaccount.Size = new System.Drawing.Size(662, 256);
             this.grid_listaccount.TabIndex = 22;
+            this.grid_listaccount.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_listaccount_CellClick);
             this.grid_listaccount.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_listaccount_CellContentClick);
             // 
             // pictureBox1

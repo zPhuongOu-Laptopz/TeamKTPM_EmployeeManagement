@@ -169,6 +169,11 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_deleteaccount_Click(object sender, EventArgs e)
         {
+            DeleteAccount();
+        }
+
+        private void DeleteAccount()
+        {
             try
             {
                 new Accounts(new EmployeeManagementDBContext()) { }.Delete(_id);
@@ -186,6 +191,37 @@ namespace EmployeeManagerment_UI.User
 
         private void grid_listaccount_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
+
+        private void btn_editaccount_Click(object sender, EventArgs e)
+        {
+            EditAccount();
+        }
+
+        private void EditAccount()
+        {
+            EmployeeManagementDBContext context = new EmployeeManagementDBContext();
+            PdbAccount eve = new PdbAccount();
+            eve = new Accounts(context) { }.GetAccountwithID(_id);
+            try
+            {
+                new Accounts(context) { }.Update(eve);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
+                throw new Exception();
+            }
+            finally
+            {
+                GetAllData();
+            }
+        }
+
+        private void grid_listaccount_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
             index = grid_listaccount.CurrentCell.RowIndex;
             _id = (Guid)grid_listaccount.Rows[index].Cells[0].Value;
             txt_accountname.Text = grid_listaccount.Rows[index].Cells[2].Value.ToString().Trim();
@@ -199,31 +235,6 @@ namespace EmployeeManagerment_UI.User
             else
             {
                 cb_isactiveaccount.Checked = false;
-            }
-        }
-
-        private void btn_editaccount_Click(object sender, EventArgs e)
-        {
-            EditAccount();
-        }
-
-        private void EditAccount()
-        {
-            PdbAccount eve = new PdbAccount();
-            eve = new Accounts(new EmployeeManagementDBContext()) { }.GetAccountwithID(_id);
-            try
-            {
-                new Accounts(new EmployeeManagementDBContext()) { }.Update(eve);
-                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
-            }
-            catch
-            {
-                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
-                throw new Exception();
-            }
-            finally
-            {
-                GetAllData();
             }
         }
     }

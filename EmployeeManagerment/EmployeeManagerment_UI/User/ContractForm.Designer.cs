@@ -105,6 +105,7 @@
             this.btn_deletecontract.Size = new System.Drawing.Size(195, 50);
             this.btn_deletecontract.TabIndex = 11;
             this.btn_deletecontract.UseVisualStyleBackColor = true;
+            this.btn_deletecontract.Click += new System.EventHandler(this.btn_deletecontract_Click);
             // 
             // btn_editcontract
             // 
@@ -119,6 +120,7 @@
             this.btn_editcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_editcontract.TabIndex = 12;
             this.btn_editcontract.UseVisualStyleBackColor = true;
+            this.btn_editcontract.Click += new System.EventHandler(this.btn_editcontract_Click);
             // 
             // btn_reloadcontract
             // 
@@ -239,11 +241,18 @@
             this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
+<<<<<<< HEAD
+=======
+            this.cbb_position.Items.AddRange(new object[] {
+            "Trưởng phòng",
+            "Nhân viên"});
+>>>>>>> master
             this.cbb_position.Location = new System.Drawing.Point(175, 57);
             this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(148, 32);
             this.cbb_position.TabIndex = 2;
+            this.cbb_position.SelectedIndexChanged += new System.EventHandler(this.cbb_position_SelectedIndexChanged);
             // 
             // label3
             // 

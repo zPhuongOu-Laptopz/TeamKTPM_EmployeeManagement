@@ -18,8 +18,12 @@ namespace EmployeeManagerment_UI
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
+<<<<<<< HEAD
             //Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EventForm());
+=======
+            Application.Run(new User.ContractForm());
+>>>>>>> master
             //---------------------------------
 
             //------Phuc-----------------------

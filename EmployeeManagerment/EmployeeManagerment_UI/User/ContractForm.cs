@@ -14,7 +14,11 @@ namespace EmployeeManagerment_UI.User
         List<string> listIT = new List<string>();
         List<string> listKinhDoanh = new List<string>();
         List<string> listNhanSu = new List<string>();
-        
+        string depar = null;
+        string posi = null;
+        Guid _id;
+
+
         public ContractForm()
         {
             InitializeComponent();
@@ -44,6 +48,7 @@ namespace EmployeeManagerment_UI.User
         {
             PdbContract con = new PdbContract();
             con.IDContract = Guid.NewGuid();
+            con.IDStaff = (Guid)cbb_firstname.SelectedValue;
             con.PayForms = txt_payforms.Text;
             con.SignDate = dtp_signdate.Value;
             con.StartDate = dtp_startdate.Value;
@@ -94,35 +99,49 @@ namespace EmployeeManagerment_UI.User
             {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
             }
+            finally
+            {
+                GetAllData();
+            }
         }
 
-        private void EditEvent()
+        private void EditContract()
         {
-            PdbContract con = new PdbContract();
+            EmployeeManagementDBContext context = new EmployeeManagementDBContext();
+            PdbContract eve = new PdbContract();
+            eve = new Contracts(context) { }.GetContract(_id);
             try
             {
-                con = GetInformation();
-                new EmployeeManagement_Service.Service.Module.Contracts(new EmployeeManagementDBContext()) { }.Edit(con);
+                new Contracts(context) { }.Edit(eve);
                 new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
             }
             catch
             {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
+                throw new Exception();
+            }
+            finally
+            {
+                GetAllData();
             }
         }
 
         private void grid_listcontract_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int index = grid_listcontract.CurrentCell.RowIndex;
-            txt_contracttype.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
-            txt_payforms.Text = grid_listcontract.Rows[index].Cells[0].Value.ToString().Trim();
-            
+            _id = (Guid)grid_listcontract.Rows[index].Cells[0].Value;
+            txt_contracttype.Text = grid_listcontract.Rows[index].Cells[2].Value.ToString().Trim();
+            txt_payforms.Text = grid_listcontract.Rows[index].Cells[4].Value.ToString().Trim();
+            dtp_startdate.Value = (DateTime)grid_listcontract.Rows[index].Cells[5].Value;
+            dtp_enddate.Value = (DateTime)grid_listcontract.Rows[index].Cells[6].Value;
+            dtp_signdate.Value = (DateTime)grid_listcontract.Rows[index].Cells[7].Value;
         }
 
         private void cbb_department_SelectedIndexChanged(object sender, EventArgs e)
-        {           
+        {
             if (cbb_department.SelectedIndex == 0)
             {
+                depar = "Kế Toán";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKeToan.Count; i++)
                 {
@@ -131,6 +150,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 1)
             {
+                depar = "Bảo vệ";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listBaoVe.Count; i++)
                 {
@@ -139,6 +159,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 2)
             {
+                depar = "Công nghệ thông tin";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listIT.Count; i++)
                 {
@@ -147,6 +168,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 3)
             {
+                depar = "Kinh Doanh";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKinhDoanh.Count; i++)
                 {
@@ -155,12 +177,61 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 4)
             {
+                depar = "Nhân sự";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listNhanSu.Count; i++)
                 {
                     cbb_position.Items.Add(listNhanSu[i]);
                 }
             }
+        }
+
+        private void cbb_position_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            posi = cbb_position.Text;
+            List<PdbStaff> list = new EmployeeManagement_Service.Service.Module.Staffs(new EmployeeManagementDBContext()) { }.GetStaffwithPosition(posi, depar);
+            Dictionary<Guid, string> comboSource = new Dictionary<Guid, string>();
+            for (int i = 0; i < list.Count; i++)
+            {
+                comboSource.Add(list[i].ID_Staff, list[i].FirstName.ToString());
+            }
+            try
+            {
+                cbb_firstname.DataSource = new BindingSource(comboSource, null);
+                cbb_firstname.DisplayMember = "Value";
+                cbb_firstname.ValueMember = "Key";
+            }
+            catch
+            {
+                MessageBox.Show("Erorr", "Không có nhân viên nào");
+            }
+        }
+
+        private void btn_deletecontract_Click(object sender, EventArgs e)
+        {
+            DeleteContract(_id);
+        }
+
+        private void DeleteContract(Guid _id)
+        {
+            try
+            {
+                new Contracts(new EmployeeManagementDBContext()) { }.Delete(_id);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.DeleteSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileDelete();
+            }
+            finally
+            {
+                GetAllData();
+            }
+        }
+
+        private void btn_editcontract_Click(object sender, EventArgs e)
+        {
+            EditContract();
         }
     }
 }
