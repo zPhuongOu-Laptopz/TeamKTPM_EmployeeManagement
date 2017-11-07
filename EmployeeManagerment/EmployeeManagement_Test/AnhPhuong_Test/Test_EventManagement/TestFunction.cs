@@ -2,6 +2,8 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using EmployeeManagement_Service.ModelDBContext;
+using EmployeeManagement_Service.Service.Module;
 
 namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
 {
@@ -11,59 +13,30 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
     [TestClass]
     public class TestFunction
     {
-        public TestFunction()
+        private PdbEvent event1;
+        [TestInitialize]
+        public void setUp()
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            event1 = new PdbEvent();
+            event1.ID_Event = Guid.NewGuid();
+            event1.EventName = "Đi net";
+            event1.ExpectedCost = 500000;
+            event1.CostsAwarded = 400000;
+            event1.ActualCosts = 300000;
+            event1.Scale = "3";
+            event1.Location = "Phan xích long";
+            event1.DateStart = DateTime.Now;
+            event1.DateEnd = DateTime.Now;
+            event1.TravelBy = "xe máy";
+            event1.Money_Staff_Pay = 20000;
+            event1.EventContent = "abcd";
         }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestEvent()
         {
-            //
-            // TODO: Add test logic here
-            //
+            bool check = new Events(new EmployeeManagementDBContext()) { }.Add(event1);
+            Assert.AreNotEqual(check, false);
         }
     }
 }

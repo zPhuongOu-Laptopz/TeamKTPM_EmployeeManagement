@@ -312,7 +312,7 @@
             // 
             this.dtp_datestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_datestartwork.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtp_datestartwork.Location = new System.Drawing.Point(481, 260);
+            this.dtp_datestartwork.Location = new System.Drawing.Point(481, 263);
             this.dtp_datestartwork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtp_datestartwork.Name = "dtp_datestartwork";
             this.dtp_datestartwork.Size = new System.Drawing.Size(134, 26);
@@ -323,7 +323,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(333, 263);
+            this.label16.Location = new System.Drawing.Point(333, 266);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(92, 24);
@@ -333,7 +333,7 @@
             // txt_basicsalary
             // 
             this.txt_basicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_basicsalary.Location = new System.Drawing.Point(481, 187);
+            this.txt_basicsalary.Location = new System.Drawing.Point(481, 190);
             this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_basicsalary.Name = "txt_basicsalary";
             this.txt_basicsalary.Size = new System.Drawing.Size(134, 29);
@@ -344,7 +344,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(333, 190);
+            this.label15.Location = new System.Drawing.Point(333, 193);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(145, 24);
@@ -356,7 +356,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(333, 155);
+            this.label14.Location = new System.Drawing.Point(333, 121);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(94, 24);
@@ -368,7 +368,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(333, 119);
+            this.label13.Location = new System.Drawing.Point(333, 156);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(93, 24);
@@ -388,7 +388,7 @@
             // txt_coefficientssalary
             // 
             this.txt_coefficientssalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_coefficientssalary.Location = new System.Drawing.Point(481, 224);
+            this.txt_coefficientssalary.Location = new System.Drawing.Point(481, 227);
             this.txt_coefficientssalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_coefficientssalary.Name = "txt_coefficientssalary";
             this.txt_coefficientssalary.Size = new System.Drawing.Size(134, 29);
@@ -399,7 +399,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(333, 227);
+            this.label12.Location = new System.Drawing.Point(333, 230);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(71, 24);
@@ -915,7 +915,7 @@
             // cbb_position
             // 
             this.cbb_position.FormattingEnabled = true;
-            this.cbb_position.Location = new System.Drawing.Point(481, 116);
+            this.cbb_position.Location = new System.Drawing.Point(481, 153);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(134, 32);
             this.cbb_position.TabIndex = 60;
@@ -929,7 +929,7 @@
             "Công nghệ thông tin",
             "Kinh doanh",
             "Nhân sự"});
-            this.cbb_department.Location = new System.Drawing.Point(481, 151);
+            this.cbb_department.Location = new System.Drawing.Point(481, 117);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(134, 32);
             this.cbb_department.TabIndex = 61;
