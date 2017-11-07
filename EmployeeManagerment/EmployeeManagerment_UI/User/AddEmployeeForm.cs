@@ -58,7 +58,7 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_addimage_Click(object sender, EventArgs e)
         {
-            ChoosePicture();            
+            ChoosePicture();
         }
 
         private void ChoosePicture()
@@ -150,17 +150,17 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_ok_Click(object sender, EventArgs e)
         {
-            //try
-            //{
+            try
+            {
                 PdbStaff staff = new PdbStaff();
                 staff = GetInformation();
                 new EmployeeManagement_Service.Service.Module.Staffs(new EmployeeManagementDBContext()) { }.Create(staff);
                 new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.InsertSuccessful();
-            //}
-            //catch
-            //{
-            //    new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
-            //}
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
+            }
         }
 
         private void cbb_department_SelectedIndexChanged(object sender, EventArgs e)

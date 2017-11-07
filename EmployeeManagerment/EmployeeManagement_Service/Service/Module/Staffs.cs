@@ -52,5 +52,13 @@ namespace EmployeeManagement_Service.Service.Module
             List<PdbStaff> listposition = listdepartment.Where(item => item.Position == position).ToList<PdbStaff>();
             return listposition;
         }
+
+        public List<PdbStaff> GetStaffwithPosition(string posi, string depar)
+        {
+            List<PdbStaff> list = GetAllStaff();
+            List<PdbStaff> listresult = list.Where(item => item.Department == depar).Where(item => item.Position == posi).ToList<PdbStaff>();
+
+            return listresult;
+        }
     }
 }
