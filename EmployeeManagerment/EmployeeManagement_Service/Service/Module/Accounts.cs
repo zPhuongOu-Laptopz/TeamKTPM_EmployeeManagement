@@ -14,9 +14,9 @@ namespace EmployeeManagement_Service.Service.Module
             this._context = context;
         }
         
-        public IEnumerable<PdbAccount> AccountAll()
+        public List<PdbAccount> AccountAll()
         {
-            return this._context.PdbAccounts;
+            return this._context.PdbAccounts.ToList<PdbAccount>();
         }
 
         public bool Create(PdbAccount account)

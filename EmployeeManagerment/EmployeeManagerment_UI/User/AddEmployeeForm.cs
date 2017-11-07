@@ -59,7 +59,6 @@ namespace EmployeeManagerment_UI.User
         private void btn_addimage_Click(object sender, EventArgs e)
         {
             ChoosePicture();
-            image = ConvertImagetoByte(ptb_image.Image);
         }
 
         private void ChoosePicture()
@@ -74,6 +73,7 @@ namespace EmployeeManagerment_UI.User
                 }
                 Image myI = Image.FromFile(file);
                 ptb_image.Image = myI;
+                image = ConvertImagetoByte(ptb_image.Image);
             }
             catch
             {
@@ -111,6 +111,7 @@ namespace EmployeeManagerment_UI.User
             staff.AddressWard = txt_ward.Text;
             staff.AddressDistrict = txt_district.Text;
             staff.AddressCity = cbb_city.Text;
+            staff.Produce = rtxtproduce.Text;
             if (cbb_sex.SelectedIndex == 0)
             {
                 staff.isMarried = true;
@@ -119,6 +120,7 @@ namespace EmployeeManagerment_UI.User
             {
                 staff.isMarried = false;
             }
+            ChoosePicture();
             staff.Image = image;
             return staff;
         }

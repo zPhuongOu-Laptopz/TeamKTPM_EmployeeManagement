@@ -62,11 +62,12 @@
             this.btn_addaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addaccount.Location = new System.Drawing.Point(-4, 130);
-            this.btn_addaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_addaccount.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addaccount.Name = "btn_addaccount";
             this.btn_addaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_addaccount.TabIndex = 8;
             this.btn_addaccount.UseVisualStyleBackColor = true;
+            this.btn_addaccount.Click += new System.EventHandler(this.btn_addaccount_Click);
             // 
             // btn_deleteaccount
             // 
@@ -76,11 +77,12 @@
             this.btn_deleteaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deleteaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_deleteaccount.Location = new System.Drawing.Point(-4, 180);
-            this.btn_deleteaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_deleteaccount.Margin = new System.Windows.Forms.Padding(2);
             this.btn_deleteaccount.Name = "btn_deleteaccount";
             this.btn_deleteaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_deleteaccount.TabIndex = 9;
             this.btn_deleteaccount.UseVisualStyleBackColor = true;
+            this.btn_deleteaccount.Click += new System.EventHandler(this.btn_deleteaccount_Click);
             // 
             // btn_editaccount
             // 
@@ -90,11 +92,12 @@
             this.btn_editaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_editaccount.Location = new System.Drawing.Point(-4, 230);
-            this.btn_editaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_editaccount.Margin = new System.Windows.Forms.Padding(2);
             this.btn_editaccount.Name = "btn_editaccount";
             this.btn_editaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_editaccount.TabIndex = 10;
             this.btn_editaccount.UseVisualStyleBackColor = true;
+            this.btn_editaccount.Click += new System.EventHandler(this.btn_editaccount_Click);
             // 
             // btn_reloadaccount
             // 
@@ -104,11 +107,12 @@
             this.btn_reloadaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reloadaccount.Location = new System.Drawing.Point(-4, 280);
-            this.btn_reloadaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reloadaccount.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reloadaccount.Name = "btn_reloadaccount";
             this.btn_reloadaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadaccount.TabIndex = 11;
             this.btn_reloadaccount.UseVisualStyleBackColor = true;
+            this.btn_reloadaccount.Click += new System.EventHandler(this.btn_reloadaccount_Click);
             // 
             // btn_backaccount
             // 
@@ -118,7 +122,7 @@
             this.btn_backaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_backaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_backaccount.Location = new System.Drawing.Point(0, 520);
-            this.btn_backaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_backaccount.Margin = new System.Windows.Forms.Padding(2);
             this.btn_backaccount.Name = "btn_backaccount";
             this.btn_backaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_backaccount.TabIndex = 12;
@@ -146,7 +150,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(191, 130);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(662, 469);
             this.panel1.TabIndex = 0;
@@ -154,109 +158,65 @@
             // cb_isactiveaccount
             // 
             this.cb_isactiveaccount.AutoSize = true;
- 
-            this.cb_isactiveaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_isactiveaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.cb_isactiveaccount.Location = new System.Drawing.Point(552, 235);
-            this.cb_isactiveaccount.Name = "cb_isactiveaccount";
-            this.cb_isactiveaccount.Size = new System.Drawing.Size(169, 36);
-
             this.cb_isactiveaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_isactiveaccount.ForeColor = System.Drawing.Color.White;
             this.cb_isactiveaccount.Location = new System.Drawing.Point(368, 153);
-            this.cb_isactiveaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_isactiveaccount.Margin = new System.Windows.Forms.Padding(2);
             this.cb_isactiveaccount.Name = "cb_isactiveaccount";
             this.cb_isactiveaccount.Size = new System.Drawing.Size(121, 29);
-
             this.cb_isactiveaccount.TabIndex = 7;
             this.cb_isactiveaccount.Text = "Kích hoạt";
             this.cb_isactiveaccount.UseVisualStyleBackColor = true;
             // 
             // txt_accountlevel
             // 
- 
-            this.txt_accountlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountlevel.Location = new System.Drawing.Point(783, 166);
-            this.txt_accountlevel.Name = "txt_accountlevel";
-            this.txt_accountlevel.Size = new System.Drawing.Size(181, 39);
-
             this.txt_accountlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_accountlevel.Location = new System.Drawing.Point(522, 108);
-            this.txt_accountlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_accountlevel.Margin = new System.Windows.Forms.Padding(2);
             this.txt_accountlevel.Name = "txt_accountlevel";
             this.txt_accountlevel.Size = new System.Drawing.Size(122, 29);
-
             this.txt_accountlevel.TabIndex = 6;
             // 
             // txt_accountpassword
             // 
- 
-            this.txt_accountpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountpassword.Location = new System.Drawing.Point(783, 88);
-            this.txt_accountpassword.Name = "txt_accountpassword";
-            this.txt_accountpassword.Size = new System.Drawing.Size(181, 39);
-
             this.txt_accountpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_accountpassword.Location = new System.Drawing.Point(522, 57);
-            this.txt_accountpassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_accountpassword.Margin = new System.Windows.Forms.Padding(2);
             this.txt_accountpassword.Name = "txt_accountpassword";
             this.txt_accountpassword.Size = new System.Drawing.Size(122, 29);
-
             this.txt_accountpassword.TabIndex = 5;
             // 
             // txt_accountname
             // 
- 
-            this.txt_accountname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_accountname.Location = new System.Drawing.Point(783, 12);
-            this.txt_accountname.Name = "txt_accountname";
-            this.txt_accountname.Size = new System.Drawing.Size(181, 39);
-
             this.txt_accountname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_accountname.Location = new System.Drawing.Point(522, 8);
-            this.txt_accountname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_accountname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_accountname.Name = "txt_accountname";
             this.txt_accountname.Size = new System.Drawing.Size(122, 29);
-
             this.txt_accountname.TabIndex = 4;
             // 
             // cbb_firstname
             // 
             this.cbb_firstname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
- 
-            this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_firstname.FormattingEnabled = true;
-            this.cbb_firstname.Location = new System.Drawing.Point(290, 166);
-            this.cbb_firstname.Name = "cbb_firstname";
-            this.cbb_firstname.Size = new System.Drawing.Size(220, 40);
-
             this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_firstname.FormattingEnabled = true;
             this.cbb_firstname.Location = new System.Drawing.Point(193, 108);
-            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_firstname.Name = "cbb_firstname";
             this.cbb_firstname.Size = new System.Drawing.Size(148, 32);
-
             this.cbb_firstname.TabIndex = 3;
             // 
             // cbb_position
             // 
             this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
- 
-            this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_position.FormattingEnabled = true;
-            this.cbb_position.Location = new System.Drawing.Point(290, 88);
-            this.cbb_position.Name = "cbb_position";
-            this.cbb_position.Size = new System.Drawing.Size(220, 40);
-
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
             this.cbb_position.Location = new System.Drawing.Point(193, 57);
-            this.cbb_position.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(148, 32);
-
             this.cbb_position.TabIndex = 2;
+            this.cbb_position.SelectedIndexChanged += new System.EventHandler(this.cbb_position_SelectedIndexChanged);
             // 
             // cbb_department
             // 
@@ -270,7 +230,7 @@
             "Kinh doanh",
             "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(193, 8);
-            this.cbb_department.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(148, 32);
             this.cbb_department.TabIndex = 1;
@@ -279,13 +239,6 @@
             // label3
             // 
             this.label3.AutoSize = true;
- 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(63, 165);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 32);
-
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
@@ -293,20 +246,12 @@
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 24);
-
             this.label3.TabIndex = 3;
             this.label3.Text = "Nhân viên:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
- 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(63, 95);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 32);
-
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -314,20 +259,12 @@
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 24);
-
             this.label2.TabIndex = 3;
             this.label2.Text = "Chức vụ:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
- 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(552, 165);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 32);
-
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
@@ -335,7 +272,6 @@
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 24);
-
             this.label6.TabIndex = 3;
             this.label6.Text = "Cấp độ:";
             // 
@@ -355,13 +291,6 @@
             // label4
             // 
             this.label4.AutoSize = true;
- 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(552, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 32);
-
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
@@ -369,20 +298,12 @@
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 24);
-
             this.label4.TabIndex = 3;
             this.label4.Text = "Tài khoản:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
- 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(63, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 32);
-
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
@@ -390,37 +311,23 @@
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 24);
-
             this.label1.TabIndex = 3;
             this.label1.Text = "Bộ phận:";
             // 
             // grid_listaccount
             // 
- 
-            this.grid_listaccount.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.grid_listaccount.Location = new System.Drawing.Point(0, 331);
-            this.grid_listaccount.Name = "grid_listaccount";
-            this.grid_listaccount.RowTemplate.Height = 28;
-            this.grid_listaccount.Size = new System.Drawing.Size(999, 411);
-
             this.grid_listaccount.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.grid_listaccount.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.grid_listaccount.Location = new System.Drawing.Point(0, 213);
-            this.grid_listaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grid_listaccount.Margin = new System.Windows.Forms.Padding(2);
             this.grid_listaccount.Name = "grid_listaccount";
             this.grid_listaccount.RowTemplate.Height = 28;
             this.grid_listaccount.Size = new System.Drawing.Size(662, 256);
-
             this.grid_listaccount.TabIndex = 22;
+            this.grid_listaccount.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_listaccount_CellContentClick);
             // 
             // pictureBox1
             // 
- 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1300, 200);
-
             this.pictureBox1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Account_01;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -428,7 +335,6 @@
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(853, 130);
-
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -448,7 +354,7 @@
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AccountForm";

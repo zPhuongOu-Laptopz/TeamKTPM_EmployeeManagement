@@ -1,22 +1,23 @@
-﻿using System;
+﻿using EmployeeManagement_Service.ModelDBContext;
+using EmployeeManagement_Service.Service.Module;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EmployeeManagerment_UI.User
 {
     public partial class AccountForm : Form
     {
-        List<string> listBaoVe = new List<string>();
-        List<string> listKeToan = new List<string>();
-        List<string> listIT = new List<string>();
-        List<string> listKinhDoanh = new List<string>();
-        List<string> listNhanSu = new List<string>();
+        private List<string> listBaoVe = new List<string>();
+        private List<string> listKeToan = new List<string>();
+        private List<string> listIT = new List<string>();
+        private List<string> listKinhDoanh = new List<string>();
+        private List<string> listNhanSu = new List<string>();
+        private string depar = null;
+        private string posi = null;
+        Guid _id;
+        int index;
+
         private void InsertDataforCombobox()
         {
             listKeToan.Add("Kế toán trưởng");
@@ -41,6 +42,7 @@ namespace EmployeeManagerment_UI.User
         {
             if (cbb_department.SelectedIndex == 0)
             {
+                depar = "Kế Toán";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKeToan.Count; i++)
                 {
@@ -49,6 +51,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 1)
             {
+                depar = "Bảo vệ";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listBaoVe.Count; i++)
                 {
@@ -57,6 +60,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 2)
             {
+                depar = "Công nghệ thông tin";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listIT.Count; i++)
                 {
@@ -65,6 +69,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 3)
             {
+                depar = "Kinh Doanh";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKinhDoanh.Count; i++)
                 {
@@ -73,6 +78,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 4)
             {
+                depar = "Nhân sự";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listNhanSu.Count; i++)
                 {
@@ -84,6 +90,141 @@ namespace EmployeeManagerment_UI.User
         private void AccountForm_Load(object sender, EventArgs e)
         {
             InsertDataforCombobox();
+            GetAllData();
+        }
+
+        private void btn_addaccount_Click(object sender, EventArgs e)
+        {
+            AddAccount();
+        }
+
+        private void AddAccount()
+        {
+            PdbAccount account = new PdbAccount();
+            try
+            {
+                account = GetInfomation();
+                new Accounts(new EmployeeManagementDBContext()) { }.Create(account);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.InsertSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileInsert();
+            }
+            finally
+            {
+                GetAllData();
+            }
+        }
+
+        private void GetAllData()
+        {
+            List<PdbAccount> list = new Accounts(new EmployeeManagementDBContext()) { }.AccountAll();
+            grid_listaccount.DataSource = list;
+        }
+
+        private PdbAccount GetInfomation()
+        {
+            PdbAccount ac = new PdbAccount();
+            ac.IDAccount = Guid.NewGuid();
+            ac.IDStaff = (Guid)cbb_firstname.SelectedValue;
+            ac.AccountName = txt_accountname.Text;
+            ac.AccountPassword = txt_accountpassword.Text;
+            ac.AccountLevel = txt_accountlevel.Text;
+            //ac.PdbStaff = new Staffs(new EmployeeManagementDBContext()) { }.GetStaff((Guid)cbb_firstname.SelectedValue);
+            if (cb_isactiveaccount.Checked)
+            {
+                ac.isActive = true;
+            }
+            else
+                ac.isActive = false;
+            return ac;
+        }
+
+        private void cbb_position_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            posi = cbb_position.Text;
+            List<PdbStaff> list = new EmployeeManagement_Service.Service.Module.Staffs(new EmployeeManagementDBContext()) { }.GetStaffwithPosition(posi, depar);
+            Dictionary<Guid, string> comboSource = new Dictionary<Guid, string>();
+            for (int i = 0; i < list.Count; i++)
+            {
+                comboSource.Add(list[i].ID_Staff, list[i].FirstName.ToString());
+            }
+            try
+            {
+                cbb_firstname.DataSource = new BindingSource(comboSource, null);
+                cbb_firstname.DisplayMember = "Value";
+                cbb_firstname.ValueMember = "Key";
+            }
+            catch
+            {
+                MessageBox.Show("Erorr", "Không có nhân viên nào");
+            }
+        }
+
+        private void btn_reloadaccount_Click(object sender, EventArgs e)
+        {
+            GetAllData();
+        }
+
+        private void btn_deleteaccount_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                new Accounts(new EmployeeManagementDBContext()) { }.Delete(_id);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.DeleteSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileDelete();
+            }
+            finally
+            {
+                GetAllData();
+            }
+        }
+
+        private void grid_listaccount_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            index = grid_listaccount.CurrentCell.RowIndex;
+            _id = (Guid)grid_listaccount.Rows[index].Cells[0].Value;
+            txt_accountname.Text = grid_listaccount.Rows[index].Cells[2].Value.ToString().Trim();
+            txt_accountpassword.Text = grid_listaccount.Rows[index].Cells[3].Value.ToString().Trim();
+            txt_accountlevel.Text = grid_listaccount.Rows[index].Cells[4].Value.ToString().Trim();
+            bool check = (bool)grid_listaccount.Rows[index].Cells[5].Value;
+            if (check)
+            {
+                cb_isactiveaccount.Checked = true;
+            }
+            else
+            {
+                cb_isactiveaccount.Checked = false;
+            }
+        }
+
+        private void btn_editaccount_Click(object sender, EventArgs e)
+        {
+            EditAccount();
+        }
+
+        private void EditAccount()
+        {
+            PdbAccount eve = new PdbAccount();
+            eve = new Accounts(new EmployeeManagementDBContext()) { }.GetAccountwithID(_id);
+            try
+            {
+                new Accounts(new EmployeeManagementDBContext()) { }.Update(eve);
+                new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
+            }
+            catch
+            {
+                new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
+                throw new Exception();
+            }
+            finally
+            {
+                GetAllData();
+            }
         }
     }
 }

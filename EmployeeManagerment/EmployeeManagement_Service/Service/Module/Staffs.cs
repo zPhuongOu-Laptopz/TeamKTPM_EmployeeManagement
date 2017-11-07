@@ -18,7 +18,7 @@ namespace EmployeeManagement_Service.Service.Module
         {
             this._context.PdbStaffs.Add(staff);
             this._context.Entry(staff).State = System.Data.Entity.EntityState.Added;
-            return this._context.SaveChanges() == 1;
+            return _context.SaveChanges() == 1;
         }
 
         public bool Update(PdbStaff staff)
@@ -51,6 +51,14 @@ namespace EmployeeManagement_Service.Service.Module
             List<PdbStaff> listdepartment = this._context.PdbStaffs.Where(item => item.Department == department).ToList<PdbStaff>();
             List<PdbStaff> listposition = listdepartment.Where(item => item.Position == position).ToList<PdbStaff>();
             return listposition;
+        }
+
+        public List<PdbStaff> GetStaffwithPosition(string posi, string depar)
+        {
+            List<PdbStaff> list = GetAllStaff();
+            List<PdbStaff> listresult = list.Where(item => item.Department == depar).Where(item => item.Position == posi).ToList<PdbStaff>();
+
+            return listresult;
         }
     }
 }
