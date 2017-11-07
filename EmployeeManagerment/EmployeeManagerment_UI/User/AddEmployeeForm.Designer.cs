@@ -88,6 +88,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btn_backaddemployee = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.rtxtproduce = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -107,7 +108,7 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(861, 130);
             this.panel1.TabIndex = 0;
@@ -146,7 +147,7 @@
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Right;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(182, 130);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(679, 477);
@@ -191,7 +192,7 @@
             this.tab_infomation.Controls.Add(this.txt_numerical);
             this.tab_infomation.Controls.Add(this.label1);
             this.tab_infomation.Location = new System.Drawing.Point(4, 33);
-            this.tab_infomation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tab_infomation.Margin = new System.Windows.Forms.Padding(2);
             this.tab_infomation.Name = "tab_infomation";
             this.tab_infomation.Size = new System.Drawing.Size(671, 440);
             this.tab_infomation.TabIndex = 0;
@@ -203,7 +204,7 @@
             this.dtp_dateendwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateendwork.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_dateendwork.Location = new System.Drawing.Point(481, 300);
-            this.dtp_dateendwork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateendwork.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateendwork.Name = "dtp_dateendwork";
             this.dtp_dateendwork.Size = new System.Drawing.Size(134, 29);
             this.dtp_dateendwork.TabIndex = 17;
@@ -231,7 +232,7 @@
             "Trưởng phòng",
             "Nhân viên"});
             this.cbb_position.Location = new System.Drawing.Point(481, 154);
-            this.cbb_position.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cbb_position.Margin = new System.Windows.Forms.Padding(1);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(134, 32);
             this.cbb_position.TabIndex = 11;
@@ -250,7 +251,7 @@
             "Kinh doanh",
             "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(481, 117);
-            this.cbb_department.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(1);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(134, 32);
             this.cbb_department.TabIndex = 11;
@@ -328,7 +329,7 @@
             "Hà Nội",
             "TP HCM"});
             this.cbb_placecreateic.Location = new System.Drawing.Point(481, 79);
-            this.cbb_placecreateic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_placecreateic.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_placecreateic.Name = "cbb_placecreateic";
             this.cbb_placecreateic.Size = new System.Drawing.Size(134, 32);
             this.cbb_placecreateic.TabIndex = 11;
@@ -338,7 +339,7 @@
             this.dtp_datestartwork.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_datestartwork.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_datestartwork.Location = new System.Drawing.Point(481, 264);
-            this.dtp_datestartwork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_datestartwork.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_datestartwork.Name = "dtp_datestartwork";
             this.dtp_datestartwork.Size = new System.Drawing.Size(134, 29);
             this.dtp_datestartwork.TabIndex = 16;
@@ -361,10 +362,11 @@
             this.txt_basicsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_basicsalary.ForeColor = System.Drawing.Color.Black;
             this.txt_basicsalary.Location = new System.Drawing.Point(481, 192);
-            this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_basicsalary.Margin = new System.Windows.Forms.Padding(2);
             this.txt_basicsalary.Name = "txt_basicsalary";
             this.txt_basicsalary.Size = new System.Drawing.Size(134, 29);
             this.txt_basicsalary.TabIndex = 15;
+            this.txt_basicsalary.Text = "750000";
             // 
             // label15
             // 
@@ -407,7 +409,7 @@
             this.dtp_datecreateic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_datecreateic.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_datecreateic.Location = new System.Drawing.Point(481, 45);
-            this.dtp_datecreateic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_datecreateic.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_datecreateic.Name = "dtp_datecreateic";
             this.dtp_datecreateic.Size = new System.Drawing.Size(134, 29);
             this.dtp_datecreateic.TabIndex = 10;
@@ -418,10 +420,11 @@
             this.txt_coefficientssalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_coefficientssalary.ForeColor = System.Drawing.Color.Black;
             this.txt_coefficientssalary.Location = new System.Drawing.Point(481, 228);
-            this.txt_coefficientssalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_coefficientssalary.Margin = new System.Windows.Forms.Padding(2);
             this.txt_coefficientssalary.Name = "txt_coefficientssalary";
             this.txt_coefficientssalary.Size = new System.Drawing.Size(134, 29);
             this.txt_coefficientssalary.TabIndex = 12;
+            this.txt_coefficientssalary.Text = "8";
             // 
             // label12
             // 
@@ -465,10 +468,11 @@
             this.txt_ic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ic.ForeColor = System.Drawing.Color.Black;
             this.txt_ic.Location = new System.Drawing.Point(481, 10);
-            this.txt_ic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_ic.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ic.Name = "txt_ic";
             this.txt_ic.Size = new System.Drawing.Size(134, 29);
             this.txt_ic.TabIndex = 9;
+            this.txt_ic.Text = "01234568";
             // 
             // label9
             // 
@@ -488,10 +492,11 @@
             this.txt_hometown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_hometown.ForeColor = System.Drawing.Color.Black;
             this.txt_hometown.Location = new System.Drawing.Point(162, 263);
-            this.txt_hometown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_hometown.Margin = new System.Windows.Forms.Padding(2);
             this.txt_hometown.Name = "txt_hometown";
             this.txt_hometown.Size = new System.Drawing.Size(134, 29);
             this.txt_hometown.TabIndex = 7;
+            this.txt_hometown.Text = "Sài gòn";
             // 
             // label8
             // 
@@ -511,10 +516,11 @@
             this.txt_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_email.ForeColor = System.Drawing.Color.Black;
             this.txt_email.Location = new System.Drawing.Point(162, 227);
-            this.txt_email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(2);
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(134, 29);
             this.txt_email.TabIndex = 6;
+            this.txt_email.Text = "abc@gmail.com";
             // 
             // label7
             // 
@@ -534,10 +540,11 @@
             this.txt_phonenumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_phonenumber.ForeColor = System.Drawing.Color.Black;
             this.txt_phonenumber.Location = new System.Drawing.Point(162, 191);
-            this.txt_phonenumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_phonenumber.Margin = new System.Windows.Forms.Padding(2);
             this.txt_phonenumber.Name = "txt_phonenumber";
             this.txt_phonenumber.Size = new System.Drawing.Size(134, 29);
             this.txt_phonenumber.TabIndex = 5;
+            this.txt_phonenumber.Text = "0123456789";
             // 
             // label6
             // 
@@ -562,7 +569,7 @@
             "Nam",
             "Nữ"});
             this.cbb_sex.Location = new System.Drawing.Point(162, 153);
-            this.cbb_sex.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_sex.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_sex.Name = "cbb_sex";
             this.cbb_sex.Size = new System.Drawing.Size(134, 32);
             this.cbb_sex.TabIndex = 4;
@@ -586,7 +593,7 @@
             this.dtp_birthday.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_birthday.Location = new System.Drawing.Point(162, 117);
-            this.dtp_birthday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_birthday.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_birthday.Name = "dtp_birthday";
             this.dtp_birthday.Size = new System.Drawing.Size(134, 29);
             this.dtp_birthday.TabIndex = 3;
@@ -609,10 +616,11 @@
             this.txt_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_firstname.ForeColor = System.Drawing.Color.Black;
             this.txt_firstname.Location = new System.Drawing.Point(162, 81);
-            this.txt_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_firstname.Name = "txt_firstname";
             this.txt_firstname.Size = new System.Drawing.Size(134, 29);
             this.txt_firstname.TabIndex = 2;
+            this.txt_firstname.Text = "Ngọc";
             // 
             // label3
             // 
@@ -632,10 +640,11 @@
             this.txt_lastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_lastname.ForeColor = System.Drawing.Color.Black;
             this.txt_lastname.Location = new System.Drawing.Point(162, 45);
-            this.txt_lastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_lastname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_lastname.Name = "txt_lastname";
             this.txt_lastname.Size = new System.Drawing.Size(134, 29);
             this.txt_lastname.TabIndex = 1;
+            this.txt_lastname.Text = "Nguyễn";
             // 
             // label2
             // 
@@ -653,7 +662,7 @@
             // 
             this.txt_numerical.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_numerical.Location = new System.Drawing.Point(365, -35);
-            this.txt_numerical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_numerical.Margin = new System.Windows.Forms.Padding(2);
             this.txt_numerical.Name = "txt_numerical";
             this.txt_numerical.ReadOnly = true;
             this.txt_numerical.Size = new System.Drawing.Size(68, 29);
@@ -676,6 +685,7 @@
             // 
             this.tab_address.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.tab_address.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tab_address.Controls.Add(this.rtxtproduce);
             this.tab_address.Controls.Add(this.cbb_city);
             this.tab_address.Controls.Add(this.cbb_relationship);
             this.tab_address.Controls.Add(this.label26);
@@ -690,7 +700,7 @@
             this.tab_address.Controls.Add(this.label25);
             this.tab_address.ForeColor = System.Drawing.Color.White;
             this.tab_address.Location = new System.Drawing.Point(4, 33);
-            this.tab_address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tab_address.Margin = new System.Windows.Forms.Padding(2);
             this.tab_address.Name = "tab_address";
             this.tab_address.Size = new System.Drawing.Size(671, 440);
             this.tab_address.TabIndex = 1;
@@ -767,7 +777,7 @@
             "Hà Nội",
             "TP HCM"});
             this.cbb_city.Location = new System.Drawing.Point(226, 153);
-            this.cbb_city.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_city.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_city.Name = "cbb_city";
             this.cbb_city.Size = new System.Drawing.Size(134, 32);
             this.cbb_city.TabIndex = 5;
@@ -781,7 +791,7 @@
             "Kết hôn",
             "Độc thân"});
             this.cbb_relationship.Location = new System.Drawing.Point(226, 188);
-            this.cbb_relationship.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_relationship.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_relationship.Name = "cbb_relationship";
             this.cbb_relationship.Size = new System.Drawing.Size(134, 32);
             this.cbb_relationship.TabIndex = 7;
@@ -814,19 +824,21 @@
             // 
             this.txt_district.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_district.Location = new System.Drawing.Point(226, 117);
-            this.txt_district.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_district.Margin = new System.Windows.Forms.Padding(2);
             this.txt_district.Name = "txt_district";
             this.txt_district.Size = new System.Drawing.Size(134, 29);
             this.txt_district.TabIndex = 4;
+            this.txt_district.Text = "Tân bình";
             // 
             // txt_address
             // 
             this.txt_address.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_address.Location = new System.Drawing.Point(226, 10);
-            this.txt_address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_address.Margin = new System.Windows.Forms.Padding(2);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(134, 29);
             this.txt_address.TabIndex = 1;
+            this.txt_address.Text = "1";
             // 
             // label18
             // 
@@ -856,10 +868,11 @@
             // 
             this.txt_ward.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ward.Location = new System.Drawing.Point(226, 81);
-            this.txt_ward.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_ward.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ward.Name = "txt_ward";
             this.txt_ward.Size = new System.Drawing.Size(134, 29);
             this.txt_ward.TabIndex = 3;
+            this.txt_ward.Text = "13";
             // 
             // label24
             // 
@@ -877,10 +890,11 @@
             // 
             this.txt_street.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_street.Location = new System.Drawing.Point(226, 45);
-            this.txt_street.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_street.Margin = new System.Windows.Forms.Padding(2);
             this.txt_street.Name = "txt_street";
             this.txt_street.Size = new System.Drawing.Size(134, 29);
             this.txt_street.TabIndex = 2;
+            this.txt_street.Text = "Lê Duẩn";
             // 
             // label25
             // 
@@ -912,7 +926,7 @@
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reset.Location = new System.Drawing.Point(0, 403);
-            this.btn_reset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reset.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(186, 48);
             this.btn_reset.TabIndex = 20;
@@ -927,7 +941,7 @@
             this.btn_ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ok.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_ok.Location = new System.Drawing.Point(0, 357);
-            this.btn_ok.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ok.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(186, 48);
             this.btn_ok.TabIndex = 19;
@@ -942,7 +956,7 @@
             this.btn_addimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addimage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addimage.Location = new System.Drawing.Point(0, 309);
-            this.btn_addimage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_addimage.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addimage.Name = "btn_addimage";
             this.btn_addimage.Size = new System.Drawing.Size(186, 48);
             this.btn_addimage.TabIndex = 18;
@@ -977,6 +991,14 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // rtxtproduce
+            // 
+            this.rtxtproduce.Location = new System.Drawing.Point(27, 240);
+            this.rtxtproduce.Name = "rtxtproduce";
+            this.rtxtproduce.Size = new System.Drawing.Size(630, 192);
+            this.rtxtproduce.TabIndex = 77;
+            this.rtxtproduce.Text = "Datatest";
+            // 
             // AddEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -994,7 +1016,7 @@
             this.Controls.Add(this.pictureBox5);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddEmployeeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddEmployeeForm";
@@ -1076,5 +1098,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ComboBox cbb_position;
         private System.Windows.Forms.ComboBox cbb_department;
+        private System.Windows.Forms.RichTextBox rtxtproduce;
     }
 }

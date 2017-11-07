@@ -19,7 +19,7 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
         {
             event1 = new PdbEvent();
             event1.ID_Event = Guid.NewGuid();
-            event1.EventName = "Đi net";
+            event1.EventName = "Anh Phuong";
             event1.ExpectedCost = 500000;
             event1.CostsAwarded = 400000;
             event1.ActualCosts = 300000;
@@ -27,7 +27,7 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
             event1.Location = "Phan xích long";
             event1.DateStart = DateTime.Now;
             event1.DateEnd = DateTime.Now;
-            event1.TravelBy = "xe máy";
+            event1.TravelBy = "xe 4 chỗ";
             event1.Money_Staff_Pay = 20000;
             event1.EventContent = "abcd";
         }
@@ -38,5 +38,15 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
             bool check = new Events(new EmployeeManagementDBContext()) { }.Add(event1);
             Assert.AreNotEqual(check, false);
         }
+        
+       [TestMethod]
+       public void TestEvent_edit()
+        {
+
+        }
+
+
+
+
     }
 }

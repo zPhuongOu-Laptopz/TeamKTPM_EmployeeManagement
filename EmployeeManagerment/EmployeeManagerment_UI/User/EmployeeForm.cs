@@ -79,5 +79,10 @@ namespace EmployeeManagerment_UI.User
         {
             this.Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
