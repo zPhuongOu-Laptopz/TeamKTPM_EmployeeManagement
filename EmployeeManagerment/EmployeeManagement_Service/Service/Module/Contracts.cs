@@ -15,9 +15,9 @@ namespace EmployeeManagement_Service.Service.Module
             this._context = context;
         }
 
-        public IEnumerable<PdbContract> ContractsAll()
+        public List<PdbContract> ContractsAll()
         {
-            return _context.PdbContracts;
+            return _context.PdbContracts.ToList<PdbContract>();
         }
 
         public bool Add(PdbContract item)

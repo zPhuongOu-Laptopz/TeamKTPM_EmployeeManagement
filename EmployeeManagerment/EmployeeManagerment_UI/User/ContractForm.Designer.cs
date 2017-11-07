@@ -69,12 +69,8 @@
             this.grid_listcontract.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.grid_listcontract.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listcontract.Dock = System.Windows.Forms.DockStyle.Bottom;
-
-            this.grid_listcontract.Location = new System.Drawing.Point(0, 161);
-
             this.grid_listcontract.Location = new System.Drawing.Point(0, 292);
-
-            this.grid_listcontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grid_listcontract.Margin = new System.Windows.Forms.Padding(2);
             this.grid_listcontract.Name = "grid_listcontract";
             this.grid_listcontract.RowTemplate.Height = 28;
             this.grid_listcontract.Size = new System.Drawing.Size(666, 184);
@@ -89,7 +85,7 @@
             this.btn_addcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addcontract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addcontract.Location = new System.Drawing.Point(0, 130);
-            this.btn_addcontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_addcontract.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addcontract.Name = "btn_addcontract";
             this.btn_addcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_addcontract.TabIndex = 10;
@@ -104,11 +100,12 @@
             this.btn_deletecontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deletecontract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_deletecontract.Location = new System.Drawing.Point(0, 179);
-            this.btn_deletecontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_deletecontract.Margin = new System.Windows.Forms.Padding(2);
             this.btn_deletecontract.Name = "btn_deletecontract";
             this.btn_deletecontract.Size = new System.Drawing.Size(195, 50);
             this.btn_deletecontract.TabIndex = 11;
             this.btn_deletecontract.UseVisualStyleBackColor = true;
+            this.btn_deletecontract.Click += new System.EventHandler(this.btn_deletecontract_Click);
             // 
             // btn_editcontract
             // 
@@ -118,11 +115,12 @@
             this.btn_editcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editcontract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_editcontract.Location = new System.Drawing.Point(0, 228);
-            this.btn_editcontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_editcontract.Margin = new System.Windows.Forms.Padding(2);
             this.btn_editcontract.Name = "btn_editcontract";
             this.btn_editcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_editcontract.TabIndex = 12;
             this.btn_editcontract.UseVisualStyleBackColor = true;
+            this.btn_editcontract.Click += new System.EventHandler(this.btn_editcontract_Click);
             // 
             // btn_reloadcontract
             // 
@@ -132,7 +130,7 @@
             this.btn_reloadcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadcontract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reloadcontract.Location = new System.Drawing.Point(0, 278);
-            this.btn_reloadcontract.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reloadcontract.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reloadcontract.Name = "btn_reloadcontract";
             this.btn_reloadcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadcontract.TabIndex = 13;
@@ -144,7 +142,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(861, 131);
             this.pictureBox1.TabIndex = 0;
@@ -165,7 +163,7 @@
             this.tabControl1.Controls.Add(this.tab_contractdescription);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 179);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(666, 114);
@@ -175,7 +173,7 @@
             // 
             this.tab_contractdescription.Controls.Add(this.rtxt_contractdescription);
             this.tab_contractdescription.Location = new System.Drawing.Point(4, 33);
-            this.tab_contractdescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tab_contractdescription.Margin = new System.Windows.Forms.Padding(2);
             this.tab_contractdescription.Name = "tab_contractdescription";
             this.tab_contractdescription.Size = new System.Drawing.Size(658, 77);
             this.tab_contractdescription.TabIndex = 0;
@@ -188,7 +186,7 @@
             this.rtxt_contractdescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtxt_contractdescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtxt_contractdescription.Location = new System.Drawing.Point(0, 0);
-            this.rtxt_contractdescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtxt_contractdescription.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_contractdescription.Name = "rtxt_contractdescription";
             this.rtxt_contractdescription.Size = new System.Drawing.Size(658, 77);
             this.rtxt_contractdescription.TabIndex = 9;
@@ -219,7 +217,7 @@
             "Kinh doanh",
             "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(175, 11);
-            this.cbb_department.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(148, 32);
             this.cbb_department.TabIndex = 1;
@@ -243,17 +241,15 @@
             this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
-
-
             this.cbb_position.Items.AddRange(new object[] {
             "Trưởng phòng",
             "Nhân viên"});
-
             this.cbb_position.Location = new System.Drawing.Point(175, 57);
-            this.cbb_position.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(148, 32);
             this.cbb_position.TabIndex = 2;
+            this.cbb_position.SelectedIndexChanged += new System.EventHandler(this.cbb_position_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -274,7 +270,7 @@
             this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_firstname.FormattingEnabled = true;
             this.cbb_firstname.Location = new System.Drawing.Point(175, 102);
-            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_firstname.Name = "cbb_firstname";
             this.cbb_firstname.Size = new System.Drawing.Size(148, 32);
             this.cbb_firstname.TabIndex = 3;
@@ -296,7 +292,7 @@
             // 
             this.txt_contracttype.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contracttype.Location = new System.Drawing.Point(175, 148);
-            this.txt_contracttype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_contracttype.Margin = new System.Windows.Forms.Padding(2);
             this.txt_contracttype.Name = "txt_contracttype";
             this.txt_contracttype.Size = new System.Drawing.Size(148, 29);
             this.txt_contracttype.TabIndex = 4;
@@ -318,7 +314,7 @@
             // 
             this.txt_payforms.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_payforms.Location = new System.Drawing.Point(501, 11);
-            this.txt_payforms.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_payforms.Margin = new System.Windows.Forms.Padding(2);
             this.txt_payforms.Name = "txt_payforms";
             this.txt_payforms.Size = new System.Drawing.Size(148, 29);
             this.txt_payforms.TabIndex = 5;
@@ -341,7 +337,7 @@
             this.dtp_startdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_startdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_startdate.Location = new System.Drawing.Point(501, 57);
-            this.dtp_startdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_startdate.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_startdate.Name = "dtp_startdate";
             this.dtp_startdate.Size = new System.Drawing.Size(148, 29);
             this.dtp_startdate.TabIndex = 6;
@@ -364,7 +360,7 @@
             this.dtp_enddate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_enddate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_enddate.Location = new System.Drawing.Point(501, 102);
-            this.dtp_enddate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_enddate.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_enddate.Name = "dtp_enddate";
             this.dtp_enddate.Size = new System.Drawing.Size(148, 29);
             this.dtp_enddate.TabIndex = 7;
@@ -387,7 +383,7 @@
             this.dtp_signdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_signdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_signdate.Location = new System.Drawing.Point(501, 148);
-            this.dtp_signdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_signdate.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_signdate.Name = "dtp_signdate";
             this.dtp_signdate.Size = new System.Drawing.Size(148, 29);
             this.dtp_signdate.TabIndex = 8;
@@ -416,13 +412,9 @@
             this.panel1.Controls.Add(this.tabControl1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(195, 131);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-
-            this.panel1.Size = new System.Drawing.Size(666, 345);
-
             this.panel1.Size = new System.Drawing.Size(666, 476);
-
             this.panel1.TabIndex = 1;
             // 
             // btn_backcontract
@@ -443,11 +435,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-
-            this.ClientSize = new System.Drawing.Size(861, 476);
-
             this.ClientSize = new System.Drawing.Size(861, 607);
-
             this.Controls.Add(this.btn_backcontract);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_reloadcontract);
@@ -458,7 +446,7 @@
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ContractForm";

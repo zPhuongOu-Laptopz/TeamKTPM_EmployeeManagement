@@ -11,6 +11,7 @@ namespace EmployeeManagerment_UI.User
     public partial class EventForm : Form
     {
         int index;
+        EmployeeManagementDBContext _context;
         Guid _id;
 
         public EventForm()
@@ -20,6 +21,7 @@ namespace EmployeeManagerment_UI.User
 
         private void EventForm_Load(object sender, EventArgs e)
         {
+            _context = new EmployeeManagementDBContext();
             try
             {
                 GetAllData();
@@ -74,16 +76,16 @@ namespace EmployeeManagerment_UI.User
         private void EditEvent()
         {
             PdbEvent eve = new PdbEvent();
-            eve = new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.GetEvent(_id);
+            eve = new Events(_context) { }.GetEvent(_id);
             try
             {
-                new EmployeeManagement_Service.Service.Module.Events(new EmployeeManagementDBContext()) { }.Edit(eve);
+                new Events(_context) { }.Edit(eve);
                 new EmployeeManagement_Service.Service.Basic.Notification.SuccessfulNotification() { }.UpdateSuccessful();
             }
             catch
             {
                 new EmployeeManagement_Service.Service.Basic.Notification.ErrorNotification() { }.ErrorWhileEdit();
-                throw new Exception();
+                //throw new Exception();
             }
             finally
             {
