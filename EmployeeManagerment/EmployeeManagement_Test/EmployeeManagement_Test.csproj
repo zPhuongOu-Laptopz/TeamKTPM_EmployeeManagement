@@ -68,6 +68,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement_Service\EmployeeManagement_Service.csproj">
+      <Project>{710c363c-ae13-459f-bb45-37b73f06980d}</Project>
+      <Name>EmployeeManagement_Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeManagerment_UI\EmployeeManagerment_UI.csproj">
+      <Project>{8959519f-fa9f-4491-8533-edb47356b08d}</Project>
+      <Name>EmployeeManagerment_UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
