@@ -20,6 +20,7 @@ namespace EmployeeManagerment_UI
             //Application.Run(new User.AddEmployeeForm());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             //Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EventForm());
 =======
@@ -29,6 +30,14 @@ namespace EmployeeManagerment_UI
             Application.Run(new User.SalaryForm());
             Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EditEmployeeForm());
+>>>>>>> master
+=======
+            Application.Run(new User.SalaryForm());
+            Application.Run(new User.AddEmployeeForm());
+            Application.Run(new User.EditEmployeeForm());
+=======
+            Application.Run(new User.FeedbackForm());
+>>>>>>> dev-NgocPhuong
 >>>>>>> master
             //---------------------------------
 
