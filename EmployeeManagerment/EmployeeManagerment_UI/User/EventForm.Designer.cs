@@ -431,7 +431,7 @@
             this.btn_reloadevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_reloadevent.Location = new System.Drawing.Point(0, 282);
+            this.btn_reloadevent.Location = new System.Drawing.Point(0, 281);
             this.btn_reloadevent.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reloadevent.Name = "btn_reloadevent";
             this.btn_reloadevent.Size = new System.Drawing.Size(195, 50);

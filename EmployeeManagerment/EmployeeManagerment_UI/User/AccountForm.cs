@@ -123,6 +123,22 @@ namespace EmployeeManagerment_UI.User
             grid_listaccount.DataSource = list;
         }
 
+        private PdbAccount GetInfomationforEdit(PdbAccount ac)
+        {
+            ac.IDStaff = (Guid)cbb_firstname.SelectedValue;
+            ac.AccountName = txt_accountname.Text;
+            ac.AccountPassword = txt_accountpassword.Text;
+            ac.AccountLevel = txt_accountlevel.Text;
+            //ac.PdbStaff = new Staffs(new EmployeeManagementDBContext()) { }.GetStaff((Guid)cbb_firstname.SelectedValue);
+            if (cb_isactiveaccount.Checked)
+            {
+                ac.isActive = true;
+            }
+            else
+                ac.isActive = false;
+            return ac;
+        }
+
         private PdbAccount GetInfomation()
         {
             PdbAccount ac = new PdbAccount();
@@ -202,8 +218,8 @@ namespace EmployeeManagerment_UI.User
         private void EditAccount()
         {
             EmployeeManagementDBContext context = new EmployeeManagementDBContext();
-            PdbAccount eve = new PdbAccount();
-            eve = new Accounts(context) { }.GetAccountwithID(_id);
+            PdbAccount eve = new Accounts(context) { }.GetAccountwithID(_id);
+            eve = GetInfomationforEdit(eve);
             try
             {
                 new Accounts(context) { }.Update(eve);
