@@ -50,7 +50,7 @@ namespace EmployeeManagement_Test.Quang_Test.Test_EventManagement
             account.AccountName = "testdelete";
             account.AccountPassword = "testdelete";
             account.AccountLevel = "NS";
-            account.IDAccount = new Guid("A544D2F1-E89A-4AB6-BE88-FFFB5165E38F");
+            account.IDAccount = new Guid("6BDD9FE6-C182-4A51-9B2D-4B92ADBB620A");
             account.IDStaff = new Guid("B5DAF9C8-AC90-49CA-A742-B419AFAB01B5");
             account.isActive = true;
             bool checkdetele = new Accounts(new EmployeeManagementDBContext()) { }.Delete(account.IDAccount);
