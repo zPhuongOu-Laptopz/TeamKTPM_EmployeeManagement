@@ -14,6 +14,12 @@ namespace EmployeeManagerment_UI.User
         EmployeeManagementDBContext _context;
         Guid _id;
 
+        public EventForm(EmployeeManagementDBContext context)
+        {
+            this._context = context;
+
+        }
+
         public EventForm()
         {
             InitializeComponent();
@@ -75,8 +81,8 @@ namespace EmployeeManagerment_UI.User
 
         private void EditEvent()
         {
-            PdbEvent eve = new PdbEvent();
-            eve = new Events(_context) { }.GetEvent(_id);
+            PdbEvent eve = new Events(_context) { }.GetEvent(_id);
+            eve = GetInfomationforEdit(eve);
             try
             {
                 new Events(_context) { }.Edit(eve);
@@ -91,6 +97,21 @@ namespace EmployeeManagerment_UI.User
             {
                 GetAllData();
             }
+        }
+        private PdbEvent GetInfomationforEdit(PdbEvent eve)
+        {
+            eve.EventName = txt_eventname.Text;
+            eve.CostsAwarded = Convert.ToDecimal(txt_costawarded.Text);
+            eve.ExpectedCost = Convert.ToDecimal(txt_expectedcost.Text);
+            eve.ActualCosts = Convert.ToDecimal(txt_actualcost.Text);
+            eve.Scale = txt_scale.Text;
+            eve.Location = txt_location.Text;
+            eve.DateStart = dtp_datestart.Value;
+            eve.DateEnd = dtp_dateend.Value;
+            eve.TravelBy = txt_travelby.Text;
+            eve.EventContent = rtxt_eventcontent.Text;
+            eve.Money_Staff_Pay = Convert.ToDecimal(txt_moneystaffpay.Text);
+            return eve;
         }
 
         private PdbEvent GetInfomation()
