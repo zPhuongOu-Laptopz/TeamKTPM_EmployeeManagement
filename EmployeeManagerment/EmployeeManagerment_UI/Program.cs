@@ -19,11 +19,15 @@ namespace EmployeeManagerment_UI
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new User.SalaryForm());
             Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EditEmployeeForm());
 =======
             Application.Run(new User.FeedbackForm());
+>>>>>>> dev-NgocPhuong
+=======
+            Application.Run(new User.EditEmployeeForm());
 >>>>>>> dev-NgocPhuong
             //---------------------------------
 
