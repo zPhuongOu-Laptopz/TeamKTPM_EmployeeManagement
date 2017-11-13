@@ -19,10 +19,16 @@ namespace EmployeeManagerment_UI
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
 <<<<<<< HEAD
+<<<<<<< HEAD
             //Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EventForm());
 =======
             Application.Run(new User.ContractForm());
+>>>>>>> master
+=======
+            Application.Run(new User.SalaryForm());
+            Application.Run(new User.AddEmployeeForm());
+            Application.Run(new User.EditEmployeeForm());
 >>>>>>> master
             //---------------------------------
 

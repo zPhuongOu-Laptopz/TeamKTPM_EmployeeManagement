@@ -77,6 +77,9 @@
   <ItemGroup>
     <None Include="App.config" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +91,9 @@
       <Project>{8959519f-fa9f-4491-8533-edb47356b08d}</Project>
       <Name>EmployeeManagerment_UI</Name>
     </ProjectReference>
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
   </ItemGroup>
