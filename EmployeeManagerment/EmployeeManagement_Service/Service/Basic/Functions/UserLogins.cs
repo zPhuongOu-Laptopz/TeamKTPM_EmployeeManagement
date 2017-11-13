@@ -40,19 +40,26 @@ namespace EmployeeManagement_Service.Service.Basic.Functions
             }
             else
             {
-                PdbAccount ac = new PdbAccount();
-                ac = AccountService.GetAccountwithUPD(username, password, department);
-                bool checkauthentication = ac.isActive;
-                if (checkauthentication)
+                try
                 {
-                    Successful.LoginSuccessful();
-                    return ac;
+                    PdbAccount ac = new PdbAccount();
+                    ac = AccountService.GetAccountwithUPD(username, password, department);
+                    bool checkauthentication = ac.isActive;
+                    if (checkauthentication)
+                    {
+                        Successful.LoginSuccessful();
+                        return ac;
+                    }
+                    else
+                    {
+                        Error.LockedAccount();
+                        return null;
+                    }
                 }
-                else
+                catch
                 {
-                    Error.LockedAccount();
                     return null;
-                }
+                }                
             }
         }
     }

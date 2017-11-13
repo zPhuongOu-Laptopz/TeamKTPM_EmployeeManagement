@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grid_listemployee = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -58,23 +58,23 @@
             // grid_listemployee
             // 
             this.grid_listemployee.BackgroundColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grid_listemployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grid_listemployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.grid_listemployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grid_listemployee.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grid_listemployee.DefaultCellStyle = dataGridViewCellStyle12;
             this.grid_listemployee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_listemployee.GridColor = System.Drawing.Color.Black;
             this.grid_listemployee.Location = new System.Drawing.Point(201, 132);
@@ -163,9 +163,7 @@
             // 
             // btn_calendar
             // 
-            this.btn_calendar.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.ca_012;
             this.btn_calendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_calendar.Enabled = false;
             this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_calendar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -174,7 +172,9 @@
             this.btn_calendar.Name = "btn_calendar";
             this.btn_calendar.Size = new System.Drawing.Size(200, 52);
             this.btn_calendar.TabIndex = 12;
+            this.btn_calendar.Text = "Phản hồi";
             this.btn_calendar.UseVisualStyleBackColor = false;
+            this.btn_calendar.Click += new System.EventHandler(this.btn_calendar_Click);
             // 
             // btn_addeditemployee
             // 
@@ -194,7 +194,6 @@
             // 
             // btn_addeditsalary
             // 
-            this.btn_addeditsalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.l_01;
             this.btn_addeditsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addeditsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addeditsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -204,6 +203,7 @@
             this.btn_addeditsalary.Name = "btn_addeditsalary";
             this.btn_addeditsalary.Size = new System.Drawing.Size(200, 52);
             this.btn_addeditsalary.TabIndex = 14;
+            this.btn_addeditsalary.Text = "Hợp đồng";
             this.btn_addeditsalary.UseVisualStyleBackColor = false;
             this.btn_addeditsalary.Click += new System.EventHandler(this.btn_addeditsalary_Click);
             // 
@@ -254,7 +254,6 @@
             // 
             // bnt_supplier
             // 
-            this.bnt_supplier.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.vattu_01;
             this.bnt_supplier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bnt_supplier.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnt_supplier.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -264,6 +263,7 @@
             this.bnt_supplier.Name = "bnt_supplier";
             this.bnt_supplier.Size = new System.Drawing.Size(200, 52);
             this.bnt_supplier.TabIndex = 18;
+            this.bnt_supplier.Text = "Đăng Xuất";
             this.bnt_supplier.UseVisualStyleBackColor = false;
             this.bnt_supplier.Click += new System.EventHandler(this.bnt_supplier_Click);
             // 

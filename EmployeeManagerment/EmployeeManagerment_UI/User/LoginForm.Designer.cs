@@ -52,8 +52,10 @@
             this.cbbdepartment.FormattingEnabled = true;
             this.cbbdepartment.Items.AddRange(new object[] {
             "Kế toán",
-            "Trưởng Nhân Sự",
-            "Nhân Sự"});
+            "Bảo vệ",
+            "Công nghệ thông tin",
+            "Kinh doanh",
+            "Nhân sự"});
             this.cbbdepartment.Location = new System.Drawing.Point(335, 306);
             this.cbbdepartment.Name = "cbbdepartment";
             this.cbbdepartment.Size = new System.Drawing.Size(133, 23);
@@ -134,6 +136,7 @@
             this.btnexit.Size = new System.Drawing.Size(107, 39);
             this.btnexit.TabIndex = 20;
             this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // pictureBox1
             // 

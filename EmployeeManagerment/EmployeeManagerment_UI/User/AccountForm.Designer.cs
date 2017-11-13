@@ -127,6 +127,7 @@
             this.btn_backaccount.Size = new System.Drawing.Size(195, 50);
             this.btn_backaccount.TabIndex = 12;
             this.btn_backaccount.UseVisualStyleBackColor = true;
+            this.btn_backaccount.Click += new System.EventHandler(this.btn_backaccount_Click);
             // 
             // panel1
             // 

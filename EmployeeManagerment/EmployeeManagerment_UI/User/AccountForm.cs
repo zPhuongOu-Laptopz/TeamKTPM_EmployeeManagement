@@ -253,5 +253,10 @@ namespace EmployeeManagerment_UI.User
                 cb_isactiveaccount.Checked = false;
             }
         }
+
+        private void btn_backaccount_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

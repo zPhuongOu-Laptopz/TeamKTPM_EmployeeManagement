@@ -20,36 +20,39 @@ namespace EmployeeManagerment_UI.User
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            //GetAllData();
+            GetAllData();
         }
 
         private void btn_addeditemployee_Click(object sender, EventArgs e)
         {
             EmployeeManagerment_UI.User.EmployeeForm employeeform = new EmployeeForm();
-            this.Visible = true;
-            employeeform.ShowDialog();
             this.Visible = false;
+            employeeform.ShowDialog();
+            this.Visible = true;
         }
 
         private void btn_addeditsalary_Click(object sender, EventArgs e)
         {
-            EmployeeManagerment_UI.User.SalaryForm salary = new SalaryForm();
-            this.Visible = true;
-            salary.ShowDialog();
+            EmployeeManagerment_UI.User.ContractForm salary = new ContractForm();
             this.Visible = false;
+            salary.ShowDialog();
+            this.Visible = true;
         }
 
         private void btn_accountmanagement_Click(object sender, EventArgs e)
         {
-            // Chưa xong.   
+            EmployeeManagerment_UI.User.ContractForm contract = new ContractForm();
+            this.Visible = false;
+            contract.ShowDialog();
+            this.Visible = true;
         }
 
         private void btn_addeditevent_Click(object sender, EventArgs e)
         {
             EmployeeManagerment_UI.User.EventForm eventform = new EventForm();
-            this.Visible = true;
-            eventform.ShowDialog();
             this.Visible = false;
+            eventform.ShowDialog();
+            this.Visible = true;
         }
 
         private void btn_reload_Click(object sender, EventArgs e)
@@ -71,10 +74,15 @@ namespace EmployeeManagerment_UI.User
 
         private void bnt_supplier_Click(object sender, EventArgs e)
         {
-            EmployeeManagerment_UI.User.SuppliesForm suppliesform = new SuppliesForm();
-            this.Visible = true;
-            suppliesform.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_calendar_Click(object sender, EventArgs e)
+        {
+            EmployeeManagerment_UI.User.FeedbackForm feedback = new FeedbackForm();
             this.Visible = false;
+            feedback.ShowDialog();
+            this.Visible = true;
         }
     }
 }
