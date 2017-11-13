@@ -173,7 +173,15 @@ namespace EmployeeManagerment_UI.User
             txt_scale.Text = grid_listevent.Rows[index].Cells[8].Value.ToString().Trim();
             rtxt_eventcontent.Text = grid_listevent.Rows[index].Cells[9].Value.ToString().Trim();
             txt_travelby.Text = grid_listevent.Rows[index].Cells[10].Value.ToString().Trim();
-            txt_moneystaffpay.Text = grid_listevent.Rows[index].Cells[11].Value.ToString().Trim();
+            try
+            {
+                txt_moneystaffpay.Text = grid_listevent.Rows[index].Cells[11].Value.ToString().Trim();
+            }
+            catch 
+            {
+
+            }
+            
         }
 
         private void btn_editevent_Click(object sender, EventArgs e)

@@ -48,7 +48,7 @@ namespace EmployeeManagement_Service.Service.Module
 
         public PdbAccount GetAccountwithUP(string username, string password)
         {
-            return _context.PdbAccounts.SingleOrDefault(ac => ac.AccountName == username || ac.AccountPassword == password );
+            return _context.PdbAccounts.SingleOrDefault(ac => ac.AccountName == username && ac.AccountPassword == password );
         }
 
         public PdbAccount GetAccountwithUPD(string username, string password, string department)

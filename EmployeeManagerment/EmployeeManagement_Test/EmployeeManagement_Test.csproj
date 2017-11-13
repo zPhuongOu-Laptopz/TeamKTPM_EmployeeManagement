@@ -66,6 +66,7 @@
     <Compile Include="Khanh_Test\Test_EventManagement\TestCtor.cs" />
     <Compile Include="Khanh_Test\Test_EventManagement\Testevent.cs" />
     <Compile Include="Khanh_Test\Test_EventManagement\TestFeedback.cs" />
+    <Compile Include="NgocPhuong_Test\LoginTest.cs" />
     <Compile Include="Phuc_Test\Test_EventManagement\TestCtor.cs" />
     <Compile Include="Phuc_Test\Test_EventManagement\TestFunction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

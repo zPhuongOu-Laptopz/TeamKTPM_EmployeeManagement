@@ -153,7 +153,7 @@ namespace EmployeeManagerment_UI.User
         {
             if (cbb_department.SelectedIndex == 0)
             {
-                depar = "Kế Toán";
+                depar = "Kế toán";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKeToan.Count; i++)
                 {
@@ -180,7 +180,7 @@ namespace EmployeeManagerment_UI.User
             }
             else if (cbb_department.SelectedIndex == 3)
             {
-                depar = "Kinh Doanh";
+                depar = "Kinh doanh";
                 cbb_position.Items.Clear();
                 for (int i = 0; i < listKinhDoanh.Count; i++)
                 {

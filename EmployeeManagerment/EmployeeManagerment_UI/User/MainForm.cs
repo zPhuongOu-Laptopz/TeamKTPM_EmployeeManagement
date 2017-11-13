@@ -41,7 +41,7 @@ namespace EmployeeManagerment_UI.User
 
         private void btn_accountmanagement_Click(object sender, EventArgs e)
         {
-            EmployeeManagerment_UI.User.ContractForm contract = new ContractForm();
+            EmployeeManagerment_UI.User.AccountForm contract = new AccountForm();
             this.Visible = false;
             contract.ShowDialog();
             this.Visible = true;
