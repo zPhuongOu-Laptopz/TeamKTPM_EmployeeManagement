@@ -44,6 +44,18 @@ namespace EmployeeManagerment_UI.User
             this.Close();
         }
 
+        private PdbContract GetInformationforEdit(PdbContract con)
+        {
+            con.IDStaff = (Guid)cbb_firstname.SelectedValue;
+            con.PayForms = txt_payforms.Text;
+            con.SignDate = dtp_signdate.Value;
+            con.StartDate = dtp_startdate.Value;
+            con.EndDate = dtp_enddate.Value;
+            con.ContractType = txt_contracttype.Text;
+            con.ContractDescription = rtxt_contractdescription.Text;
+            return con;
+        }
+
         private PdbContract GetInformation()
         {
             PdbContract con = new PdbContract();
@@ -108,8 +120,8 @@ namespace EmployeeManagerment_UI.User
         private void EditContract()
         {
             EmployeeManagementDBContext context = new EmployeeManagementDBContext();
-            PdbContract eve = new PdbContract();
-            eve = new Contracts(context) { }.GetContract(_id);
+            PdbContract eve = new Contracts(context) { }.GetContract(_id);
+            eve = GetInformationforEdit(eve);
             try
             {
                 new Contracts(context) { }.Edit(eve);
