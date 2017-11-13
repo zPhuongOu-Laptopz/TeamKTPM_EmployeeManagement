@@ -241,12 +241,9 @@
             this.cbb_position.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
-<<<<<<< HEAD
-=======
             this.cbb_position.Items.AddRange(new object[] {
             "Trưởng phòng",
             "Nhân viên"});
->>>>>>> master
             this.cbb_position.Location = new System.Drawing.Point(175, 57);
             this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";

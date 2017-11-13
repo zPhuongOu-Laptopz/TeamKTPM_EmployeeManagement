@@ -118,11 +118,8 @@
             this.btn_addsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-
             this.btn_addsalary.Location = new System.Drawing.Point(0, 179);
-
             this.btn_addsalary.Location = new System.Drawing.Point(0, 131);
-
             this.btn_addsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btn_addsalary.Name = "btn_addsalary";
             this.btn_addsalary.Size = new System.Drawing.Size(195, 50);
@@ -136,11 +133,8 @@
             this.btn_reloadsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-
             this.btn_reloadsalary.Location = new System.Drawing.Point(0, 130);
-
             this.btn_reloadsalary.Location = new System.Drawing.Point(0, 278);
-
             this.btn_reloadsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btn_reloadsalary.Name = "btn_reloadsalary";
             this.btn_reloadsalary.Size = new System.Drawing.Size(195, 50);

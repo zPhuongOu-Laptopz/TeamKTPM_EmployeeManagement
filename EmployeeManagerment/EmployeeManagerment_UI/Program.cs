@@ -18,45 +18,8 @@ namespace EmployeeManagerment_UI
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            Application.Run(new User.AccountForm());
-=======
->>>>>>> QuangTerry
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-            //Application.Run(new User.AddEmployeeForm());
             Application.Run(new User.EventForm());
-=======
-            Application.Run(new User.ContractForm());
->>>>>>> master
-=======
-            Application.Run(new User.SalaryForm());
-            Application.Run(new User.AddEmployeeForm());
-            Application.Run(new User.EditEmployeeForm());
->>>>>>> master
-=======
->>>>>>> AnhPhuong
-            Application.Run(new User.SalaryForm());
-            Application.Run(new User.AddEmployeeForm());
-            Application.Run(new User.EditEmployeeForm());
-=======
-            Application.Run(new User.FeedbackForm());
->>>>>>> dev-NgocPhuong
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            Application.Run(new User.EditEmployeeForm());
->>>>>>> dev-NgocPhuong
-=======
->>>>>>> master
->>>>>>> QuangTerry
-=======
->>>>>>> master
->>>>>>> AnhPhuong
+            //Application.Run(new User.AddEmployeeForm());            
             //---------------------------------
 
             //------Phuc-----------------------
