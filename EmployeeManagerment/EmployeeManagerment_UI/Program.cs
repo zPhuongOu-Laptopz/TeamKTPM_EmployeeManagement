@@ -13,12 +13,12 @@ namespace EmployeeManagerment_UI
         /// </summary>
         [STAThread]
         static void Main()
-        {
+       {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
-            Application.Run(new User.ContractForm());
+            Application.Run(new User.AccountForm());
             //---------------------------------
 
             //------Phuc-----------------------
