@@ -16,11 +16,11 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
         {
             TestSalary = new PdbBonusSalary();
             TestSalary.IDBS = Guid.NewGuid();
-            TestSalary.IDStaff = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
-            TestSalary.MoneyBonus = 123;
+            TestSalary.IDStaff = new Guid("362E1AF1-4D46-422E-B134-4A2B12BC925D");
+            TestSalary.MoneyBonus = 4000;
             TestSalary.DayBonus = DateTime.Now;
             TestSalary.ReasonBonus = "i don't know";
-            TestSalary.MonthBonus = "march";
+            TestSalary.MonthBonus = "12";
             TestSalary.YearBonus = "2017";
 
             Test_staff = new PdbStaff();
@@ -51,12 +51,30 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
             Test_staff.Email = "aptran17@gmail.com";
 
         }
-        //[TestMethod]
-        //public void TestSalaryAdd()
-        //{
-        //    bool check = new Salary(new EmployeeManagementDBContext()) { }.Add(TestSalary);
-        //    Assert.AreNotEqual(check, false);
-        //}
+
+        [TestMethod]
+        public void TestSalaryAdd()
+        {
+            bool check = new Salary(new EmployeeManagementDBContext()) { }.Add(TestSalary);
+            Assert.AreNotEqual(check, false);
+        }
+
+        [TestMethod]
+        public void TestSalaryEdit()
+        {
+            TestSalary.IDBS = new Guid("72F22668-143F-4F20-B083-EABC9CEAA3AA");
+            TestSalary.ReasonBonus = "Edit";
+            bool check = new Salary(new EmployeeManagementDBContext()) { }.Edit(TestSalary);
+            Assert.AreNotEqual(check, false);
+        }
+
+        [TestMethod]
+        public void TestSalaryDelete()
+        {
+            bool check = new Salary(new EmployeeManagementDBContext()) { }.Delete(new Guid("C099B97F-AEBD-4F2B-96C6-6029A69417DA"));
+            Assert.AreNotEqual(check, false);
+        }
+
         [TestMethod]
         public void Staff_add()
         {

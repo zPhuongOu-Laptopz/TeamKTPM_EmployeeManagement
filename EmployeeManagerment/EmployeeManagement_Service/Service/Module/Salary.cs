@@ -41,11 +41,8 @@ namespace EmployeeManagement_Service.Service.Module
             _context.Entry(item).State = System.Data.Entity.EntityState.Deleted;
             return _context.SaveChanges() == 1;
         }
-        //public PdbEvent GetEvent(Guid id)
-        //{
-        //    return _context.PdbEvents.SingleOrDefault(item => item.ID_Event == id);
-        //}
-        public PdbBonusSalary GetEvent(Guid id)
+
+        public PdbBonusSalary GetSalary(Guid id)
         {
             return _context.PdbBonusSalaries.SingleOrDefault(item => item.IDBS == id);
         }
