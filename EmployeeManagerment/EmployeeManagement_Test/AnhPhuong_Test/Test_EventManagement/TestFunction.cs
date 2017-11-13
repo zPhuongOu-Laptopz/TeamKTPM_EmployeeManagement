@@ -4,11 +4,47 @@ using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement_Service.ModelDBContext;
 using EmployeeManagement_Service.Service.Module;
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
 {
     [TestClass]
     public class TestFuntion
     {
+<<<<<<< HEAD
+        private PdbEvent event1;
+        [TestInitialize]
+        public void setUp()
+        {
+            event1 = new PdbEvent();
+            event1.ID_Event = Guid.NewGuid();
+            event1.EventName = "Anh Phuong";
+            event1.ExpectedCost = 500000;
+            event1.CostsAwarded = 400000;
+            event1.ActualCosts = 300000;
+            event1.Scale = "3";
+            event1.Location = "Phan xích long";
+            event1.DateStart = DateTime.Now;
+            event1.DateEnd = DateTime.Now;
+            event1.TravelBy = "xe 4 chỗ";
+            event1.Money_Staff_Pay = 20000;
+            event1.EventContent = "abcd";
+        }
+
+        [TestMethod]
+        public void TestEvent()
+        {
+            bool check = new Events(new EmployeeManagementDBContext()) { }.Add(event1);
+            Assert.AreNotEqual(check, false);
+        }
+        
+       [TestMethod]
+       public void TestEvent_edit()
+        {
+
+=======
         private PdbBonusSalary TestSalary;
         
         private PdbStaff Test_staff;
@@ -89,13 +125,17 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
             //Test_Contract.IDContract = new Guid("8E0DC287-5F62-4D61-BB26-686FF959C62A");
             PdbStaff check = new Staffs(new EmployeeManagementDBContext()) { }.GetStaff(guid);
             Assert.AreNotEqual(check, false);
+>>>>>>> master
         }
 
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> master
     }
 }
