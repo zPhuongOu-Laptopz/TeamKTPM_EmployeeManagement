@@ -13,12 +13,17 @@ namespace EmployeeManagerment_UI
         /// </summary>
         [STAThread]
         static void Main()
-        {
+       {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            Application.Run(new User.AccountForm());
+=======
+>>>>>>> QuangTerry
 <<<<<<< HEAD
             Application.Run(new User.SalaryForm());
             Application.Run(new User.AddEmployeeForm());
@@ -26,9 +31,13 @@ namespace EmployeeManagerment_UI
 =======
             Application.Run(new User.FeedbackForm());
 >>>>>>> dev-NgocPhuong
+<<<<<<< HEAD
 =======
             Application.Run(new User.EditEmployeeForm());
 >>>>>>> dev-NgocPhuong
+=======
+>>>>>>> master
+>>>>>>> QuangTerry
             //---------------------------------
 
             //------Phuc-----------------------
