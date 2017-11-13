@@ -10,10 +10,9 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
     public class TestFuntion
     {
         private PdbBonusSalary TestSalary;
-        
         private PdbStaff Test_staff;
         [TestInitialize]
-       public void Setup()
+        public void Setup()
         {
             TestSalary = new PdbBonusSalary();
             TestSalary.IDBS = Guid.NewGuid();
@@ -69,9 +68,9 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
         public void staff_edit()
         {
             PdbStaff Staff = new PdbStaff();
-            Staff = Test_staff ;
+            Staff = Test_staff;
             Staff.ID_Staff = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
-            
+
             bool check = new Staffs(new EmployeeManagementDBContext()) { }.Update(Test_staff);
             Assert.AreNotEqual(check, false);
         }
@@ -90,12 +89,5 @@ namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
             PdbStaff check = new Staffs(new EmployeeManagementDBContext()) { }.GetStaff(guid);
             Assert.AreNotEqual(check, false);
         }
-
-
-
-
-
-
-
     }
 }

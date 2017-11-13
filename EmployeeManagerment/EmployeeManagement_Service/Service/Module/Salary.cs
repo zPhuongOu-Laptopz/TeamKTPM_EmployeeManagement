@@ -45,7 +45,10 @@ namespace EmployeeManagement_Service.Service.Module
         //{
         //    return _context.PdbEvents.SingleOrDefault(item => item.ID_Event == id);
         //}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 398d85e54e127939666f0b2394674e53d61e3eec
         public PdbBonusSalary GetEvent(Guid id)
         {
             return _context.PdbBonusSalaries.SingleOrDefault(item => item.IDBS == id);

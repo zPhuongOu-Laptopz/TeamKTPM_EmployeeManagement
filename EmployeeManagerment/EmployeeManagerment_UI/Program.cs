@@ -18,6 +18,7 @@ namespace EmployeeManagerment_UI
             Application.SetCompatibleTextRenderingDefault(false);
             //------NgocPhuong-----------------
             //Application.Run(new User.AddEmployeeForm());
+<<<<<<< HEAD
 
             Application.Run(new User.AccountForm());
             //Application.Run(new User.SalaryForm());
@@ -25,6 +26,10 @@ namespace EmployeeManagerment_UI
             //Application.Run(new User.EditEmployeeForm());
             //Application.Run(new User.FeedbackForm());
 
+=======
+            Application.Run(new User.AddEmployeeForm());
+            //Application.Run(new User.AddEmployeeForm());            
+>>>>>>> 398d85e54e127939666f0b2394674e53d61e3eec
             //---------------------------------
 
             //------Phuc-----------------------
